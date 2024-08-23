@@ -4,7 +4,7 @@
         style="background: #dfdff773;">
         <div>
             <div class="grid grid-cols-1 sm:grid-cols-4  mb-5 lg:mb-10 px-2 mt-3">
-                
+
                 <div class="text-center sm:text-left col-span-3 my-auto mb-3 sm:mb-0">
                     <h2 class="text-2xl font-medium lg:text-3xl lg:font-semibold">Business List</h2>
                 </div>
@@ -137,7 +137,8 @@
                                                     <option value="WestBengal">West Bengal</option>
                                                     <option value="AndamanNicobar">Andaman Nicobar</option>
                                                     <option value="Chandigarh">Chandigarh</option>
-                                                    <option value="Dadra And Nagar Haveli And DamanAndDiu">Dadra and Nagar
+                                                    <option value="Dadra And Nagar Haveli And DamanAndDiu">Dadra and
+                                                        Nagar
                                                         Haveli and Daman and Diu</option>
                                                     <option value="Delhi">Delhi</option>
                                                     <option value="Lakshadweep">Lakshadweep</option>
@@ -148,17 +149,18 @@
                                         </div>
 
                                         <div class="mb-1 lg:mb-3" id="district-div" style="display: none;">
-                                            <div class="text-sm lg:text-base font-medium mb-1 text-left">City/Town/Area
+                                            <div class="text-sm lg:text-base font-medium mb-1 text-left">District
                                             </div>
                                             <div>
-                                                <select name="district" id="district" class="textfiled"  onchange="toggleDistrictNewInput()" required>
+                                                <select name="district" id="district" class="textfiled"
+                                                    onchange="toggleDistrictNewInput()" required>
 
                                                 </select>
                                             </div>
                                         </div>
 
                                         <div class="mb-1 lg:mb-3" id="districtNew-div" style="display: none;">
-                                            <div class="text-sm lg:text-base font-medium mb-1 text-left">District
+                                            <div class="text-sm lg:text-base font-medium mb-1 text-left">City/Town/Area
                                             </div>
                                             <div>
                                                 <select name="districtNew" id="districtNew" class="textfiled" required>
@@ -184,43 +186,65 @@
                     <div class="mb-1 lg:mb-3">
                         <div class="text-sm lg:text-base font-medium mb-1 text-left">State</div>
                         <div>
-                            <select name="stateapi" id="stateapi" class="textfiled" required onchange="selectState()"> 
+                            <select name="stateapi" id="stateapi" class="textfiled" required onchange="selectState()">
                                 <option value="">Select State</option>
-                                <option value="Andhra Pradesh" <% if(state === 'Andhra Pradesh') { %>selected<% } %>>Andhra Pradesh</option>
-                                <option value="Arunachal Pradesh" <% if(state === 'Arunachal Pradesh') { %>selected<% } %>>Arunachal Pradesh</option>
-                                <option value="Assam" <% if(state === 'Assam') { %>selected<% } %>>Assam</option>
-                                <option value="Bihar" <% if(state === 'Bihar') { %>selected<% } %>>Bihar</option>
-                                <option value="Chhattisgarh" <% if(state === 'Chhattisgarh') { %>selected<% } %>>Chhattisgarh</option>
-                                <option value="Goa" <% if(state === 'Goa') { %>selected<% } %>>Goa</option>
-                                <option value="Gujarat" <% if(state === 'Gujarat') { %>selected<% } %>>Gujarat</option>
-                                <option value="Haryana" <% if(state === 'Haryana') { %>selected<% } %>>Haryana</option>
-                                <option value="Himachal Pradesh" <% if(state === 'Himachal Pradesh') { %>selected<% } %>>Himachal Pradesh</option>
-                                <option value="Jharkhand" <% if(state === 'Jharkhand') { %>selected<% } %>>Jharkhand</option>
-                                <option value="Karnataka" <% if(state === 'Karnataka') { %>selected<% } %>>Karnataka</option>
-                                <option value="Kerala" <% if(state === 'Kerala') { %>selected<% } %>>Kerala</option>
-                                <option value="Madhya Pradesh" <% if(state === 'Madhya Pradesh') { %>selected<% } %>>Madhya Pradesh</option>
-                                <option value="Maharashtra" <% if(state === 'Maharashtra') { %>selected<% } %>>Maharashtra</option>
-                                <option value="Manipur" <% if(state === 'Manipur') { %>selected<% } %>>Manipur</option>
-                                <option value="Meghalaya" <% if(state === 'Meghalaya') { %>selected<% } %>>Meghalaya</option>
-                                <option value="Mizoram" <% if(state === 'Mizoram') { %>selected<% } %>>Mizoram</option>
-                                <option value="Nagaland" <% if(state === 'Nagaland') { %>selected<% } %>>Nagaland</option>
-                                <option value="Odisha" <% if(state === 'Odisha') { %>selected<% } %>>Odisha</option>
-                                <option value="Punjab" <% if(state === 'Punjab') { %>selected<% } %>>Punjab</option>
-                                <option value="Rajasthan" <% if(state === 'Rajasthan') { %>selected<% } %>>Rajasthan</option>
-                                <option value="Sikkim" <% if(state === 'Sikkim') { %>selected<% } %>>Sikkim</option>
-                                <option value="Tamil Nadu" <% if(state === 'Tamil Nadu') { %>selected<% } %>>Tamil Nadu</option>
-                                <option value="Telangana" <% if(state === 'Telangana') { %>selected<% } %>>Telangana</option>
-                                <option value="Tripura" <% if(state === 'Tripura') { %>selected<% } %>>Tripura</option>
-                                <option value="Uttar Pradesh" <% if(state === 'Uttar Pradesh') { %>selected<% } %>>Uttar Pradesh</option>
-                                <option value="Uttarakhand" <% if(state === 'Uttarakhand') { %>selected<% } %>>Uttarakhand</option>
-                                <option value="WestBengal" <% if(state === 'WestBengal') { %>selected<% } %>>West Bengal</option>
-                                <option value="Andaman Nicobar" <% if(state === 'Andaman Nicobar') { %>selected<% } %>>Andaman Nicobar</option>
-                                <option value="Chandigarh" <% if(state === 'Chandigarh') { %>selected<% } %>>Chandigarh</option>
-                                <option value="Dadra And Nagar Haveli And Daman And Diu" <% if(state === 'Dadra And Nagar Haveli And Daman And Diu') { %>selected<% } %>>Dadra and Nagar Haveli and Daman and Diu</option>
-                                <option value="Delhi" <% if(state === 'Delhi') { %>selected<% } %>>Delhi</option>
-                                <option value="Lakshadweep" <% if(state === 'Lakshadweep') { %>selected<% } %>>Lakshadweep</option>
-                                <option value="Ladakh" <% if(state === 'Ladakh') { %>selected<% } %>>Ladakh</option>
-                                <option value="Puducherry" <% if(state === 'Puducherry') { %>selected<% } %>>Puducherry</option>
+                                <option value="Andhra Pradesh" <% if(state==='Andhra Pradesh' ) { %>selected<% } %>
+                                        >Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh" <% if(state==='Arunachal Pradesh' ) { %>selected<% }
+                                        %>>Arunachal Pradesh</option>
+                                <option value="Assam" <% if(state==='Assam' ) { %>selected<% } %>>Assam</option>
+                                <option value="Bihar" <% if(state==='Bihar' ) { %>selected<% } %>>Bihar</option>
+                                <option value="Chhattisgarh" <% if(state==='Chhattisgarh' ) { %>selected<% } %>
+                                        >Chhattisgarh</option>
+                                <option value="Goa" <% if(state==='Goa' ) { %>selected<% } %>>Goa</option>
+                                <option value="Gujarat" <% if(state==='Gujarat' ) { %>selected<% } %>>Gujarat</option>
+                                <option value="Haryana" <% if(state==='Haryana' ) { %>selected<% } %>>Haryana</option>
+                                <option value="Himachal Pradesh" <% if(state==='Himachal Pradesh' ) { %>selected<% } %>
+                                        >Himachal Pradesh</option>
+                                <option value="Jharkhand" <% if(state==='Jharkhand' ) { %>selected<% } %>>Jharkhand
+                                </option>
+                                <option value="Karnataka" <% if(state==='Karnataka' ) { %>selected<% } %>>Karnataka
+                                </option>
+                                <option value="Kerala" <% if(state==='Kerala' ) { %>selected<% } %>>Kerala</option>
+                                <option value="Madhya Pradesh" <% if(state==='Madhya Pradesh' ) { %>selected<% } %>
+                                        >Madhya Pradesh</option>
+                                <option value="Maharashtra" <% if(state==='Maharashtra' ) { %>selected<% } %>
+                                        >Maharashtra</option>
+                                <option value="Manipur" <% if(state==='Manipur' ) { %>selected<% } %>>Manipur</option>
+                                <option value="Meghalaya" <% if(state==='Meghalaya' ) { %>selected<% } %>>Meghalaya
+                                </option>
+                                <option value="Mizoram" <% if(state==='Mizoram' ) { %>selected<% } %>>Mizoram</option>
+                                <option value="Nagaland" <% if(state==='Nagaland' ) { %>selected<% } %>>Nagaland
+                                </option>
+                                <option value="Odisha" <% if(state==='Odisha' ) { %>selected<% } %>>Odisha</option>
+                                <option value="Punjab" <% if(state==='Punjab' ) { %>selected<% } %>>Punjab</option>
+                                <option value="Rajasthan" <% if(state==='Rajasthan' ) { %>selected<% } %>>Rajasthan
+                                </option>
+                                <option value="Sikkim" <% if(state==='Sikkim' ) { %>selected<% } %>>Sikkim</option>
+                                <option value="Tamil Nadu" <% if(state==='Tamil Nadu' ) { %>selected<% } %>>Tamil Nadu
+                                </option>
+                                <option value="Telangana" <% if(state==='Telangana' ) { %>selected<% } %>>Telangana
+                                </option>
+                                <option value="Tripura" <% if(state==='Tripura' ) { %>selected<% } %>>Tripura</option>
+                                <option value="Uttar Pradesh" <% if(state==='Uttar Pradesh' ) { %>selected<% } %>>Uttar
+                                        Pradesh</option>
+                                <option value="Uttarakhand" <% if(state==='Uttarakhand' ) { %>selected<% } %>
+                                        >Uttarakhand</option>
+                                <option value="WestBengal" <% if(state==='WestBengal' ) { %>selected<% } %>>West Bengal
+                                </option>
+                                <option value="Andaman Nicobar" <% if(state==='Andaman Nicobar' ) { %>selected<% } %>
+                                        >Andaman Nicobar</option>
+                                <option value="Chandigarh" <% if(state==='Chandigarh' ) { %>selected<% } %>>Chandigarh
+                                </option>
+                                <option value="Dadra And Nagar Haveli And Daman And Diu" <%
+                                    if(state==='Dadra And Nagar Haveli And Daman And Diu' ) { %>selected<% } %>>Dadra
+                                        and Nagar Haveli and Daman and Diu</option>
+                                <option value="Delhi" <% if(state==='Delhi' ) { %>selected<% } %>>Delhi</option>
+                                <option value="Lakshadweep" <% if(state==='Lakshadweep' ) { %>selected<% } %>
+                                        >Lakshadweep</option>
+                                <option value="Ladakh" <% if(state==='Ladakh' ) { %>selected<% } %>>Ladakh</option>
+                                <option value="Puducherry" <% if(state==='Puducherry' ) { %>selected<% } %>>Puducherry
+                                </option>
                             </select>
                         </div>
                     </div>
@@ -249,8 +273,9 @@
                                     <td style="word-break: break-word"><%- data.usefull %></td>
                                     <td style="word-break: break-word"><%- data.unUsefull %></td>
                                     <td>
-                                       
-                                        <a href="/admin/business-edit/<%- data.id %>" class="p-2 cursor-pointer"> <i class="fa-solid fa-pen-to-square" style="color: #25d366;"></i></a>
+
+                                        <a href="/admin/business-edit/<%- data.id %>" class="p-2 cursor-pointer"> <i
+                                                class="fa-solid fa-pen-to-square" style="color: #25d366;"></i></a>
                                         <a class="p-2 cursor-pointer" onclick="deletemodel({id:'<%- data.id %>'})"><i
                                                 class="fa-solid fa-trash" style="color: #e9562a;"></i></a>
                                     </td>
@@ -404,7 +429,7 @@
                                         <div class="mb-1 lg:mb-3">
                                             <div class="text-sm lg:text-base font-medium mb-1 text-left">Add Notes</div>
                                             <div>
-                                                <textarea name="notes" id="edit-notes"  class="textfiled"></textarea>
+                                                <textarea name="notes" id="edit-notes" class="textfiled"></textarea>
                                             </div>
                                         </div>
 
@@ -462,12 +487,12 @@
             document.getElementById("address-edit").value = atob(data.address);
             document.getElementById("mapPin-edit").value = atob(data.mapPin);
             document.getElementById("phoneNumber-edit").value = atob(data.phoneNumber);
-            document.getElementById("email-edit").value =atob(data.email);
-            document.getElementById("website-edit").value =atob(data.website);
+            document.getElementById("email-edit").value = atob(data.email);
+            document.getElementById("website-edit").value = atob(data.website);
             document.getElementById("gstnNumber-edit").value = atob(data.gstnNumber);
             document.getElementById("edit-note").value = atob(data.note);
             document.getElementById("slug-edit").value = atob(data.slug);
-            document.getElementById("state-edit").value =atob(data.state);
+            document.getElementById("state-edit").value = atob(data.state);
             document.getElementById("edit-notes").value = atob(data.notes);
 
             if (data.isSubAdmin == 1) {
@@ -608,6 +633,7 @@
                     .then(data => {
                         // Clear existing options if needed
                         districtDropdown.innerHTML = '';
+                        
 
                         data.districts.forEach(district => {
                             const option = document.createElement('option');
@@ -629,20 +655,41 @@
     </script>
 
     <script>
-        function toggleDistrictNewInput(){
+        function toggleDistrictNewInput() {
             const districtDropdown = document.getElementById('district');
             const districtNewDropdown = document.getElementById('districtNew');
             const selectedState = districtDropdown.value;
+
+            // districtNewDropdown.innerHTML = '';
+            // const option = document.createElement('option');
+            // option.value = selectedState;
+            // option.textContent = selectedState;
+            // districtNewDropdown.appendChild(option);
+
             
-            districtNewDropdown.innerHTML = '';
-            const option = document.createElement('option');
-                            option.value = selectedState;
-                            option.textContent = selectedState;
+
+            if (selectedState !== '') {
+                fetch(`/citys/${selectedState}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Clear existing options if needed
+                        districtNewDropdown.innerHTML = '';
+                       
+                        data.city.forEach(district => {
+                            const option = document.createElement('option');
+                            option.value = district;
+                            option.textContent = district;
                             districtNewDropdown.appendChild(option);
+                        });
 
-                            
-
-            document.getElementById('districtNew-div').style.display = 'block';
+                        document.getElementById('districtNew-div').style.display = 'block';
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                    });
+            } else {
+                document.getElementById('districtNew-div').style.display = 'none';
+            }
         }
     </script>
 
@@ -707,28 +754,28 @@
         }
     </script>
 
-<script>
-    function selectState() {
-  const stateSelect = document.getElementById('stateapi');
-  const selectedState = stateSelect.value;
-//   const selectedState = document.getElementById('state').value;
-  if (selectedState !== "") {
-    window.location.href = `/admin/business/${selectedState}`;
-  }
-}
-function getStateNameFromUrl() {
-    const url = window.location.href;
-    const urlParams = new URLSearchParams(window.location.search);
-    const state = urlParams.get('state');
-    if (state) {
-        document.getElementById('stateapi').value = state;
-    }
-}
-document.addEventListener('DOMContentLoaded', function() {
-    getStateNameFromUrl();
-});
+    <script>
+        function selectState() {
+            const stateSelect = document.getElementById('stateapi');
+            const selectedState = stateSelect.value;
+            //   const selectedState = document.getElementById('state').value;
+            if (selectedState !== "") {
+                window.location.href = `/admin/business/${selectedState}`;
+            }
+        }
+        function getStateNameFromUrl() {
+            const url = window.location.href;
+            const urlParams = new URLSearchParams(window.location.search);
+            const state = urlParams.get('state');
+            if (state) {
+                document.getElementById('stateapi').value = state;
+            }
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            getStateNameFromUrl();
+        });
 
-</script>
-    
+    </script>
+
 
     <%- include('footer') %>

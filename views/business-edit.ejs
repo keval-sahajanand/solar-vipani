@@ -140,7 +140,7 @@
                             </div>
                         </div>
                         <div class="mb-1 lg:mb-3">
-                            <div class="text-sm lg:text-base font-medium mb-1 text-left">City/Town/Area
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">District
                             </div>
                             <div>
                                 <select name="district" id="district-edit" class="textfiled" onchange="toggleDistrictNewInput()" required>
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                         <div class="mb-1 lg:mb-3">
-                            <div class="text-sm lg:text-base font-medium mb-1 text-left">District
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">City/Town/Area
                             </div>
                             <div>
                                 <select name="districtNew" id="districtNew-edit" class="textfiled" required>
@@ -186,7 +186,6 @@
 <script>
   const districtValue = "<%- data.district %>";
  
-
    document.addEventListener('DOMContentLoaded', async function() {
        const stateValue = document.getElementById('state-edit').value;
        const districtDropdownEdit = document.getElementById('district-edit');
@@ -230,13 +229,26 @@
    });
    
    const districtNewDropdown = document.getElementById('districtNew-edit');
-            
-            districtNewDropdown.innerHTML = '';
-            const option = document.createElement('option');
-                            option.value = districtValue;
-                            option.textContent = districtValue;
-                            districtNewDropdown.appendChild(option);
 
+
+   fetch(`/citys/${districtValue}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Clear existing options if needed
+                        districtNewDropdown.innerHTML = '';
+                       
+                        data.city.forEach(district => {
+                            const option = document.createElement('option');
+                            option.value = district;
+                            option.textContent = district;
+                            districtNewDropdown.appendChild(option);
+                        });
+
+                        
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                    });
 
 </script>
 
@@ -245,19 +257,29 @@
         const districtDropdown = document.getElementById('district-edit');
         const districtNewDropdown = document.getElementById('districtNew-edit');
         const selectedState = districtDropdown.value;
-        
-        districtNewDropdown.innerHTML = '';
-        const option = document.createElement('option');
-                        option.value = selectedState;
-                        option.textContent = selectedState;
-                        districtNewDropdown.appendChild(option);
+
+        fetch(`/citys/${selectedState}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Clear existing options if needed
+                        districtNewDropdown.innerHTML = '';
+                       
+                        data.city.forEach(district => {
+                            const option = document.createElement('option');
+                            option.value = district;
+                            option.textContent = district;
+                            districtNewDropdown.appendChild(option);
+                        });
+
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                    });
 
                         
 
     }
 </script>
-
-
 
 <script>
   function generateSlug() {
@@ -266,6 +288,5 @@
       document.getElementById('slug').value = slug;
   }
 </script>
-
 
 <%- include('footer') %>

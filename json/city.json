@@ -1,5 +1,1041 @@
 {
-  "":{
-    
-  }
+  "Ahmednagar": {
+    "data": [
+      "Achalpur",
+      "Ahmednagar"
+    ]
+  },
+  "Akola": {
+    "data": [
+      "Akola"
+    ]
+  },
+  "Amravati": {
+    "data": [
+      "Amravati"
+    ]
+  },
+  "Beed": {
+    "data": [
+      "Beed"
+    ]
+  },
+  "Bhandara": {
+    "data": [
+      "Bhandara"
+    ]
+  },
+  "Buldhana": {
+    "data": [
+      "Buldhana"
+    ]
+  },
+  "Chandrapur": {
+    "data": [
+      "Chandrapur"
+    ]
+  },
+  "Chhatrapati-Sambhajinagar": {
+    "data": [
+      "Aurangabad"
+    ]
+  },
+  "Dharashiv": {
+    "data": [
+      "Osmanabad"
+    ]
+  },
+  "Dhule": {
+    "data": [
+      "Dhule"
+    ]
+  },
+  "Gadchiroli": {
+    "data": [
+      "Gadchiroli"
+    ]
+  },
+  "Gondia": {
+    "data": [
+      "Gondia"
+    ]
+  },
+  "Hingoli": {
+    "data": [
+      "Hingoli"
+    ]
+  },
+  "Jalgaon": {
+    "data": [
+      "Bhusawal",
+      "Jalgaon"
+    ]
+  },
+  "Jalna": {
+    "data": [
+      "Jalna"
+    ]
+  },
+  "Kolhapur": {
+    "data": [
+      "Kolhapur",
+      "Ichalkaranji"
+    ]
+  },
+  "Latur": {
+    "data": [
+      "Latur",
+      "Udgir"
+    ]
+  },
+  "Mumbai": {
+    "data": [
+      "Mumbai"
+    ]
+  },
+  "Mumbai Suburban": {
+    "data": [
+      "Mumbai Suburban"
+    ]
+  },
+  "Nagpur": {
+    "data": [
+      "Nagpur"
+    ]
+  },
+  "Nanded": {
+    "data": [
+      "Nanded",
+      "Nanded-Waghala"
+    ]
+  },
+  "Nandurbar": {
+    "data": [
+      "Nandurbar"
+    ]
+  },
+  "Nashik": {
+    "data": [
+      "Malegaon",
+      "Nashik"
+    ]
+  },
+  "Palghar": {
+    "data": [
+      "Palghar"
+    ]
+  },
+  "Parbhani": {
+    "data": [
+      "Parbhani"
+    ]
+  },
+  "Pune": {
+    "data": [
+      "Pune",
+      "Pimpri-Chinchwad"
+    ]
+  },
+  "Raigad": {
+    "data": [
+      "Raigad",
+      "Panvel"
+    ]
+  },
+  "Ratnagiri": {
+    "data": [
+      "Ratnagiri"
+    ]
+  },
+  "Sangli": {
+    "data": [
+      "Sangli"
+    ]
+  },
+  "Satara": {
+    "data": [
+      "Satara"
+    ]
+  },
+  "Sindhudurg": {
+    "data": [
+      "Sindhudurg"
+    ]
+  },
+  "Solapur": {
+    "data": [
+      "Barshi",
+      "Solapur"
+    ]
+  },
+  "Thane": {
+    "data": [
+      "Badlapur",
+      "Kalyan",
+      "Mira Bhayandar",
+      "Bhiwandi",
+      "Thane",
+      "Ulhasnagar"
+    ]
+  },
+  "Wardha": {
+    "data": [
+      "Hinganghat",
+      "Wardha"
+    ]
+  },
+  "Washim":{
+    "data":["Washim"]
+  },
+  "Yavatmal":{
+    "data":["Yavatmal"]
+  },
+  "Ahmedabad": {
+        "data": [
+            "Ahmedabad",
+            "Kathwada",
+            "Moraiya"
+        ]
+    },
+    "Amreli": {
+        "data": [
+            "Amreli"
+        ]
+    },
+    "Anand": {
+        "data": [
+            "Anand"
+        ]
+    },
+    "Arvalli": {
+        "data": [
+            "Aravalli"
+        ]
+    },
+    "Banas Kantha": {
+        "data": [
+            "Banaskantha",
+            "Deesa",
+            "Palanpur"
+        ]
+    },
+    "Bharuch": {
+        "data": [
+            "Ankleshwar",
+            "Bharuch"
+        ]
+    },
+    "Bhavnagar": {
+        "data": [
+            "Bhavnagar"
+        ]
+    },
+    "Botad": {
+        "data": [
+            "Botad"
+        ]
+    },
+    "Chhotaudepur": {
+        "data": [
+            "Chhota Udaipur"
+        ]
+    },
+    "Dahod": {
+        "data": [
+            "Dahod"
+        ]
+    },
+    "Dangs": {
+        "data": [
+            "Dang"
+        ]
+    },
+    "Devbhumi Dwarka": {
+        "data": [
+            "Devbhoomi Dwarka"
+        ]
+    },
+    "Gir Somnath": {
+        "data": [
+            "Gir Somnath",
+            "Veraval"
+        ]
+    },
+    "Gandhinagar": {
+        "data": [
+            "Gandhinagar",
+            "Kalol"
+        ]
+    },
+    "Jamnagar": {
+        "data": [
+            "Jamnagar"
+        ]
+    },
+    "Junagadh": {
+        "data": [
+            "Junagadh"
+        ]
+    },
+    "Kachchh": {
+        "data": [
+            "Gandhidham",
+            "Khavda",
+            "Kutch",
+            "Mundra",
+            "Tunda"
+        ]
+    },
+    "Kheda": {
+        "data": [
+            "Kheda",
+            "Nadiad"
+        ]
+    },
+    "Mahesana": {
+        "data": [
+            "Kadi",
+            "Mehsana"
+        ]
+    },
+    "Mahisagar": {
+        "data": [
+            "Lunawada",
+            "Mahisagar"
+        ]
+    },
+    "Morbi": {
+        "data": [
+            "Morbi"
+        ]
+    },
+    "Narmada": {
+        "data": [
+            "Narmada",
+            "Rajpipla"
+        ]
+    },
+    "Navsari": {
+        "data": [
+            "Navsari"
+        ]
+    },
+    "Panch Mahals": {
+        "data": [
+            "Godhra",
+            "Halol",
+            "Panchmahal"
+        ]
+    },
+    "Patan": {
+        "data": [
+            "Charanka",
+            "Patan"
+        ]
+    },
+    "Porbandar": {
+        "data": [
+            "Porbandar"
+        ]
+    },
+    "Rajkot": {
+        "data": [
+            "Gondal",
+            "Nichimandal",
+            "Rajkot",
+            "Timbdi"
+        ]
+    },
+    "Sabar Kantha": {
+        "data": [
+            "Himatnagar",
+            "Prantij",
+            "Sabar Kantha",
+            "Vadagam"
+        ]
+    },
+    "Surat": {
+        "data": [
+            "Olpad",
+            "Surat"
+        ]
+    },
+    "Surendranagar": {
+        "data": [
+            "Surendranagar"
+        ]
+    },
+    "Tapi": {
+        "data": [
+            "Tapi"
+        ]
+    },
+    "Vadodara": {
+        "data": [
+            "Karjan",
+            "Vadodara"
+        ]
+    },
+    "Valsad": {
+        "data": [
+            "Valsad"
+        ]
+    },
+
+    "Agar Malwa": {
+        "data": [
+            "Agar Malwa"
+        ]
+    },
+    "Alirajpur": {
+        "data": [
+            "Alirajpur"
+        ]
+    },
+    "Anuppur": {
+        "data": [
+            "Anuppur"
+        ]
+    },
+    "Ashoknagar": {
+        "data": [
+            "Ashoknagar"
+        ]
+    },
+    "Balaghat": {
+        "data": [
+            "Balaghat"
+        ]
+    },
+    "Barwani": {
+        "data": [
+            "Barwani"
+        ]
+    },
+    "Betul": {
+        "data": [
+            "Betul",
+            "Multai"
+        ]
+    },
+    "Bhind": {
+        "data": [
+            "Bhind"
+        ]
+    },
+    "Bhopal": {
+        "data": [
+            "Bhopal",
+            "Badjhiri"
+        ]
+    },
+    "Burhanpur": {
+        "data": [
+            "Burhanpur"
+        ]
+    },
+    "Chhatarpur": {
+        "data": [
+            "Chhatarpur"
+        ]
+    },
+    "Chhindwara": {
+        "data": [
+            "Chhindwara"
+        ]
+    },
+    "Damoh": {
+        "data": [
+            "Damoh"
+        ]
+    },
+    "Datia": {
+        "data": [
+            "Datia"
+        ]
+    },
+    "Dewas": {
+        "data": [
+            "Dewas"
+        ]
+    },
+    "Dhar": {
+        "data": [
+            "Dhar",
+            "Pithampur"
+        ]
+    },
+    "Dindori": {
+        "data": [
+            "Dindori"
+        ]
+    },
+    "Guna": {
+        "data": [
+            "Guna",
+            "Chachaura",
+            "Ruthiyai",
+            "Piproda Khurd"
+        ]
+    },
+    "Gwalior": {
+        "data": [
+            "Gwalior"
+        ]
+    },
+    "Harda": {
+        "data": [
+            "Harda"
+        ]
+    },
+    "Indore": {
+        "data": [
+            "Indore"
+        ]
+    },
+    "Jabalpur": {
+        "data": [
+            "Jabalpur"
+        ]
+    },
+    "Jhabua": {
+        "data": [
+            "Jhabua"
+        ]
+    },
+    "Katni": {
+        "data": [
+            "Katni"
+        ]
+    },
+    "Khandwa": {
+        "data": [
+            "Khandwa"
+        ]
+    },
+    "Khargone": {
+        "data": [
+            "Khargone"
+        ]
+    },
+    "Maihar": {
+        "data": [
+            "Maihar"
+        ]
+    },
+    "Mandla": {
+        "data": [
+            "Mandla"
+        ]
+    },
+    "Mandsaur": {
+        "data": [
+            "Mandsaur"
+        ]
+    },
+    "Morena": {
+        "data": [
+            "Morena"
+        ]
+    },
+    "Narsimhapur": {
+        "data": [
+            "Narsinghpur"
+        ]
+    },
+    "Neemuch": {
+        "data": [
+            "Neemuch"
+        ]
+    },
+    "Niwari": {
+        "data": [
+            "Niwari"
+        ]
+    },
+    "Pandhurna": {
+        "data": [
+            "Pandhurna"
+        ]
+    },
+    "Panna": {
+        "data": [
+            "Panna"
+        ]
+    },
+    "Raisen": {
+        "data": [
+            "Raisen"
+        ]
+    },
+    "Rajgarh": {
+        "data": [
+            "Rajgarh"
+        ]
+    },
+    "Ratlam": {
+        "data": [
+            "Ratlam"
+        ]
+    },
+    "Rewa": {
+        "data": [
+            "Rewa"
+        ]
+    },
+    "Sagar": {
+        "data": [
+            "Sagar"
+        ]
+    },
+    "Satna": {
+        "data": [
+            "Satna"
+        ]
+    },
+    "Sehore": {
+        "data": [
+            "Sehore"
+        ]
+    },
+    "Seoni": {
+        "data": [
+            "Seoni"
+        ]
+    },
+    "Shahdol": {
+        "data": [
+            "Shahdol"
+        ]
+    },
+    "Shajapur": {
+        "data": [
+            "Shajapur"
+        ]
+    },
+    "Sheopur": {
+        "data": [
+            "Sheopur"
+        ]
+    },
+    "Shivpuri": {
+        "data": [
+            "Shivpuri"
+        ]
+    },
+    "Sidhi": {
+        "data": [
+            "Sidhi"
+        ]
+    },
+    "Singrauli": {
+        "data": [
+            "Singrauli"
+        ]
+    },
+    "Tikamgarh": {
+        "data": [
+            "Tikamgarh"
+        ]
+    },
+    "Ujjain": {
+        "data": [
+            "Ujjain",
+            "Nagda"
+        ]
+    },
+    "Umaria": {
+        "data": [
+            "Umaria"
+        ]
+    },
+    "Vidisha": {
+        "data": [
+            "Vidisha"
+        ]
+    },
+    "Agra": {
+        "data": [
+            "Agra"
+        ]
+    },
+    "Aligarh": {
+        "data": [
+            "Aligarh"
+        ]
+    },
+    "Ambedkar Nagar": {
+        "data": [
+            "Ambedkar Nagar"
+        ]
+    },
+    "Amethi": {
+        "data": [
+            "Amethi"
+        ]
+    },
+    "Amroha": {
+        "data": [
+            "South Amroha"
+        ]
+    },
+    "Auraiya": {
+        "data": [
+            "Auraiya"
+        ]
+    },
+    "Ayodhya": {
+        "data": [
+            "Ayodhya"
+        ]
+    },
+    "Azamgarh": {
+        "data": [
+            "Azamgarh"
+        ]
+    },
+    "Baghpat": {
+        "data": [
+            "Baghpat"
+        ]
+    },
+    "Bahraich": {
+        "data": [
+            "Bahraich"
+        ]
+    },
+    "Ballia": {
+        "data": [
+            "Ballia"
+        ]
+    },
+    "Balrampur": {
+        "data": [
+            "Balrampur"
+        ]
+    },
+    "Banda": {
+        "data": [
+            "Banda"
+        ]
+    },
+    "Barabanki": {
+        "data": [
+            "Barabanki"
+        ]
+    },
+    "Bareilly": {
+        "data": [
+            "Bareilly"
+        ]
+    },
+    "Basti": {
+        "data": [
+            "Basti"
+        ]
+    },
+    "Bhadohi": {
+        "data": [
+            "Bhadohi"
+        ]
+    },
+    "Bijnor": {
+        "data": [
+            "Bijnor"
+        ]
+    },
+    "Budaun": {
+        "data": [
+            "Budaun"
+        ]
+    },
+    "Bulandshahr": {
+        "data": [
+            "Bulandshahr"
+        ]
+    },
+    "Chandauli": {
+        "data": [
+            "Chandauli"
+        ]
+    },
+    "Chitrakoot": {
+        "data": [
+            "Chitrakoot"
+        ]
+    },
+    "Deoria": {
+        "data": [
+            "Deoria",
+            "Tarkulwa"
+        ]
+    },
+    "Etah": {
+        "data": [
+            "Etah"
+        ]
+    },
+    "Etawah": {
+        "data": [
+            "Etawah"
+        ]
+    },
+    "Farrukhabad": {
+        "data": [
+            "Farrukhabad"
+        ]
+    },
+    "Fatehpur": {
+        "data": [
+            "Fatehpur"
+        ]
+    },
+    "Firozabad": {
+        "data": [
+            "Firozabad"
+        ]
+    },
+    "Gautam Buddha Nagar": {
+        "data": [
+            "Gautam Buddha Nagar"
+        ]
+    },
+    "Ghaziabad": {
+        "data": [
+            "Ghaziabad"
+        ]
+    },
+    "Ghazipur": {
+        "data": [
+            "Ghazipur"
+        ]
+    },
+    "Gonda": {
+        "data": [
+            "Gonda"
+        ]
+    },
+    "Gorakhpur": {
+        "data": [
+            "Gorakhpur",
+            "Peppeganj"
+        ]
+    },
+    "Hamirpur": {
+        "data": [
+            "Hamirpur"
+        ]
+    },
+    "Hapur": {
+        "data": [
+            "Hapur"
+        ]
+    },
+    "Hardoi": {
+        "data": [
+            "Hardoi"
+        ]
+    },
+    "Hathras": {
+        "data": [
+            "Hathras"
+        ]
+    },
+    "Jalaun": {
+        "data": [
+            "Jalaun"
+        ]
+    },
+    "Jaunpur": {
+        "data": [
+            "Jaunpur"
+        ]
+    },
+    "Jhansi": {
+        "data": [
+            "Jhansi"
+        ]
+    },
+    "Kannauj": {
+        "data": [
+            "Kannauj"
+        ]
+    },
+    "Kanpur Dehat": {
+        "data": [
+            "Kanpur Dehat"
+        ]
+    },
+    "Kanpur Nagar": {
+        "data": [
+            "Kanpur Nagar"
+        ]
+    },
+    "Kasganj": {
+        "data": [
+            "Kasganj"
+        ]
+    },
+    "Kaushambi": {
+        "data": [
+            "Kaushambi"
+        ]
+    },
+    "Kheri": {
+        "data": [
+            "Kheri"
+        ]
+    },
+    "Kushinagar": {
+        "data": [
+            "Kushinagar"
+        ]
+    },
+    "Lalitpur": {
+        "data": [
+            "Lalitpur"
+        ]
+    },
+    "Lucknow": {
+        "data": [
+            "Lucknow"
+        ]
+    },
+    "Maharajganj": {
+        "data": [
+            "Maharajganj"
+        ]
+    },
+    "Mahoba": {
+        "data": [
+            "Mahoba"
+        ]
+    },
+    "Mainpuri": {
+        "data": [
+            "Mainpuri"
+        ]
+    },
+    "Mathura": {
+        "data": [
+            "Mathura",
+            "Vrindavan",
+            "Govardhan"
+        ]
+    },
+    "Mau": {
+        "data": [
+            "Mau",
+            "Kopaganj"
+        ]
+    },
+    "Meerut": {
+        "data": [
+            "Meerut"
+        ]
+    },
+    "Mirzapur": {
+        "data": [
+            "Mirzapur",
+            "Vindhyachal"
+        ]
+    },
+    "Moradabad": {
+        "data": [
+            "Moradabad"
+        ]
+    },
+    "Muzaffarnagar": {
+        "data": [
+            "Muzaffarnagar"
+        ]
+    },
+    "Pilibhit": {
+        "data": [
+            "Pilibhit"
+        ]
+    },
+    "Pratapgarh": {
+        "data": [
+            "Pratapgarh",
+            "Bela Pratapgarh"
+        ]
+    },
+    "Prayagraj": {
+        "data": [
+            "Prayagraj",
+            "Phaphamau"
+        ]
+    },
+    "Raebareli": {
+        "data": [
+            "Raebareli"
+        ]
+    },
+    "Rampur": {
+        "data": [
+            "Rampur"
+        ]
+    },
+    "Saharanpur": {
+        "data": [
+            "Saharanpur"
+        ]
+    },
+    "Sambhal": {
+        "data": [
+            "Sambhal"
+        ]
+    },
+    "Sant Kabir Nagar": {
+        "data": [
+            "Sant Kabir Nagar"
+        ]
+    },
+    "Shahjahanpur": {
+        "data": [
+            "Shahjahanpur"
+        ]
+    },
+    "Shamli": {
+        "data": [
+            "Shamli"
+        ]
+    },
+    "Shravasti": {
+        "data": [
+            "Shravasti"
+        ]
+    },
+    "Siddharthnagar": {
+        "data": [
+            "Siddharthnagar"
+        ]
+    },
+    "Sitapur": {
+        "data": [
+            "Sitapur"
+        ]
+    },
+    "Sonbhadra": {
+        "data": [
+            "Sonbhadra",
+            "Obra"
+        ]
+    },
+    "Sultanpur": {
+        "data": [
+            "Sultanpur"
+        ]
+    },
+    "Unnao": {
+        "data": [
+            "Unnao"
+        ]
+    },
+    "Varanasi": {
+        "data": [
+            "Varanasi"
+        ]
+    }
 }

@@ -8,6 +8,7 @@ const blogsController = require('../api/blog.controller')
 const businessReviewController =require('../api/business.review.controller')
 const multer =require('../common/multer')
 const statesData = require('../json/state.json');
+const cityData=require("../json/city.json")
 const knex=require('../common/knex.config')();
 // const { default: knex } = require('knex')
 
@@ -30,6 +31,13 @@ function apiRoutes(app) {
     const districts = statesData[state]?.data || [];
   
     res.json({ districts });
+  });
+
+  app.get('/citys/:district', (req, res) => {
+    const district = req.params.district;
+    const city = cityData[district]?.data || [];
+  
+    res.json({ city });
   });
 
   app.post('/user-quote',userQuoteController().userQuoteAdd)

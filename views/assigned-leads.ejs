@@ -1,0 +1,265 @@
+<%- include('header') %>
+
+  <div class="col-span-5 lg:col-span-4 rounded-xl overflow-y-scroll p-2 sm:p-4 lg:p-5 xl:p-9"
+    style="background: #dfdff773;">
+    <div>
+      <div class="grid grid-cols-1 sm:grid-cols-4  mb-5 lg:mb-10 px-2 mt-3">
+        <div class="text-center sm:text-left col-span-3 my-auto mb-3 sm:mb-0">
+          <h2 class="text-2xl font-medium lg:text-3xl lg:font-semibold">Assigned Leads</h2>
+        </div>
+      </div>
+
+      <div>
+        <div class="p-5 bg-white rounded-xl">
+          <table class="table-fixed lg:w-full montabel" id="datatablemain">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>City</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Type</th>
+                <th>Sy Size</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% data.forEach((data)=>{ %>
+                <tr>
+                  <td>
+                    <% d=new Date(data.updatedAt); hover=d.getHours()> 12 ? d.getHours() - 12 :
+                      d.getHours();
+                      countdate = d.getDate()+'-'+(d.getMonth() +
+                      1)+'-'+d.getFullYear();
+                      %>
+                      <%- countdate %>
+                  </td>
+                  <td style="word-break: break-word"><%- data.city %></td>
+                  <td style="word-break: break-word"><%- data.name %></td>
+                  <td style="word-break: break-word"><%- data.email %></td>
+                  <td style="word-break: break-word"><%- data.phoneNumber %></td>
+                  <td style="word-break: break-word"><%- data.type %></td>
+                  <td style="word-break: break-word"><%- data.systemSize %></td>
+
+                  <td>
+                    <a class="p-2 cursor-pointer"
+                      onclick="editapplicationmodel({systemSize:'<%-data.systemSize%>',type:'<%- data.type %>',id:'<%- data.id %>',city:'<%- data.city%>',state:'<%- data.state %>',email:'<%- data.email %>',name:'<%- data.name%>',phoneNumber:'<%- data.phoneNumber%>',notes:'<%- btoa(data.notes)%>',svStatus:'<%- data.svStatus%>',pStatus:'<%- data.pStatus%>'})"><i
+                        class="fa-solid fa-pen-to-square" style="color: #25d366;"></i></a>
+                </tr>
+                <% }) %>
+            </tbody>
+          </table>
+        </div>
+        <div style="margin-top: 15px;" class="p-5 bg-white rounded-xl">
+          <form id="myForm" action="#" method="POST">
+            <div class="grid grid-cols-4 p-4 lg:p-6" style="border-bottom: 5px solid #cfd1e0;">
+              <div class="col-span-3">
+                <div class="text-base lg:text-xl font-semibold">If you have any questions, Feel free to reach out</div>
+              </div>
+            </div>
+            <div class="p-4 lg:p-6">
+              <div>
+                <div class="mb-1 lg:mb-3">
+                  <div class="text-sm lg:text-base font-medium mb-1 text-left">Name</div>
+                  <div><input type="text" name="name" id="name" class="textfiled" value="<%- userData.name %>" readonly>
+                  </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-3 hidden" >
+
+                  <div class="mb-1 lg:mb-3">
+                    <div class="text-sm lg:text-base font-medium mb-1 text-left">Email</div>
+                    <div>
+                      <input type="email" name="email" id="email" class="textfiled" >
+                    </div>
+                  </div>
+                  <div class="mb-1 lg:mb-3">
+                    <div class="text-sm lg:text-base font-medium mb-1 text-left">Phone Number</div>
+                    <div>
+                      <input type="tel" name="phoneNumber" id="phoneNumber-edit" value="--" class="textfiled">
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="mb-1 lg:mb-3">
+                  <div class="text-sm lg:text-base font-medium mb-1 text-left">Message</div>
+                  <div>
+                    <textarea name="message" id="message" cols="15" rows="5" class="textfiled" required></textarea>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="p-2 lg:p-4 text-center" style="border-top: 5px solid #cfd1e0;">
+              <input type="submit" value="Submit"
+                class="px-4 py-2 text-white rounded-lg tracking-wider formsubmit font-medium cursor-pointer">
+            </div>
+          </form>
+
+        </div>
+
+        <!-- Edit Model -->
+        <div class="absolute inset-0 backdrop-blur-xl rounded-xl p-3 lg:p-10 grid overflow-scroll hidden"
+          id="editpopupmodul" style="background: #b5b8c570;">
+          <div class="bg-white w-6/6 lg:w-4/12 m-auto rounded-2xl relative">
+            <div>
+              <form action="/admin/assigned-leads/edit" method="POST">
+                <div class="grid grid-cols-4 p-4 lg:p-6" style="border-bottom: 5px solid #cfd1e0;">
+                  <div class="col-span-3">
+                    <div class="text-base lg:text-xl font-semibold">Edit Assigned Leads</div>
+                  </div>
+                  <div class="text-right my-auto"><i class="fa-solid fa-xmark lg:text-lg cursor-pointer"
+                      onclick="editapplicationmodelremove()"></i></div>
+                </div>
+                <div class="p-4 lg:p-6">
+                  <div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">System Size</div>
+                      <div><input type="text" name="systemSize" id="systemSize-edit" class="textfiled" required
+                          readonly>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Type</div>
+                      <div>
+                        <input type="text" name="type" id="type-edit" class="textfiled" required readonly>
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">City
+                      </div>
+                      <div>
+                        <input type="text" name="selectedCity" id="city-edit" class="textfiled" required readonly>
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">State</div>
+                      <div>
+                        <input type="text" name="selectedState" id="stateSelected-edit" class="textfiled" readonly>
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Name</div>
+                      <div>
+                        <input type="text" name="name" id="name-edit" class="textfiled" readonly>
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Email
+                      </div>
+                      <div>
+                        <input type="email" name="email" id="email-edit" class="textfiled" required readonly>
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Phone Number</div>
+                      <div>
+                        <input type="tel" name="phoneNumber" id="phoneNumber-edit" class="textfiled" required readonly>
+                      </div>
+                    </div>
+
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">P Status</div>
+                      <div>
+                        <select name="pStatus" id="pStatus" class="textfiled" required>
+                          <option value="No Partner Assigned">No Partner Assigned</option>
+                          <option value="Untouched">Untouched </option>
+                          <option value="First Interation">First Interation </option>
+                          <option value="Site Visit Rescheduled">Site Visit Rescheduled</option>
+                          <option value="Site Visit Done">Site Visit Done</option>
+                          <option value="Quotation Shared">Quotation Shared</option>
+                          <option value="Closed Won">Closed Won</option>
+                          <option value="Closed Not Won">Closed Not Won</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Notes</div>
+                      <div>
+                        <textarea name="notes" id="notes-edit" cols="15" rows="5" class="textfiled"></textarea>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="p-2 lg:p-4 text-center" style="border-top: 5px solid #cfd1e0;">
+                  <input type="hidden" name="id" id="id-edit">
+                  <input type="submit" value="Save Edit"
+                    class="px-4 py-2 text-white rounded-lg tracking-wider formsubmit font-medium cursor-pointer">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function editapplicationmodel(data) {
+      document.getElementById("systemSize-edit").value = data.systemSize;
+      document.getElementById("type-edit").value = data.type;
+      document.getElementById("city-edit").value = data.city;
+      document.getElementById("stateSelected-edit").value = data.state;
+      document.getElementById("email-edit").value = data.email;
+      document.getElementById("name-edit").value = data.name;
+      document.getElementById("phoneNumber-edit").value = data.phoneNumber;
+      document.getElementById("pStatus").value = data.pStatus;
+      document.getElementById("notes-edit").value = atob(data.notes);
+
+      document.getElementById("id-edit").value = data.id;
+
+      const classgetmodul = document.getElementById('editpopupmodul');
+      classgetmodul.classList.remove("hidden");
+    }
+
+
+    function editapplicationmodelremove() {
+      const classgetmodul = document.getElementById('editpopupmodul');
+      classgetmodul.classList.add("hidden");
+    }
+  </script>
+
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the form from submitting normally
+
+      const formData = new FormData(this);
+
+      const jsonData = { "type": "CRM" };
+      formData.forEach((value, key) => {
+        jsonData[key] = value;
+      });
+
+
+      fetch("https://admin.solarvipani.com/user-queries", {
+        method: "POST",
+        body: JSON.stringify(jsonData),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      })
+        .then(response => response.json())
+        .then(data => {
+          if (data.res == true) {
+            $("#myForm")[0].reset();
+            alert(data.message);
+          }
+        })
+        .catch(error => {
+          console.error("Error:", error)
+        });
+    });
+  </script>
+
+  <%- include('footer') %>

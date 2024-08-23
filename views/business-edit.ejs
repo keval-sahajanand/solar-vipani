@@ -1,0 +1,271 @@
+<%- include('header') %>
+
+<div class="col-span-5 lg:col-span-4 rounded-xl overflow-y-scroll p-2 sm:p-4 lg:p-5 xl:p-9" style="background: #dfdff773;">
+    <div>
+        <div class="grid grid-cols-1 sm:grid-cols-4 mb-5 lg:mb-10 px-2 mt-3">
+            <div class="text-center sm:text-left col-span-3 my-auto mb-3 sm:mb-0">
+                <h2 class="text-2xl font-medium lg:text-3xl lg:font-semibold"> Edit-Business</h2>
+            </div>
+            <div class="text-center sm:text-right my-auto">
+                <!-- <button class="addbtnstyle" onclick="newaddapplication()"></button> -->
+                <a class="addbtnstyle" type="button" href="/admin/business">Back</a>
+            </div>
+        </div>
+        <div>
+            <div class="p-5 bg-white rounded-xl">
+              <form action="/admin/business/edit" method="POST">
+                <div class="grid grid-cols-4 p-4 lg:p-6" style="border-bottom: 5px solid #cfd1e0;">
+                    <div class="col-span-3">
+                        <div class="text-base lg:text-xl font-semibold">Edit Business List</div>
+                    </div>
+                  
+                </div>
+                <div class="p-4 lg:p-6">
+                    <div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Name</div>
+                            <div><input type="text" name="name" id="name" value="<%- data.name %>" class="textfiled"
+                                    required  oninput="generateSlug()">
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Slug</div>
+                            <div><input type="text" name="slug" id="slug" value="<%- data.slug %>" class="textfiled"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Address</div>
+                            <div>
+                                <textarea type="text" class="textfiled" name="address" id="address-edit"
+                                    cols="5" rows="2"><%- data.address %></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Map Pin</div>
+                            <div>
+                                <input type="text" name="mapPin" id="mapPin-edit" value="<%- data.mapPin %>" class="textfiled">
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Phone Number
+                            </div>
+                            <div>
+                                <input type="tel" name="phoneNumber" id="phoneNumber-edit"
+                                    pattern="[0-9]{10}" maxlength="10"
+                                    title="Please enter 10 digit phone number" class="textfiled" value="<%- data.phoneNumber %>"
+                                    required>
+                                <span class="error-msg" id="phoneError-edit"></span>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Email</div>
+                            <div>
+                                <input type="email" name="email" id="email-edit" value="<%- data.email %>" class="textfiled">
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Web site</div>
+                            <div>
+                                <input type="text" name="website" id="website-edit" class="textfiled" value="<%- data.website %>">
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">GSTN Number
+                            </div>
+                            <div>
+                                <input type="text" name="gstnNumber" id="gstnNumber-edit"
+                                    class="textfiled" value="<%- data.gstnNumber %>">
+                            </div>
+                        </div>
+
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Note
+                            </div>
+                            <div>
+                                <select name="note" id="edit-note" class="textfiled" required>
+                                    <option value="" <% if(data.note === '') { %>selected<% } %>>Select Note</option>
+                                    <option value="Blank" <% if(data.note === 'Blank') { %>selected<% } %>>Blank</option>
+                                    <option value="Preferred Partner" <% if(data.note === 'Preferred Partner') { %>selected<% } %>>Preferred Partner</option>
+                                    <option value="Verified Installer" <% if(data.note === 'Verified Installer') { %>selected<% } %>>Verified Installer</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">State
+                            </div>
+                            <div>
+                                <select name="state" id="state-edit" class="textfiled" required
+                                    onchange="toggleDistrictInputEdit()">
+                                    <option value="" <% if(data.state === '') { %>selected<% } %>>Select State</option>
+                                    <option value="Andhra Pradesh" <% if(data.state === 'Andhra Pradesh') { %>selected<% } %>>Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh" <% if(data.state === 'Arunachal Pradesh') { %>selected<% } %>>Arunachal Pradesh</option>
+                                    <option value="Assam" <% if(data.state === 'Assam') { %>selected<% } %>>Assam</option>
+                                    <option value="Bihar" <% if(data.state === 'Bihar') { %>selected<% } %>>Bihar</option>
+                                    <option value="Chhattisgarh" <% if(data.state === 'Chhattisgarh') { %>selected<% } %>>Chhattisgarh</option>
+                                    <option value="Goa" <% if(data.state === 'Goa') { %>selected<% } %>>Goa</option>
+                                    <option value="Gujarat" <% if(data.state === 'Gujarat') { %>selected<% } %>>Gujarat</option>
+                                    <option value="Haryana" <% if(data.state === 'Haryana') { %>selected<% } %>>Haryana</option>
+                                    <option value="Himachal Pradesh" <% if(data.state === 'Himachal Pradesh') { %>selected<% } %>>Himachal Pradesh</option>
+                                    <option value="JammuKashmir" <% if(data.state === 'JammuKashmir') { %>selected<% } %>>Jammu Kashmir</option>
+                                    <option value="Jharkhand" <% if(data.state === 'Jharkhand') { %>selected<% } %>>Jharkhand</option>
+                                    <option value="Karnataka" <% if(data.state === 'Karnataka') { %>selected<% } %>>Karnataka</option>
+                                    <option value="Kerala" <% if(data.state === 'Kerala') { %>selected<% } %>>Kerala</option>
+                                    <option value="Madhya Pradesh" <% if(data.state === 'Madhya Pradesh') { %>selected<% } %>>Madhya Pradesh</option>
+                                    <option value="Maharashtra" <% if(data.state === 'Maharashtra') { %>selected<% } %>>Maharashtra</option>
+                                    <option value="Manipur" <% if(data.state === 'Manipur') { %>selected<% } %>>Manipur</option>
+                                    <option value="Meghalaya" <% if(data.state === 'Meghalaya') { %>selected<% } %>>Meghalaya</option>
+                                    <option value="Mizoram" <% if(data.state === 'Mizoram') { %>selected<% } %>>Mizoram</option>
+                                    <option value="Nagaland" <% if(data.state === 'Nagaland') { %>selected<% } %>>Nagaland</option>
+                                    <option value="Odisha" <% if(data.state === 'Odisha') { %>selected<% } %>>Odisha</option>
+                                    <option value="Punjab" <% if(data.state === 'Punjab') { %>selected<% } %>>Punjab</option>
+                                    <option value="Rajasthan" <% if(data.state === 'Rajasthan') { %>selected<% } %>>Rajasthan</option>
+                                    <option value="Sikkim" <% if(data.state === 'Sikkim') { %>selected<% } %>>Sikkim</option>
+                                    <option value="TamilNadu" <% if(data.state === 'TamilNadu') { %>selected<% } %>>Tamil Nadu</option>
+                                    <option value="Telangana" <% if(data.state === 'Telangana') { %>selected<% } %>>Telangana</option>
+                                    <option value="Tripura" <% if(data.state === 'Tripura') { %>selected<% } %>>Tripura</option>
+                                    <option value="Uttar Pradesh" <% if(data.state === 'Uttar Pradesh') { %>selected<% } %>>Uttar Pradesh</option>
+                                    <option value="Uttarakhand" <% if(data.state === 'Uttarakhand') { %>selected<% } %>>Uttarakhand</option>
+                                    <option value="WestBengal" <% if(data.state === 'WestBengal') { %>selected<% } %>>West Bengal</option>
+                                    <option value="AndamanNicobar" <% if(data.state === 'AndamanNicobar') { %>selected<% } %>>Andaman Nicobar</option>
+                                    <option value="Chandigarh" <% if(data.state === 'Chandigarh') { %>selected<% } %>>Chandigarh</option>
+                                    <option value="Dadra And Nagar Haveli And DamanAndDiu" <% if(data.state === 'DadraAndNagarHaveliAndDamanAndDiu') { %>selected<% } %>>Dadra and Nagar
+                                        Haveli and Daman and Diu</option>
+                                    <option value="Delhi" <% if(data.state === 'Delhi') { %>selected<% } %>>Delhi</option>
+                                    <option value="Lakshadweep" <% if(data.state === 'Lakshadweep') { %>selected<% } %>>Lakshadweep</option>
+                                    <option value="Ladakh" <% if(data.state === 'Ladakh') { %>selected<% } %>>Ladakh</option>
+                                    <option value="Puducherry" <% if(data.state === 'Puducherry') { %>selected<% } %>>Puducherry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">City/Town/Area
+                            </div>
+                            <div>
+                                <select name="district" id="district-edit" class="textfiled" onchange="toggleDistrictNewInput()" required>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">District
+                            </div>
+                            <div>
+                                <select name="districtNew" id="districtNew-edit" class="textfiled" required>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Add Notes</div>
+                            <div>
+                                <textarea name="notes" id="edit-notes"  class="textfiled"><%- data.notes %></textarea>
+                            </div>
+                        </div>
+
+                        <div class="mb-1 lg:mb-3">
+
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left"> <input
+                                    type="checkbox" name="isSubAdmin" id="isSubAdmin" value="<%- data.isSubAdmin %>"> Make Partner?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:p-4 text-center" style="border-top: 5px solid #cfd1e0;">
+                    <input type="hidden" name="id" id="id-edit" value="<%- data.id %>">
+                    <input type="submit" value="Save Edit"
+                        class="px-4 py-2 text-white rounded-lg tracking-wider formsubmit font-medium cursor-pointer">
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  const districtValue = "<%- data.district %>";
+ 
+
+   document.addEventListener('DOMContentLoaded', async function() {
+       const stateValue = document.getElementById('state-edit').value;
+       const districtDropdownEdit = document.getElementById('district-edit');
+       districtDropdownEdit.innerHTML = '';
+
+       try {
+           const response = await fetch(`/districts/${stateValue}`);
+           const data = await response.json();
+           data.districts.forEach(district => {
+               const option = document.createElement('option');
+               option.value = district;
+               option.textContent = district;
+               if (district === districtValue) {
+                            option.selected = true;
+                        }
+               districtDropdownEdit.appendChild(option);
+           });
+       } catch (error) {
+           console.error('Error fetching data:', error);
+       }
+   });
+
+   document.getElementById('state-edit').addEventListener('change', async function() {
+       const state = this.value;
+       const districtDropdownEdit = document.getElementById('district-edit');
+       districtDropdownEdit.innerHTML = '';
+
+       await fetch(`/districts/${state}`)
+           .then(response => response.json())
+           .then(data => {
+               data.districts.forEach(district => {
+                   const option = document.createElement('option');
+                   option.value = district;
+                   option.textContent = district;
+                   districtDropdownEdit.appendChild(option);
+               });
+           })
+           .catch(error => {
+               console.error('Error fetching data:', error);
+           });
+   });
+   
+   const districtNewDropdown = document.getElementById('districtNew-edit');
+            
+            districtNewDropdown.innerHTML = '';
+            const option = document.createElement('option');
+                            option.value = districtValue;
+                            option.textContent = districtValue;
+                            districtNewDropdown.appendChild(option);
+
+
+</script>
+
+<script>
+    function toggleDistrictNewInput(){
+        const districtDropdown = document.getElementById('district-edit');
+        const districtNewDropdown = document.getElementById('districtNew-edit');
+        const selectedState = districtDropdown.value;
+        
+        districtNewDropdown.innerHTML = '';
+        const option = document.createElement('option');
+                        option.value = selectedState;
+                        option.textContent = selectedState;
+                        districtNewDropdown.appendChild(option);
+
+                        
+
+    }
+</script>
+
+
+
+<script>
+  function generateSlug() {
+      var name = document.getElementById('name').value;
+      var slug = name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+      document.getElementById('slug').value = slug;
+  }
+</script>
+
+
+<%- include('footer') %>

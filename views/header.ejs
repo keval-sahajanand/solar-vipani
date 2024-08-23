@@ -1,0 +1,306 @@
+<div class="fixed inset-3 sm:inset-5 backdrop-blur-md rounded-3xl p-2 sm:p-4 lg:p-5 xl:p-9" id="manbody" style="background: #b5b2d71f;">
+    <div class="grid grid-cols-5 lg:gap-4 h-full mobilegrid">
+        <!-- mobile menu -->
+        <div class="block col-span-5 lg:hidden">
+            <div class="p-3">
+                <div>
+                    <div class="flex flex-row">
+                        <div class="mr-2"><img src="/images/logo.png" alt="" width="100"></div>
+                        <div class="my-auto"><span class="col-span-5 text-sm font-semibold" style="color: #5d8027;"><%- process.env.APPNAME %></span></div>
+                        <div class="flex-1 w-8 my-auto text-right"><a onclick="mobilemenuclick()"><i class="fa-solid fa-bars text-xl"></i></a></div>
+                    </div>
+                </div>
+                <div class="absolute inset-0 rounded-xl p-3 lg:p-10 overflow-scroll hidden z-10" id="mobilemenu" style="background: #b5b8c570;">
+                    <div class="fixed inset-x-4 mt-2 h-0 m-auto w-10/12 z-20">
+                        <div class="p-5 bg-white rounded-xl">
+                            <div class="mb-5">
+                                <div class="flex flex-row">
+                                    <div class="w-10 mr-2"><img src="/images/logo.png" alt="" width="80"></div>
+                                    <div class="my-auto"><span class="col-span-5 text-sm font-semibold" style="color: #5d8027;"><%- process.env.APPNAME %></span></div>
+                                    <div class="flex-1 w-8 my-auto text-right"><a onclick="mobilemenuclose()"><i class="fa-solid fa-xmark text-base"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %> > 
+                                <a href="/admin/business" class="" id="business-mobile">
+                                    <span class="pr-2"><i class="fa-solid fa-business-time offcolor text-base"></i></span>Business List
+                                </a>
+                            </div>
+                            
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/blogs" class="" id="blogs-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-blog offcolor text-base"></i></span>Blogs
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/user-queries" class="" id="user-queries-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-person-circle-question offcolor text-base"></i></span>User Query
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/business-request" class="" id="business-request-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-code-pull-request offcolor text-base"></i></span>Business Requests
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/call-request" class="" id="call-request-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-phone-volume offcolor text-base"></i></span>Call Requests
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/user-quote" class="" id="user-quote-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-quote-left offcolor text-base"></i></span>Get User Quote
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/lead-qualification" class="" id="lead-qualification-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-envelope-circle-check text-base"></i></span>Lead Qualification
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "admin"){%>hidden<%} %>>
+                                <a href="/admin/assigned-leads" class="" id="assigned-leads-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-envelope-circle-check text-base"></i></span>Assigned Leads
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/user-opinion" class="" id="user-opinion-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-thumbs-up offcolor text-base"></i></span>User Opinion
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/business-reviews" class="" id="user-business-reviews" >
+                                    <span class="pr-2"><i class="fa-solid fa-star offcolor text-base"></i></span>User Review
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/user" class="" id="user-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-users offcolor text-base"></i></span>Partner
+                                </a>
+                            </div>
+
+                            <div class="p-2 " <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                                <a href="/admin/book-site-visit" class="" id="book-site-visit-mobile" >
+                                    <span class="pr-2"><i class="fa-solid fa-clock offcolor text-base"></i></span>Book Site Visit
+                                </a>
+                            </div>
+
+                            <div class="p-2">
+                                <a href="/admin/logout">
+                                    <span class="pr-2"><i class="fa-solid fa-arrow-right-from-bracket offcolor text-base"></i></span>Logout
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- desktop menu -->
+        <div class="overflow-y-scroll scrollbar-macosx hidden lg:block rounded-2xl" style="background-color: aliceblue;">
+            <div class="p-2 md:p-4 xl:p-5 relative" >
+                <div class="grid grid-cols-1 gap-10">
+                    <div>
+                        <div class="">
+                            <div class="my-auto mr-3">
+                                <img src="/images/logo.png" alt="" width="130">
+                            </div>
+                            <div class="col-span-3 my-auto">
+                                <div class="text-2xl font-semibold pt-1" style="color: #5d8027;">
+                                    <%- process.env.APPNAME %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/business">
+                                <div class="grid grid-cols-8 relative" id="business-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-business-time offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Business List</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/blogs">
+                                <div class="grid grid-cols-8 relative" id="blogs-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-blog offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Blogs</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/user-queries">
+                                <div class="grid grid-cols-8 relative" id="user-queries-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-person-circle-question offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">User Query</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/business-request" >
+                                <div class="grid grid-cols-8 relative" id="business-request-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-code-pull-request offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Business Requests</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/call-request" >
+                                <div class="grid grid-cols-8 relative" id="call-request-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-phone-volume offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Call Requests</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %> >
+                            <a href="/admin/user-quote" >
+                                <div class="grid grid-cols-8 relative" id="user-quote-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-quote-left offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Get User Quote</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3"  <% if(userlogin.type === "subAdmin"){%>hidden<%} %> >
+                            <a href="/admin/lead-qualification">
+                                <div class="grid grid-cols-8 relative" id="lead-qualification-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-envelope-circle-check offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Lead Qualification</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3"  <% if(userlogin.type === "admin"){%>hidden<%} %> >
+                            <a href="/admin/assigned-leads">
+                                <div class="grid grid-cols-8 relative" id="assigned-leads-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-envelope-circle-check offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Assigned Leads</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="px-3 lg:px-1 py-3"  <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/user-opinion">
+                                <div class="grid grid-cols-8 relative" id="user-opinion-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-thumbs-up offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">User Opinion</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3"  <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/business-reviews">
+                                <div class="grid grid-cols-8 relative" id="user-business-reviews">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-star offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">User Review</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/user">
+                                <div class="grid grid-cols-8 relative" id="user-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-users offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Partner</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3" <% if(userlogin.type === "subAdmin"){%>hidden<%} %>>
+                            <a href="/admin/book-site-visit">
+                                <div class="grid grid-cols-8 relative" id="book-site-visit-main">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-clock offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Book Site Visit</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="px-3 lg:px-1 py-3">
+                            <a href="/admin/logout">
+                                <div class="grid grid-cols-8 relative">
+                                    <div class="col-span-2 m-auto grid">
+                                        <i class="fa-solid fa-arrow-right-from-bracket offcolor text-lg"></i>
+                                    </div>
+                                    <div class="col-span-5 my-auto pt-1">
+                                        <div class="offcolor">Logout</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div> 
+                    <div>
+                        <div class="p-5 rounded-2xl" style="background-color: #dfdff773;">
+                            <div>
+                                <div class="text-center text-base font-bold">Copyright</div>
+                                <div class="text-center text-base font-bold">Solar Vipani 2024</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,72 @@
+<%- include('header') %>
+
+<div class="col-span-5 lg:col-span-4 rounded-xl overflow-y-scroll p-2 sm:p-4 lg:p-5 xl:p-9" style="background: #dfdff773;">
+    <div>
+        <div class="grid grid-cols-1 sm:grid-cols-4 mb-5 lg:mb-10 px-2 mt-3">
+            <div class="text-center sm:text-left col-span-3 my-auto mb-3 sm:mb-0">
+                <h2 class="text-2xl font-medium lg:text-3xl lg:font-semibold"> Create New Blog</h2>
+            </div>
+            <div class="text-center sm:text-right my-auto">
+                <!-- <button class="addbtnstyle" onclick="newaddapplication()"></button> -->
+                <a class="addbtnstyle" type="button" href="/admin/blogs">Back</a>
+            </div>
+        </div>
+        <div>
+            <div class="p-5 bg-white rounded-xl">
+                <form id="editSongForm" action="/admin/blogs" method="POST">
+                    
+                  <div class="p-4 lg:p-6">
+                    <div>
+
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Title</div>
+                            <div><input type="text" name="title" id="title" class="textfiled" required oninput="generateSlug()">
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Description</div>
+                            <div>
+                                <textarea name="description" id="description" required
+                                    class="textfiled" cols="5" rows="2"></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">URL</div>
+                            <div>
+                                <input type="text" name="url" id="url" class="textfiled">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Details</div>
+                            <div>
+                                <textarea name="editor1" id="editor1"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 lg:p-4 text-center" style="border-top: 5px solid #cfd1e0;">
+                    <input type="submit" value="Save"
+                        class="px-4 py-2 text-white rounded-lg tracking-wider formsubmit font-medium cursor-pointer">
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    CKEDITOR.replace('editor1');
+</script>
+
+<script>
+    function generateSlug() {
+        var name = document.getElementById('title').value;
+        var slug = name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+        document.getElementById('url').value = slug;
+    }
+</script>
+
+
+
+<%- include('footer') %>

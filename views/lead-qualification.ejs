@@ -1,0 +1,488 @@
+<%- include('header') %>
+
+  <div class="col-span-5 lg:col-span-4 rounded-xl overflow-y-scroll p-2 sm:p-4 lg:p-5 xl:p-9"
+    style="background: #dfdff773;">
+    <div>
+      <div class="grid grid-cols-1 sm:grid-cols-4  mb-5 lg:mb-10 px-2 mt-3">
+        <div class="text-center sm:text-left col-span-3 my-auto mb-3 sm:mb-0">
+          <h2 class="text-2xl font-medium lg:text-3xl lg:font-semibold">Lead Qualification</h2>
+        </div>
+        <div class="text-center sm:text-right my-auto" >
+
+          <button  class="addbtnstyle" id="downloadBtn">Download CSV</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="p-5 bg-white rounded-xl">
+          <table class="table-fixed lg:w-full montabel" id="datatablemain">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Type</th>
+                <th>City</th>
+                <th>Pincode</th>
+                <th>Name</th>
+                <th>SV Status</th>
+                <th>Phone Number</th>
+                <th>Date</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% data.forEach((data)=>{ %>
+                <tr>
+                  <td style="word-break: break-word"><%- data.id %></td>
+                  <td style="word-break: break-word"><%- data.type %></td>
+                  <td style="word-break: break-word"><%- data.city %></td>
+                  <td style="word-break: break-word"><%- data.pinCode %></td>
+                  <td style="word-break: break-word"><%- data.name %></td>
+                  <td style="word-break: break-word"><%- data.svStatus %></td>
+                  <td style="word-break: break-word"><%- data.phoneNumber %></td>
+                  <td>
+                    <% d=new Date(data.createdAt); hover=d.getHours()> 12 ? d.getHours() - 12 :
+                      d.getHours();
+                      countdate = d.getDate()+'-'+(d.getMonth() +
+                      1)+'-'+d.getFullYear();
+                      %>
+                      <%- countdate %>
+                  </td>
+                  <td>
+                    <a class="p-2 cursor-pointer"
+                      onclick="editapplicationmodel({systemSize:'<%-data.systemSize%>',type:'<%- data.type %>',id:'<%- data.id %>',city:'<%- data.city%>',state:'<%- data.pinCode %>',pageType:'<%- data.pageType %>',name:'<%- data.name%>',phoneNumber:'<%- data.phoneNumber%>',notes:'<%- btoa(data.notes)%>',svStatus:'<%- data.svStatus%>',pStatus:'<%- data.pStatus%>',partnerState:'<%- data.partnerState%>',partnerDistrict:'<%- data.partnerDistrict%>',partner:'<%- data.partnerId%>'})"><i
+                        class="fa-solid fa-pen-to-square" style="color: #25d366;"></i></a>
+                    <a class="p-2 cursor-pointer" onclick="deletemodel({id:'<%- data.id %>'})"><i
+                        class="fa-solid fa-trash" style="color: #e9562a;"></i></a></td>
+                </tr>
+                <% }) %>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Edit Model -->
+        <div class="absolute inset-0 backdrop-blur-xl rounded-xl p-3 lg:p-10 grid overflow-scroll hidden"
+          id="editpopupmodul" style="background: #b5b8c570;">
+          <div class="bg-white w-6/6 lg:w-4/12 m-auto rounded-2xl relative">
+            <div>
+              <form action="/admin/lead-qualification/edit" method="POST">
+                <div class="grid grid-cols-4 p-4 lg:p-6" style="border-bottom: 5px solid #cfd1e0;">
+                  <div class="col-span-3">
+                    <div class="text-base lg:text-xl font-semibold">Edit Lead Qualification</div>
+                  </div>
+                  <div class="text-right my-auto"><i class="fa-solid fa-xmark lg:text-lg cursor-pointer"
+                      onclick="editapplicationmodelremove()"></i></div>
+                </div>
+                <div class="p-4 lg:p-6">
+                  <div>
+                   
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Type</div>
+                      <div>
+                        <input type="text" name="type" id="type-edit" class="textfiled" required >
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">City
+                      </div>
+                      <div>
+                        <input type="text" name="selectedCity" id="city-edit" class="textfiled" required >
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Pincode</div>
+                      <div>
+                        <input type="text" name="pinCode" id="stateSelected-edit" class="textfiled" >
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Name</div>
+                      <div>
+                        <input type="text" name="name" id="name-edit" class="textfiled" >
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Page Type
+                      </div>
+                      <div>
+                        <input type="text" name="pageType" id="pageType-edit" class="textfiled" required >
+                      </div>
+                    </div>
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Phone Number</div>
+                      <div>
+                        <input type="tel" name="phoneNumber" id="phoneNumber-edit" class="textfiled" required >
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">SV Status</div>
+                      <div>
+                        <select name="svStatus" id="svStatus" class="textfiled" required>
+                          <option value="Lead generated">Lead generated</option>
+                          <option value="Qualifed">Qualifed </option>
+                          <option value="Not Qualified - Just Curious">Not Qualified - Just Curious</option>
+                          <option value="Not Qualified - Price Hunting">Not Qualified - Price Hunting</option>
+                          <option value="Consultation Summary Shared">Consultation Summary Shared</option>
+                          <option value="Site Visit Booked">Site Visit Booked</option>
+                          <option value="Partner assigned">Partner Assigned</option>
+                          <option value="Miscellaneous">Miscellaneous</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">P Status</div>
+                      <div>
+                        <select name="pStatus" id="pStatus" class="textfiled" required>
+                          <option value="No Partner Assigned">No Partner Assigned</option>
+                          <option value="Untouched">Untouched </option>
+                          <option value="First Interation">First Interation </option>
+                          <option value="Site Visit Rescheduled">Site Visit Rescheduled</option>
+                          <option value="Site Visit Done">Site Visit Done</option>
+                          <option value="Quotation Shared">Quotation Shared</option>
+                          <option value="Closed Won">Closed Won</option>
+                          <option value="Closed Not Won">Closed Not Won</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">State
+                      </div>
+                      <div>
+                        <select name="state" id="state" class="textfiled" onchange="toggleDistrictInput()">
+                          <option value="">Select State</option>
+                          <option value="AndhraPradesh">Andhra Pradesh</option>
+                          <option value="ArunachalPradesh">Arunachal Pradesh</option>
+                          <option value="Assam">Assam</option>
+                          <option value="Bihar">Bihar</option>
+                          <option value="Chhattisgarh">Chhattisgarh</option>
+                          <option value="Goa">Goa</option>
+                          <option value="Gujarat">Gujarat</option>
+                          <option value="Haryana">Haryana</option>
+                          <option value="HimachalPradesh">Himachal Pradesh</option>
+                          <option value="JammuKashmir">Jammu Kashmir</option>
+                          <option value="Jharkhand">Jharkhand</option>
+                          <option value="Karnataka">Karnataka</option>
+                          <option value="Kerala">Kerala</option>
+                          <option value="MadhyaPradesh">Madhya Pradesh</option>
+                          <option value="Maharashtra">Maharashtra</option>
+                          <option value="Manipur">Manipur</option>
+                          <option value="Meghalaya">Meghalaya</option>
+                          <option value="Mizoram">Mizoram</option>
+                          <option value="Nagaland">Nagaland</option>
+                          <option value="Odisha">Odisha</option>
+                          <option value="Punjab">Punjab</option>
+                          <option value="Rajasthan">Rajasthan</option>
+                          <option value="Sikkim">Sikkim</option>
+                          <option value="TamilNadu">Tamil Nadu</option>
+                          <option value="Telangana">Telangana</option>
+                          <option value="Tripura">Tripura</option>
+                          <option value="UttarPradesh">Uttar Pradesh</option>
+                          <option value="Uttarakhand">Uttarakhand</option>
+                          <option value="WestBengal">West Bengal</option>
+                          <option value="AndamanNicobar">Andaman Nicobar</option>
+                          <option value="Chandigarh">Chandigarh</option>
+                          <option value="DadraAndNagarHaveliAndDamanAndDiu">Dadra and Nagar
+                            Haveli and Daman and Diu</option>
+                          <option value="Delhi">Delhi</option>
+                          <option value="Lakshadweep">Lakshadweep</option>
+                          <option value="Ladakh">Ladakh</option>
+                          <option value="Puducherry">Puducherry</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3" id="district-div" style="display: none;" onchange="partnerSelect()">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">District
+                      </div>
+                      <div>
+                        <select name="district" id="district" class="textfiled" >
+                          <option value="">Select District</option>
+
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3" id="partner-div" style="display: none;">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Partner
+                      </div>
+                      <div>
+                        <select name="partner" id="partner" class="textfiled" >
+                          <option value="">Select Partner</option>
+
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-1 lg:mb-3">
+                      <div class="text-sm lg:text-base font-medium mb-1 text-left">Notes</div>
+                      <div>
+                        <textarea name="notes" id="notes-edit" cols="15" rows="5" class="textfiled"></textarea>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="p-2 lg:p-4 text-center" style="border-top: 5px solid #cfd1e0;">
+                  <input type="hidden" name="id" id="id-edit">
+                  <input type="submit" value="Save Edit"
+                    class="px-4 py-2 text-white rounded-lg tracking-wider formsubmit font-medium cursor-pointer">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- delete model -->
+        <div class="absolute inset-0 backdrop-blur-xl rounded-xl p-3 lg:p-10 grid overflow-scroll hidden"
+          id="deleteCategoryModel" style="background: #b5b8c570;">
+          <div class="bg-white w-6/6 lg:w-4/12 m-auto rounded-2xl relative">
+            <div>
+
+              <div class="grid grid-cols-4 p-4 lg:p-6" style="border-bottom: 5px solid #cfd1e0;">
+                <div class="col-span-3">
+                  <div class="text-base lg:text-xl font-semibold">Delete Lead Qualification </div>
+                </div>
+                <div class="text-right my-auto"><i class="fa-solid fa-xmark   lg:text-lg cursor-pointer"
+                    onclick="deleteCategoryremove()"></i></div>
+              </div>
+              <div class="p-4 lg:p-6">
+                <div class="mb-1 lg:mb-3">
+                  <div class="text-sm lg:text-base font-medium mb-1 text-center">Are you sure Lead Qualification delete?
+                  </div>
+                </div>
+              </div>
+              <div class="  text-center" style="margin-bottom: 15px">
+                <a style="background-color: #cb4545" id="deleteurl" href=""
+                  class="px-4 py-2 text-white rounded-lg tracking-wider formsubmit font-medium cursor-pointer">Delete</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function editapplicationmodel(data) {
+      document.getElementById("type-edit").value = data.type;
+      document.getElementById("city-edit").value = data.city;
+      document.getElementById("stateSelected-edit").value = data.state;
+      document.getElementById("pageType-edit").value = data.pageType;
+      document.getElementById("name-edit").value = data.name;
+      document.getElementById("svStatus").value = data.svStatus == "" ? "Lead generated" : data.svStatus;
+      document.getElementById("pStatus").value = data.pStatus == "" ? "No Partner Assigned" : data.pStatus;
+      document.getElementById("phoneNumber-edit").value = data.phoneNumber;
+      document.getElementById("state").value = data.partnerState;
+      document.getElementById("notes-edit").value = atob(data.notes);
+
+      document.getElementById("id-edit").value = data.id;
+    const distSelect=data.partnerDistrict;
+      const districtDropdown = document.getElementById('district');
+      if (data.partnerDistrict !== '') {
+        fetch(`/districts/${data.partnerState}`)
+          .then(response => response.json())
+          .then(data => {
+            // Clear existing options if needed
+            districtDropdown.innerHTML = '';
+
+            const option = document.createElement('option');
+            option.value = "";
+            option.textContent = "Select District";
+            districtDropdown.appendChild(option);
+
+            data.districts.forEach(district => {
+              const option = document.createElement('option');
+              option.value = district;
+              option.textContent = district;
+           
+              if ( district === distSelect) {
+                option.selected = true;
+              }
+              districtDropdown.appendChild(option);
+            });
+
+            document.getElementById('district-div').style.display = 'block';
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+      } else {
+        document.getElementById('district-div').style.display = 'none';
+      }
+
+      const partnerDropDown = document.getElementById('partner');
+      const partnerValue=data.partner;
+       
+      if(partnerValue != ""){
+
+        fetch(`/partner/${data.partnerState}/${distSelect}`)
+          .then(response => response.json())
+          .then(datapartner => {
+            partnerDropDown.innerHTML = '';
+            const option = document.createElement('option');
+            option.value = "";
+            option.textContent = "Select Partner";
+            partnerDropDown.appendChild(option);
+            datapartner.data.forEach(a => {
+              const option = document.createElement('option');
+              option.value = a.id;
+              option.textContent = a.name;
+              if ( parseInt(a.id) === parseInt(partnerValue)) {
+                option.selected = true;
+              }
+              partnerDropDown.appendChild(option);
+            });
+
+            document.getElementById('partner-div').style.display = 'block';
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+
+        document.getElementById('partner-div').style.display = 'block';
+     
+      }else{
+        document.getElementById('partner-div').style.display = 'none';
+      }
+
+
+
+      const classgetmodul = document.getElementById('editpopupmodul');
+      classgetmodul.classList.remove("hidden");
+    }
+
+
+    function editapplicationmodelremove() {
+      const classgetmodul = document.getElementById('editpopupmodul');
+      classgetmodul.classList.add("hidden");
+    }
+  </script>
+
+  <!-- Delete and add model -->
+  <script>
+    function newaddapplication() {
+      const classgetmodul = document.getElementById('newaddapplication');
+      classgetmodul.classList.remove("hidden");
+    }
+
+    function newaddapplicationremove() {
+      const classgetmodul = document.getElementById('newaddapplication');
+      classgetmodul.classList.add("hidden");
+    }
+
+    function deletemodel(data) {
+      document.getElementById("deleteurl").href = `/admin/lead-qualification/${data.id}/delete`;
+
+      const classgetmodul = document.getElementById('deleteCategoryModel');
+      classgetmodul.classList.remove("hidden");
+    }
+    function deleteCategoryremove() {
+      const classgetmodul = document.getElementById('deleteCategoryModel');
+      classgetmodul.classList.add("hidden");
+    }
+  </script>
+
+  <!-- State select to country show -->
+  <script>
+    function toggleDistrictInput() {
+      const stateDropdown = document.getElementById('state');
+      const districtDropdown = document.getElementById('district'); // Update this line
+
+      const selectedState = stateDropdown.value;
+
+      if (selectedState !== '') {
+        fetch(`/districts/${selectedState}`)
+          .then(response => response.json())
+          .then(data => {
+            // Clear existing options if needed
+            districtDropdown.innerHTML = '';
+
+            const option = document.createElement('option');
+            option.value = "";
+            option.textContent = "Select District";
+            districtDropdown.appendChild(option);
+
+            data.districts.forEach(district => {
+              const option = document.createElement('option');
+              option.value = district;
+              option.textContent = district;
+              districtDropdown.appendChild(option);
+            });
+
+            document.getElementById('district-div').style.display = 'block';
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+      } else {
+        document.getElementById('district-div').style.display = 'none';
+      }
+    }
+
+  </script>
+
+  <!-- partnerSelect  -->
+  <script>
+    function partnerSelect() {
+      const stateSelect = document.getElementById('state');
+      const districtSelect = document.getElementById('district');
+      const partnerDropDown = document.getElementById('partner');
+
+      const stateValue = stateSelect.value;
+      const districtValue = districtSelect.value;
+      if (stateValue != "" && districtValue != "") {
+        fetch(`/partner/${stateValue}/${districtValue}`)
+          .then(response => response.json())
+          .then(data => {
+            partnerDropDown.innerHTML = '';
+            const option = document.createElement('option');
+            option.value = "";
+            option.textContent = "Select Partner";
+            partnerDropDown.appendChild(option);
+            data.data.forEach(a => {
+              const option = document.createElement('option');
+              option.value = a.id;
+              option.textContent = a.name;
+              partnerDropDown.appendChild(option);
+            });
+
+            document.getElementById('district-div').style.display = 'block';
+          })
+          .catch(error => {
+            console.error('Error fetching data:', error);
+          });
+
+        document.getElementById('partner-div').style.display = 'block';
+      } else {
+        document.getElementById('partner-div').style.display = 'none';
+      }
+    }
+  </script>
+
+   <!-- Download Script -->
+   <script>
+    document.getElementById('downloadBtn').addEventListener('click', async () => {
+        try {
+            const tableName = 'lead_qualification';
+            if (!tableName) return;
+            const response = await fetch(`/download/${tableName}`);
+            
+            const a = document.createElement('a');
+            a.href = `https://admin.solarvipani.com/csv/${tableName}.csv`;
+            a.download = `${tableName}.csv`;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        } catch (error) {
+            // console.error('Error:', error);
+        }
+    });
+  </script>
+
+  <%- include('footer') %>

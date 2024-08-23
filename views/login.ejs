@@ -1,0 +1,38 @@
+<div class="fixed inset-3 sm:inset-5 rounded-3xl p-2 sm:p-4 lg:p-5 xl:p-9 grid" id="manbody">
+    <div class="backdrop-blur-md p-8 w-full sm:w-96 lg:w-3/12 m-auto rounded-3xl" style="background: #0c0e0d1f;">
+        <div>
+            <div class="mb-3 ">
+                <div class="flex flex-row justify-center">
+                </div>
+                <div class="flex flex-row justify-center">
+                    <div class="my-auto"><span class="col-span-5 text-2xl font-semibold" style="color: #5d8027;"><%- process.env.APPNAME %></span></div>
+                </div>
+            </div>
+            <div class="ml-2">
+                <div class="mb-4">
+                    <div class="text-3xl mb-1.5 tracking-wider font-semibold" style="text-align:center">Login</div>
+                    <div class="offcolor" style="text-align:center">Login to manage your account</div>
+                </div>
+                <div class="mb-5">
+                    <form method="POST" action="/login">
+                        <div class="mb-1">
+                            <div class="mb-1 font-medium">Email / Phone number</div>
+                            <div><input type="text" name="username" id="username" class="loginfiled"></div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="mb-1 font-medium">Password</div>
+                            <div><input type="password" name="userpass" id="userpass" class="loginfiled"></div>
+                        </div>
+                        <div class="mb-1">
+                            <button class="loginbtn">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <div class="text-center">Hey, Enter your details to get login to your account</div>
+                    <div class="text-center mb-2">Copyright Solar Vipani 2024</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

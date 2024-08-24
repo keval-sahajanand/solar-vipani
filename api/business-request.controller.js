@@ -4,9 +4,9 @@ function businessRequestController() {
   return {
     async newBusinessAddRequest (req,res){
       try {
-        const {name,address,mapPin,phoneNumber,email,website,gstnNumber,state,district,type}=req.body
+        const {name,address,mapPin,phoneNumber,email,website,gstnNumber,state,district,city,type}=req.body
 
-        if(name ===  '' || address === '' || mapPin === '' || phoneNumber === '' || state === '' || district === ''){
+        if(name ===  '' || address === '' || mapPin === '' || phoneNumber === ''|| city==='' || state === '' || district === ''){
           return res.json({
             res:false,
             message:'All parameters are required!'
@@ -23,6 +23,7 @@ function businessRequestController() {
           gstnNumber: req.body.gstnNumber?req.body.gstnNumber:null,
           state: state,
           district: district,
+          city:city,
           type:type
         });    
 

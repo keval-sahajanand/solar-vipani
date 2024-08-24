@@ -40,7 +40,7 @@
                                     <td style="word-break: break-word"><%- data.isApprove %></td>
                                     <td style="word-break: break-word"><%- data.type %></td>
                                     <td><a class="p-2 cursor-pointer"
-                                            onclick="editapplicationmodel({name:'<%-btoa(data.name)%>',phoneNumber:'<%- data.phoneNumber %>',id:'<%- data.id %>',address:'<%- btoa(data.address)%>',mapPin:'<%- data.mapPin %>',email:'<%- data.email %>',website:'<%- data.website%>',gstnNumber:'<%- data.gstnNumber%>',state:'<%- data.state %>',district:'<%- data.district %>',type:'<%- data.type %>'})"><i
+                                            onclick="editapplicationmodel({name:'<%-btoa(data.name)%>',phoneNumber:'<%- data.phoneNumber %>',id:'<%- data.id %>',address:'<%- btoa(data.address)%>',mapPin:'<%- data.mapPin %>',email:'<%- data.email %>',website:'<%- data.website%>',gstnNumber:'<%- data.gstnNumber%>',state:'<%- data.state %>',district:'<%- data.district %>',type:'<%- data.type %>',city:'<%- data.city%>'})"><i
                                                 class="fa-solid fa-pen-to-square" style="color: #25d366;"></i></a>
                                         <a class="p-2 cursor-pointer" onclick="deletemodel({id:'<%- data.id %>'})"><i
                                                 class="fa-solid fa-trash" style="color: #e9562a;"></i></a>
@@ -145,6 +145,13 @@
                                                     required readonly>
                                             </div>
                                         </div>
+                                        <div class="mb-1 lg:mb-3">
+                                            <div class="text-sm lg:text-base font-medium mb-1 text-left">City/Town/Area</div>
+                                            <div>
+                                                <input type="text" name="city" id="city-edit" class="textfiled"
+                                                    required readonly>
+                                            </div>
+                                        </div>
 
                                         <div class="mb-1 lg:mb-3">
                                             <div class="text-sm lg:text-base font-medium mb-1 text-left">isApprove</div>
@@ -211,6 +218,7 @@
             document.getElementById("gstnNumber-edit").value = data.gstnNumber;
             document.getElementById("state-edit").value = data.state;
             document.getElementById("district-edit").value = data.district;
+            document.getElementById("city-edit").value = data.city;
             document.getElementById("type-edit").value = data.type;
             document.getElementById("id-edit").value = data.id;
 

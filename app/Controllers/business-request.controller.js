@@ -25,7 +25,8 @@ function businessRequestController() {
           website: req.body.website,
           gstnNumber: req.body.gstnNumber?req.body.gstnNumber:null,
           state: req.body.state,
-          district: req.body.district
+          district: req.body.district,
+          districtNew:req.body.city
         });    
       }else{
         await knex('business_requests').update({

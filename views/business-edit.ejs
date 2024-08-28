@@ -52,8 +52,8 @@
                             </div>
                             <div>
                                 <input type="tel" name="phoneNumber" id="phoneNumber-edit"
-                                    pattern="[0-9]{10}" maxlength="10"
-                                    title="Please enter 10 digit phone number" class="textfiled" value="<%- data.phoneNumber %>"
+                                    pattern="[0-9]{10}" maxlength="15"
+                                    title="Please enter 15 digit phone number" class="textfiled" value="<%- data.phoneNumber %>"
                                     required>
                                 <span class="error-msg" id="phoneError-edit"></span>
                             </div>
@@ -163,6 +163,25 @@
                                 <textarea name="notes" id="edit-notes"  class="textfiled"><%- data.notes %></textarea>
                             </div>
                         </div>
+                       
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Recommendation Score</div>
+                            <div>
+                                <input type="number" name="score" id="score-edit" class="textfiled" value="<%- data.score %>" min="0" max="100" required>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-1 lg:mb-3">
+                            <div class="text-sm lg:text-base font-medium mb-1 text-left">Visibility
+                            </div>
+                            <div>
+                                <select name="isVisible" id="edit-isVisible" class="textfiled" required>
+                                    <option value="visible" <% if(data.isVisible === 'visible') { %>selected<% } %>>Visible</option>
+                                    <option value="hidden" <% if(data.isVisible === 'hidden') { %>selected<% } %>>Hidden</option>
+                                </select>
+                            </div>
+                        </div>
+
 
                         <div class="mb-1 lg:mb-3">
 
@@ -185,7 +204,8 @@
 
 <script>
   const districtValue = "<%- data.district %>";
- 
+  const cityValue = "<%- data.districtNew %>";
+
    document.addEventListener('DOMContentLoaded', async function() {
        const stateValue = document.getElementById('state-edit').value;
        const districtDropdownEdit = document.getElementById('district-edit');
@@ -241,6 +261,9 @@
                             const option = document.createElement('option');
                             option.value = district;
                             option.textContent = district;
+                            if (cityValue === district) {
+                            option.selected = true;
+                        }
                             districtNewDropdown.appendChild(option);
                         });
 

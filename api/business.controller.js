@@ -149,6 +149,42 @@ function businessController() {
           message: 'Somthing went to Wrong.',
         })
       }
+    },
+
+    async businessDetailsCity(req,res){
+      try {
+
+        const { city } = req.params;
+        const {page,limit}=req.query
+// console.log(district);
+
+        const data = await knex('business_list')
+          .select('id', 'name', 'address', 'mapPin', 'phoneNumber', 'email', 'website', 'gstnNumber', 'state', 'district', "districtNew as city",'usefull as helpful', 'unUsefull as notHelpful', 'note',"slug")
+          .where("districtNew","LIKE", `%${city}%`)
+          .where("isVisible","visible")
+          .orderBy("score","desc")
+          .paginate({ perPage:limit?parseInt(limit):9, currentPage:page?parseInt(page): 1 });
+
+        if (!data) {
+          return res.json({
+            res: false,
+            message: 'Business details not found.',
+          })
+        }
+
+        return res.json({
+          res: true,
+          message: 'Success',
+          data: data.data,
+          pagination:data.pagination
+        })
+
+      } catch (error) {
+        return res.json({
+          res: false,
+          message: 'Somthing went to Wrong.',
+        })
+      }
     }
   }
 }

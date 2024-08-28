@@ -63,7 +63,9 @@ function businessListController() {
             districtNew:req.body.districtNew,
             email: req.body.phoneNumber,
             notes:req.body.notes,
-            type:'subAdmin'
+            type:'subAdmin',
+            score:req.body.score,
+            isVisible:req.body.isVisible
           })
         }
       }
@@ -91,6 +93,8 @@ function businessListController() {
           slug:req.body.slug,
           notes:req.body.notes,
           districtNew:req.body.districtNew,
+          score:req.body.score,
+          isVisible:req.body.isVisible
         }).where('id', data.id);
       }
       return res.redirect('/admin/business')

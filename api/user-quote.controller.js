@@ -4,7 +4,7 @@ function userQuoteController() {
   
   return {
     async userQuoteAdd(req,res){
-      const {systemSize,type,city,name,email,phoneNumber,state,pageType,pinCode}=req.body
+      const {systemSize,type,city,name,email,phoneNumber,state,pageType,pinCode,comment}=req.body
 
       if( type === '' || city === '' || state=== ''){
         return res.json({
@@ -12,7 +12,7 @@ function userQuoteController() {
           message:'All parameters are required!'
         })
       }
-      console.log(req.body);
+      // console.log(req.body);
 
       await knex('get_user_quote').insert({
         name:req.body.name? name: '---',
@@ -24,7 +24,8 @@ function userQuoteController() {
         state:state,
         pageType:pageType,
         pinCode:pinCode,
-        gclid_field: req.body.gclid_field?req.body.gclid_field: "---"
+        gclid_field: req.body.gclid_field?req.body.gclid_field: "---",
+        comment:req.body.comment?comment:"---"
       })
 
       await knex('lead_qualification').insert({
@@ -38,6 +39,7 @@ function userQuoteController() {
         notes:"",
         pageType:pageType,
         pinCode:pinCode,
+        comment:req.body.comment?comment:"---"
       })
 
       return res.json({

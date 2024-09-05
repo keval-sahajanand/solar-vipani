@@ -106,11 +106,14 @@
                                                 <select name="state" id="state" class="textfiled" required
                                                     onchange="toggleDistrictInput()">
                                                     <option value="">Select State</option>
+                                                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar
+                                                        Islands</option>
                                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                                                     <option value="Assam">Assam</option>
                                                     <option value="Bihar">Bihar</option>
                                                     <option value="Chhattisgarh">Chhattisgarh</option>
+                                                    <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
                                                     <option value="Goa">Goa</option>
                                                     <option value="Gujarat">Gujarat</option>
                                                     <option value="Haryana">Haryana</option>
@@ -135,11 +138,7 @@
                                                     <option value="Uttar Pradesh">Uttar Pradesh</option>
                                                     <option value="Uttarakhand">Uttarakhand</option>
                                                     <option value="WestBengal">West Bengal</option>
-                                                    <option value="AndamanNicobar">Andaman Nicobar</option>
                                                     <option value="Chandigarh">Chandigarh</option>
-                                                    <option value="Dadra And Nagar Haveli And DamanAndDiu">Dadra and
-                                                        Nagar
-                                                        Haveli and Daman and Diu</option>
                                                     <option value="Delhi">Delhi</option>
                                                     <option value="Lakshadweep">Lakshadweep</option>
                                                     <option value="Ladakh">Ladakh</option>
@@ -188,6 +187,9 @@
                         <div>
                             <select name="stateapi" id="stateapi" class="textfiled" required onchange="selectState()">
                                 <option value="">Select State</option>
+                                <option value="Andaman and Nicobar Islands" <% if(state==='Andaman and Nicobar Islands'
+                                    ) { %>selected<% } %>
+                                        >Andaman and Nicobar Islands</option>
                                 <option value="Andhra Pradesh" <% if(state==='Andhra Pradesh' ) { %>selected<% } %>
                                         >Andhra Pradesh</option>
                                 <option value="Arunachal Pradesh" <% if(state==='Arunachal Pradesh' ) { %>selected<% }
@@ -196,6 +198,9 @@
                                 <option value="Bihar" <% if(state==='Bihar' ) { %>selected<% } %>>Bihar</option>
                                 <option value="Chhattisgarh" <% if(state==='Chhattisgarh' ) { %>selected<% } %>
                                         >Chhattisgarh</option>
+                                <option value="Dadra And Nagar Haveli And Daman And Diu" <%
+                                    if(state==='Dadra And Nagar Haveli And Daman And Diu' ) { %>selected<% } %>>Dadra
+                                        and Nagar Haveli and Daman and Diu</option>
                                 <option value="Goa" <% if(state==='Goa' ) { %>selected<% } %>>Goa</option>
                                 <option value="Gujarat" <% if(state==='Gujarat' ) { %>selected<% } %>>Gujarat</option>
                                 <option value="Haryana" <% if(state==='Haryana' ) { %>selected<% } %>>Haryana</option>
@@ -232,13 +237,10 @@
                                         >Uttarakhand</option>
                                 <option value="WestBengal" <% if(state==='WestBengal' ) { %>selected<% } %>>West Bengal
                                 </option>
-                                <option value="Andaman Nicobar" <% if(state==='Andaman Nicobar' ) { %>selected<% } %>
-                                        >Andaman Nicobar</option>
+
                                 <option value="Chandigarh" <% if(state==='Chandigarh' ) { %>selected<% } %>>Chandigarh
                                 </option>
-                                <option value="Dadra And Nagar Haveli And Daman And Diu" <%
-                                    if(state==='Dadra And Nagar Haveli And Daman And Diu' ) { %>selected<% } %>>Dadra
-                                        and Nagar Haveli and Daman and Diu</option>
+
                                 <option value="Delhi" <% if(state==='Delhi' ) { %>selected<% } %>>Delhi</option>
                                 <option value="Lakshadweep" <% if(state==='Lakshadweep' ) { %>selected<% } %>
                                         >Lakshadweep</option>
@@ -284,6 +286,7 @@
                         </tbody>
                     </table>
                 </div>
+
                 <!-- Edit Model -->
                 <div class="absolute inset-0 backdrop-blur-xl rounded-xl p-3 lg:p-10 grid overflow-scroll hidden"
                     id="editpopupmodul" style="background: #b5b8c570;">
@@ -633,7 +636,7 @@
                     .then(data => {
                         // Clear existing options if needed
                         districtDropdown.innerHTML = '';
-                        
+
 
                         data.districts.forEach(district => {
                             const option = document.createElement('option');
@@ -666,7 +669,7 @@
             // option.textContent = selectedState;
             // districtNewDropdown.appendChild(option);
 
-            
+
 
             if (selectedState !== '') {
                 fetch(`/citys/${selectedState}`)
@@ -674,7 +677,7 @@
                     .then(data => {
                         // Clear existing options if needed
                         districtNewDropdown.innerHTML = '';
-                       
+
                         data.city.forEach(district => {
                             const option = document.createElement('option');
                             option.value = district;

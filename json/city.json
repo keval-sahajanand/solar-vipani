@@ -4599,121 +4599,371 @@
     },
     "Bokaro": {
         "data": [
-            "Bokaro"
+            "Bermo",
+            "Bokaro",
+            "Chandankiyari",
+            "Chandrapura",
+            "Chas",
+            "Gomia",
+            "Jaridih",
+            "Kasmar",
+            "Nawadih",
+            "Peterwar"
         ]
     },
     "Chatra": {
         "data": [
-            "Chatra"
+            "Chatra",
+            "Gidhaur",
+            "Itkhori",
+            "Kanha Chatti",
+            "Kunda",
+            "Lawalaung",
+            "Mayur Hand",
+            "Pathalgora",
+            "Pratappur",
+            "Shaligram Ram Narayanpur (Hunterganj)",
+            "Simaria",
+            "Tandwa"
         ]
     },
     "Deoghar": {
         "data": [
-            "Deoghar"
+            "Deoghar",
+            "Devipur",
+            "Karon",
+            "Madhupur",
+            "Margo Munda",
+            "Mohanpur",
+            "Palojori",
+            "Sarath",
+            "Sarwan",
+            "Sona Rai Tharhi"
         ]
     },
     "Dhanbad": {
         "data": [
-            "Dhanbad"
+            "Baghmara-Cum-Katras",
+            "Baliapur",
+            "Dhanbad",
+            "Dhanbad-Cum-Kenduadih-Cum-Jagata",
+            "Egarkund",
+            "Gobindpur",
+            "Jharia-Cum-Jorapokhar-Cum-Sindri",
+            "Kariasol",
+            "Nirsa-Cum-Chirkunda",
+            "Purbi Tundi",
+            "Topchanchi",
+            "Tundi"
         ]
     },
     "Dumka": {
         "data": [
-            "Dumka"
+            "Dumka",
+            "Gopikandar",
+            "Jama",
+            "Jarmundi",
+            "Kathikund",
+            "Masalia",
+            "Ramgarh",
+            "Ranishwar",
+            "Saraiyahat",
+            "Shikaripara"
         ]
     },
-    "East Singhbhum": {
+    "East Singhbum": {
         "data": [
-            "East Singhbhum"
+            "Baharagora",
+            "Boram",
+            "Chakulia",
+            "Dhalbhumgarh",
+            "Dumaria",
+            "East Singhbum",
+            "Ghatshila",
+            "Golmuri-Cum-Jugsalai",
+            "Gurbandha",
+            "Musabani",
+            "Patamda",
+            "Potka"
         ]
     },
     "Garhwa": {
         "data": [
-            "Garhwa"
+            "Bardiha",
+            "Bargarh",
+            "Bhandaria",
+            "Bhawnathpur",
+            "Bishunpura",
+            "Chinia",
+            "Danda",
+            "Dandai",
+            "Dhurki",
+            "Garhwa",
+            "Kandi",
+            "Ketar",
+            "Kharaundhi",
+            "Majhiaon",
+            "Meral (Pipra Kalan)",
+            "Nagaruntari",
+            "Ramkanda",
+            "Ramna",
+            "Ranka",
+            "Sagma"
         ]
     },
     "Giridih": {
         "data": [
-            "Giridih"
+            "Bagodar",
+            "Bengabad",
+            "Birni",
+            "Deori",
+            "Dhanwar",
+            "Dumri",
+            "Gandey",
+            "Gawan",
+            "Giridih",
+            "Jamua",
+            "Pirtanr",
+            "Suriya",
+            "Tisri"
         ]
     },
     "Godda": {
         "data": [
-            "Godda"
+            "Bashant Rai",
+            "Boarijor",
+            "Godda",
+            "Mahagama",
+            "Meherma",
+            "Pathargama",
+            "Poreyahat",
+            "Sundarpahari",
+            "Thakurgangti"
         ]
     },
     "Gumla": {
         "data": [
-            "Gumla"
+            "Albert Ekka(Jari)",
+            "Basia",
+            "Bharno",
+            "Bishunpur",
+            "Chainpur",
+            "Dumri",
+            "Ghaghra",
+            "Gumla",
+            "Kamdara",
+            "Palkot",
+            "Raidih",
+            "Sisai"
         ]
     },
     "Hazaribagh": {
         "data": [
-            "Hazaribagh"
+            "Barhi",
+            "Barkagaon",
+            "Barkatha",
+            "Bishungarh",
+            "Chalkusa",
+            "Chauparan",
+            "Churchu",
+            "Dadi",
+            "Daru",
+            "Hazaribag",
+            "Hazaribagh",
+            "Ichak",
+            "Katamdag",
+            "Katkamsandi",
+            "Keredari",
+            "Padma",
+            "Tati Jhariya"
         ]
     },
     "Jamtara": {
         "data": [
-            "Jamtara"
+            "Fatehpur",
+            "Jamtara",
+            "Karma Tanr Vidyasagar",
+            "Kundhit",
+            "Nala",
+            "Narayanpur"
         ]
     },
     "Khunti": {
         "data": [
-            "Khunti"
+            "Erki(Tamar II)",
+            "Karra",
+            "Khunti",
+            "Murhu",
+            "Rania",
+            "Torpa"
         ]
     },
     "Koderma": {
         "data": [
-            "Koderma"
+            "Chandwara",
+            "Domchanch",
+            "Jainagar",
+            "Koderma",
+            "Markacho",
+            "Satgawan"
         ]
     },
     "Latehar": {
         "data": [
-            "Latehar"
+            "Balumath",
+            "Bariyatu",
+            "Barwadih",
+            "Chandwa",
+            "Garu",
+            "Herhanj",
+            "Latehar",
+            "Mahuadanr",
+            "Manika"
         ]
     },
     "Lohardaga": {
         "data": [
-            "Lohardaga"
+            "Bhandra",
+            "Kairo",
+            "Kisko",
+            "Kuru",
+            "Lohardaga",
+            "Peshrar",
+            "Senha"
         ]
     },
     "Pakur": {
         "data": [
-            "Pakur"
+            "Amrapara",
+            "Hiranpur",
+            "Litipara",
+            "Maheshpur",
+            "Pakaur",
+            "Pakur",
+            "Pakuria"
         ]
     },
     "Palamu": {
         "data": [
-            "Palamu"
+            "Bishrampur",
+            "Chainpur",
+            "Chhatarpur",
+            "Haidernagar",
+            "Hariharganj",
+            "Hussainabad",
+            "Manatu",
+            "Medininagar(Daltonganj)",
+            "Mohammad Ganj",
+            "Nawa Bazar",
+            "Nawadiha Bazar/Nawadiha",
+            "Nilambar-Pitambarpur(Lesliganj)",
+            "Padwa",
+            "Palamu",
+            "Pandu",
+            "Panki",
+            "Patan",
+            "Pipra",
+            "Ramgarh",
+            "Satbarwa",
+            "Tarhasi",
+            "Untari Road"
         ]
     },
     "Ramgarh": {
         "data": [
+            "Chitarpur",
+            "Dulmi",
+            "Gola",
+            "Mandu",
+            "Patratu",
             "Ramgarh"
         ]
     },
     "Ranchi": {
         "data": [
-            "Ranchi"
+            "Angara",
+            "Bero",
+            "Bundu",
+            "Burmu",
+            "Chanho",
+            "Itki",
+            "Kanke",
+            "Khelari",
+            "Lapung",
+            "Mandar",
+            "Nagri",
+            "Namkum",
+            "Ormanjhi",
+            "Rahe",
+            "Ranchi",
+            "Ratu",
+            "Silli",
+            "Sonahatu",
+            "Tamar I"
         ]
     },
     "Sahebganj": {
         "data": [
-            "Sahebganj"
+            "Barhait",
+            "Barharwa",
+            "Borio",
+            "Mandro",
+            "Pathna",
+            "Rajmahal",
+            "Sahebganj",
+            "Sahibganj",
+            "Taljhari",
+            "Udhwa"
         ]
     },
-    "Seraikela Kharsawan": {
+    "Saraikela Kharsawan": {
         "data": [
-            "Seraikela Kharsawan"
+            "Adityapur(Gamharia)",
+            "Chandil",
+            "Gobindpur(Rajnagar)",
+            "Ichagarh",
+            "Kharsawan",
+            "Kuchai",
+            "Kukru",
+            "Nimdih",
+            "Saraikela",
+            "Saraikela Kharsawan"
         ]
     },
     "Simdega": {
         "data": [
-            "Simdega"
+            "Bano",
+            "Bansjor",
+            "Bolba",
+            "Jaldega",
+            "Kersai",
+            "Kolebira",
+            "Kurdeg",
+            "Pakar Tanr",
+            "Simdega",
+            "Thethaitangar"
         ]
     },
     "West Singhbhum": {
         "data": [
+            "Anandpur",
+            "Bandgaon",
+            "Chaibasa",
+            "Chakradharpur",
+            "Goilkera",
+            "Gudri",
+            "Hat Gamharia",
+            "Jagannathpur",
+            "Jhinkpani",
+            "Khuntpani",
+            "Kumardungi",
+            "Majhgaon",
+            "Manjhari",
+            "Manoharpur",
+            "Noamundi",
+            "Sonua",
+            "Tantnagar",
+            "Tonto",
             "West Singhbhum"
         ]
     },

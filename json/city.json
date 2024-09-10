@@ -4967,158 +4967,376 @@
             "West Singhbhum"
         ]
     },
-    "Bagalkot": {
+    "Bagalkote": {
         "data": [
-            "Bagalkot"
+            "Badami",
+            "Bagalkot",
+            "Bagalkote",
+            "Bilgi",
+            "Guledgudda",
+            "Hungund",
+            "Ilkal",
+            "Jamkhandi",
+            "Mudhol",
+            "Rabakavi Banahatti",
+            "Terdal"
         ]
     },
-    "Bangalore Rural": {
+    "Ballari": {
         "data": [
-            "Bangalore Rural"
+            "Ballari",
+            "Kampli",
+            "Kurugodu",
+            "Sandur",
+            "Siruguppa"
         ]
     },
-    "Bangalore Urban": {
+    "Belagavi": {
         "data": [
-            "Bangalore Urban"
+            "Athni",
+            "Bailahongala",
+            "Belagavi",
+            "Chikodi",
+            "Gokak",
+            "Hukeri",
+            "Kagwad",
+            "Khanapur",
+            "Kittur",
+            "Mudalgi",
+            "Nippani",
+            "Ramdurg",
+            "Raybag",
+            "Savadatti",
+            "Yaragatti"
         ]
     },
-    "Belgaum": {
+    "Bengaluru Rural": {
         "data": [
-            "Belgaum"
+            "Bengaluru Rural",
+            "Devanahalli",
+            "Dodda Ballapur",
+            "Hosakote",
+            "Nelamangala"
         ]
     },
-    "Bellary": {
+    "Bengaluru Urban": {
         "data": [
-            "Bellary"
+            "Anekal",
+            "Bengaluru East",
+            "Bengaluru North",
+            "Bengaluru South",
+            "Bengaluru Urban",
+            "Yelahanka"
         ]
     },
     "Bidar": {
         "data": [
-            "Bidar"
+            "Aurad",
+            "Basavakalyan",
+            "Bhalki",
+            "Bidar",
+            "Chitaguppa",
+            "Homnabad",
+            "Hulsoor",
+            "Kamalnagar"
         ]
     },
-    "Chamarajanagar": {
+    "Chamarajanagara": {
         "data": [
-            "Chamarajanagar"
+            "Chamarajanagar",
+            "Chamarajanagara",
+            "Gundlupet",
+            "Hanur",
+            "Kollegal",
+            "Yelandur"
         ]
     },
-    "Chikkaballapur": {
+    "Chikkaballapura": {
         "data": [
-            "Chikkaballapur"
+            "Bagepalli",
+            "Chelur",
+            "Chikkaballapura",
+            "Chintamani",
+            "Gauribidanur",
+            "Gudibanda",
+            "Manchenahalli",
+            "Sidlaghatta"
         ]
     },
     "Chikkamagaluru": {
         "data": [
-            "Chikkamagaluru"
+            "Ajjampura",
+            "Chikkamagaluru",
+            "Kadur",
+            "Kalasa",
+            "Koppa",
+            "Mudigere",
+            "Narasimharajapura",
+            "Sringeri",
+            "Tarikere"
         ]
     },
     "Chitradurga": {
         "data": [
-            "Chitradurga"
+            "Challakere",
+            "Chitradurga",
+            "Hiriyur",
+            "Holalkere",
+            "Hosdurga",
+            "Molakalmuru"
         ]
     },
     "Dakshina Kannada": {
         "data": [
-            "Dakshina Kannada"
+            "Bantval",
+            "Beltangadi",
+            "Dakshina Kannada",
+            "Kadaba",
+            "Mangaluru",
+            "Moodubidire",
+            "Mulki",
+            "Puttur",
+            "Sulya",
+            "Ullala"
         ]
     },
-    "Davanagere": {
+    "Davangere": {
         "data": [
-            "Davanagere"
+            "Channagiri",
+            "Davanagere",
+            "Davangere",
+            "Harihar",
+            "Honnali",
+            "Jagalur",
+            "Nyamathi"
         ]
     },
     "Dharwad": {
         "data": [
-            "Dharwad"
+            "Alnavar",
+            "Annigeri",
+            "Dharwad",
+            "Hubballi",
+            "Hubballi Urban",
+            "Kalghatgi",
+            "Kundgol",
+            "Navalgund"
         ]
     },
     "Gadag": {
         "data": [
-            "Gadag"
+            "Gadag",
+            "Gajendragad",
+            "Laxmeshwar",
+            "Mundargi",
+            "Nargund",
+            "Ron",
+            "Shirhatti"
         ]
     },
     "Kalaburagi": {
         "data": [
-            "Kalaburagi"
+            "Afzalpur",
+            "Aland",
+            "Chincholi",
+            "Chittapur",
+            "Jevargi",
+            "Kalaburagi",
+            "Kalagi",
+            "Kamalapur",
+            "Sedam",
+            "Shahabad",
+            "Yadrami"
         ]
     },
     "Hassan": {
         "data": [
-            "Hassan"
+            "Alur",
+            "Arkalgud",
+            "Arsikere",
+            "Belur",
+            "Channarayapatna",
+            "Hassan",
+            "Hole Narsipur",
+            "Sakleshpur"
         ]
     },
     "Haveri": {
         "data": [
-            "Haveri"
+            "Byadgi",
+            "Hangal",
+            "Haveri",
+            "Hirekerur",
+            "Ranibennur",
+            "Rattihalli",
+            "Savanur",
+            "Shiggaon"
         ]
     },
     "Kodagu": {
         "data": [
-            "Kodagu"
+            "Kodagu",
+            "Kushalanagar",
+            "Madikeri",
+            "Ponnampet",
+            "Somvarpet",
+            "Virajpet"
         ]
     },
     "Kolar": {
         "data": [
-            "Kolar"
+            "Bangarapet",
+            "Kolar",
+            "Kolar Gold Field",
+            "Malur",
+            "Mulbagal",
+            "Srinivaspur"
         ]
     },
     "Koppal": {
         "data": [
-            "Koppal"
+            "Gangawati",
+            "Kanakagiri",
+            "Karatagi",
+            "Koppal",
+            "Kukunoor",
+            "Kushtagi",
+            "Yelbarga"
         ]
     },
     "Mandya": {
         "data": [
-            "Mandya"
+            "Krishnarajpet",
+            "Maddur",
+            "Malavalli",
+            "Mandya",
+            "Nagamangala",
+            "Pandavapura",
+            "Shrirangapattana"
         ]
     },
-    "Mysore": {
+    "Mysuru": {
         "data": [
-            "Mysore"
+            "Heggadadevankote",
+            "Hunsur",
+            "Krishnarajanagara",
+            "Mysuru",
+            "Nanjangud",
+            "Piriyapatna",
+            "Saligrama",
+            "Saraguru",
+            "Tirumakudal - Narsipur"
         ]
     },
     "Raichur": {
         "data": [
-            "Raichur"
+            "Arakera",
+            "Devadurga",
+            "Lingsugur",
+            "Manvi",
+            "Maski",
+            "Raichur",
+            "Sindhnur",
+            "Sirwar"
         ]
     },
     "Ramanagara": {
         "data": [
+            "Channapatna",
+            "Harohalli",
+            "Kanakapura",
+            "Magadi",
             "Ramanagara"
         ]
     },
-    "Shimoga": {
+    "Shivamogga": {
         "data": [
-            "Shimoga"
+            "Bhadravati",
+            "Hosanagara",
+            "Sagar",
+            "Shikarpur",
+            "Shivamogga",
+            "Sorab",
+            "Tirthahalli"
         ]
     },
-    "Tumkur": {
+    "Tumakuru": {
         "data": [
-            "Tumkur"
+            "Chiknayakanhalli",
+            "Gubbi",
+            "Koratagere",
+            "Kunigal",
+            "Madhugiri",
+            "Pavagada",
+            "Sira",
+            "Tiptur",
+            "Tumakuru",
+            "Turuvekere"
         ]
     },
     "Udupi": {
         "data": [
+            "Bainduru",
+            "Brahmavara",
+            "Hebri",
+            "Kapu",
+            "Karkal",
+            "Kundapura",
             "Udupi"
         ]
     },
     "Uttara Kannada": {
         "data": [
-            "Uttara Kannada"
+            "Ankola",
+            "Bhatkal",
+            "Dandeli",
+            "Haliyal",
+            "Honavar",
+            "Karwar",
+            "Kumta",
+            "Mundgod",
+            "Siddapur",
+            "Sirsi",
+            "Supa",
+            "Uttara Kannada",
+            "Yellapur"
         ]
     },
-    "Vijayanagara": {
+    "Vijayanagar": {
         "data": [
-            "Vijayanagara"
+            "Hadagalli",
+            "Hagaribommanahalli",
+            "Harapanahalli",
+            "Hosapete",
+            "Kotturu",
+            "Kudligi",
+            "Vijayanagar"
         ]
     },
     "Vijayapura": {
         "data": [
+            "Almel",
+            "Babaleshwar",
+            "Basavana Bagevadi",
+            "Chadachan",
+            "Devara Hipparagi",
+            "Indi",
+            "Kolhar",
+            "Muddebihal",
+            "Nidagundi",
+            "Sindgi",
+            "Talikoti",
+            "Tikota",
             "Vijayapura"
         ]
     },
     "Yadgir": {
         "data": [
+            "Gurumitkal",
+            "Hunasagi",
+            "Shahpur",
+            "Shorapur",
+            "Wadagera",
             "Yadgir"
         ]
     },

@@ -5342,57 +5342,112 @@
     },
     "Alappuzha": {
         "data": [
-            "Alappuzha"
+            "Alappuzha",
+            "Ambalappuzha",
+            "Chengannur",
+            "Cherthala",
+            "Karthikappally",
+            "Kuttanad",
+            "Mavelikkara"
         ]
     },
     "Ernakulam": {
         "data": [
-            "Ernakulam"
+            "Aluva",
+            "Ernakulam",
+            "Kanayannur",
+            "Kochi",
+            "Kothamangalam",
+            "Kunnathunad",
+            "Muvattupuzha",
+            "Paravur"
         ]
     },
     "Idukki": {
         "data": [
-            "Idukki"
+            "Devikulam",
+            "Idukki",
+            "Peerumade",
+            "Thodupuzha",
+            "Udumbanchola"
         ]
     },
     "Kannur": {
         "data": [
-            "Kannur"
+            "Iritty",
+            "Kannur",
+            "Payyannur",
+            "Taliparamba",
+            "Thalassery"
         ]
     },
     "Kasaragod": {
         "data": [
-            "Kasaragod"
+            "Hosdurg",
+            "Kasaragod",
+            "Manjeswaram",
+            "Vellarikkundu"
         ]
     },
     "Kollam": {
         "data": [
-            "Kollam"
+            "Karunagappally",
+            "Kollam",
+            "Kottarakkara",
+            "Kunnathur",
+            "Pathanapuram",
+            "Punalur"
         ]
     },
     "Kottayam": {
         "data": [
-            "Kottayam"
+            "Changanassery",
+            "Kanjirappally",
+            "Kottayam",
+            "Meenachil",
+            "Vaikom"
         ]
     },
     "Kozhikode": {
         "data": [
-            "Kozhikode"
+            "Koyilandi",
+            "Kozhikode",
+            "Thamarassery",
+            "Vatakara"
         ]
     },
     "Malappuram": {
         "data": [
-            "Malappuram"
+            "Ernad",
+            "Kondotty",
+            "Malappuram",
+            "Nilambur",
+            "Perinthalmanna",
+            "Ponnani",
+            "Tirur",
+            "Tirurangadi"
         ]
     },
     "Palakkad": {
         "data": [
-            "Palakkad"
+            "Alathur",
+            "Chittur",
+            "Mannarkad",
+            "Ottappalam",
+            "Palakkad",
+            "Pattambi",
+            "Tribal Taluk Office Attappadi"
         ]
     },
     "Pathanamthitta": {
         "data": [
-            "Pathanamthitta"
+            "Adoor",
+            "Konni",
+            "Kozhenchery",
+            "Mallappally",
+            "Pathanamthitta",
+            "Ranni",
+            "Thiruvalla"
         ]
     },
     "Thiruvananthapuram": {

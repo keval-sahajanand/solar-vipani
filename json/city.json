@@ -902,398 +902,672 @@
     },
     "Agra": {
         "data": [
-            "Agra"
-        ]
+            "Aligarh",
+            "Atrauli",
+            "Gabhana",
+            "Iglas",
+            "Khair",
+            "Koil"
+          ]
     },
     "Aligarh": {
         "data": [
-            "Aligarh"
-        ]
+            "Aligarh",
+            "Atrauli",
+            "Gabhana",
+            "Iglas",
+            "Khair",
+            "Koil"
+          ]
     },
     "Ambedkar Nagar": {
         "data": [
-            "Ambedkar Nagar"
-        ]
+            "Akbarpur",
+            "Allapur",
+            "Ambedkar Nagar",
+            "Bhiti",
+            "Jalalpur",
+            "Tanda"
+          ]
     },
     "Amethi": {
         "data": [
-            "Amethi"
-        ]
+            "Amethi",
+            "Gauriganj",
+            "Musafirkhana",
+            "Tiloi"
+          ]
     },
     "Amroha": {
         "data": [
-            "South Amroha"
-        ]
+            "Amroha",
+            "Dhanaura",
+            "Hasanpur",
+            "Naugawan Sadat"
+          ]
     },
     "Auraiya": {
         "data": [
-            "Auraiya"
-        ]
+            "Ajitmal",
+            "Auraiya",
+            "Bidhuna"
+          ]
     },
     "Ayodhya": {
         "data": [
-            "Ayodhya"
-        ]
+            "Ayodhya",
+            "Bikapur",
+            "Faizabad",
+            "Milkipur",
+            "Rudauli",
+            "Sohawal"
+          ]
     },
     "Azamgarh": {
         "data": [
-            "Azamgarh"
-        ]
+            "Azamgarh",
+            "Burhanpur",
+            "Lalganj",
+            "Martinganjon",
+            "Mehnagar",
+            "Nizamabad",
+            "Phulpur",
+            "Sagri"
+          ]
     },
     "Baghpat": {
         "data": [
-            "Baghpat"
-        ]
+            "Baghpat",
+            "Baraut",
+            "Khekada"
+          ]
     },
     "Bahraich": {
         "data": [
-            "Bahraich"
-        ]
+            "Bahraich",
+            "Kaiserganj",
+            "Mahasi",
+            "Mihinpurwa Motipur",
+            "Nanpara",
+            "Payagpur"
+          ]
     },
     "Ballia": {
         "data": [
-            "Ballia"
-        ]
+            "Bairia",
+            "Ballia",
+            "Bansdih",
+            "Belthara Road",
+            "Rasra",
+            "Sikanderpur"
+          ]
     },
     "Balrampur": {
         "data": [
-            "Balrampur"
-        ]
+            "Balrampur",
+            "Tulsipur",
+            "Utraula"
+          ]
     },
     "Banda": {
         "data": [
-            "Banda"
-        ]
+            "Atarra",
+            "Baberu",
+            "Banda",
+            "Naraini",
+            "Pailani"
+          ]
     },
     "Barabanki": {
         "data": [
-            "Barabanki"
-        ]
+            "Bara Banki",
+            "Fatehpur",
+            "Haidergarh",
+            "Nawabganj",
+            "Ramnagar",
+            "Ramsanehighat",
+            "Sirauli Gauspur"
+          ]
     },
     "Bareilly": {
         "data": [
-            "Bareilly"
-        ]
+            "Aonla",
+            "Baheri",
+            "Bareilly",
+            "Faridpur",
+            "Meerganj",
+            "Nawabganj"
+          ]
     },
     "Basti": {
         "data": [
-            "Basti"
-        ]
+            "Basti",
+            "Bhanpur",
+            "Harraiya",
+            "Rudhauli"
+          ]
     },
     "Bhadohi": {
         "data": [
-            "Bhadohi"
-        ]
+            "Aurai",
+            "Bhadohi",
+            "Gyanpur"
+          ]
     },
     "Bijnor": {
         "data": [
-            "Bijnor"
-        ]
+            "Bijnor",
+            "Chandpur",
+            "Dhampur",
+            "Nagina",
+            "Najibabad"
+          ]
     },
     "Budaun": {
         "data": [
-            "Budaun"
-        ]
+            "Bilsi",
+            "Bisauli",
+            "Budaun",
+            "Dataganj",
+            "Sahaswan"
+          ]
     },
     "Bulandshahr": {
         "data": [
-            "Bulandshahr"
-        ]
+            "Anupshahr",
+            "Bulandshahr",
+            "Debai",
+            "Khurja",
+            "Shikarpur",
+            "Siana",
+            "Sikandrabad"
+          ]
     },
     "Chandauli": {
         "data": [
-            "Chandauli"
-        ]
+            "Chakia",
+            "Chandauli",
+            "Naugarh",
+            "Pandit Deendayal Upadhyay Nagar",
+            "Sakaldiha"
+          ]
     },
     "Chitrakoot": {
         "data": [
-            "Chitrakoot"
-        ]
+            "Chitrakoot",
+            "Karwi",
+            "Manikpur",
+            "Mau",
+            "Rajapur"
+          ]
     },
     "Deoria": {
         "data": [
+            "Barhaj",
+            "Bhatpar Rani",
             "Deoria",
-            "Tarkulwa"
-        ]
+            "Rudrapur",
+            "Salempur"
+          ]
     },
     "Etah": {
         "data": [
-            "Etah"
-        ]
+            "Aliganj",
+            "Etah",
+            "Jalesar"
+          ]
     },
     "Etawah": {
         "data": [
-            "Etawah"
-        ]
+            "Bharthana",
+            "Chakarnagar",
+            "Etawah",
+            "Jaswantnagar",
+            "Saifai",
+            "Takha"
+          ]
     },
     "Farrukhabad": {
         "data": [
-            "Farrukhabad"
-        ]
+            "Amritpur",
+            "Farrukhabad",
+            "Kaimganj"
+          ]
     },
     "Fatehpur": {
         "data": [
-            "Fatehpur"
-        ]
+            "Bindki",
+            "Fatehpur",
+            "Khaga"
+          ]
     },
     "Firozabad": {
         "data": [
-            "Firozabad"
-        ]
+            "Firozabad",
+            "Jasrana",
+            "Shikohabad",
+            "Sirsaganj",
+            "Tundla"
+          ]
     },
     "Gautam Buddha Nagar": {
         "data": [
-            "Gautam Buddha Nagar"
-        ]
+            "Dadri",
+            "Gautam Buddha Nagar",
+            "Jewar"
+          ]
     },
     "Ghaziabad": {
         "data": [
-            "Ghaziabad"
-        ]
+            "Ghaziabad",
+            "Loni",
+            "Modinagar"
+          ]
     },
     "Ghazipur": {
         "data": [
-            "Ghazipur"
-        ]
+            "Ghazipur",
+            "Jakhania",
+            "Kasimabad",
+            "Mohammadabad",
+            "Saidpur",
+            "Sewarai",
+            "Zamania"
+          ]
     },
     "Gonda": {
         "data": [
-            "Gonda"
-        ]
+            "Colonelganj",
+            "Gonda",
+            "Mankapur",
+            "Tarabganj"
+          ]
     },
     "Gorakhpur": {
         "data": [
+            "Bansgaon",
+            "Campierganj",
+            "Chauri Chaura",
+            "Gola",
             "Gorakhpur",
-            "Peppeganj"
-        ]
+            "Khajni",
+            "Sahjanwa"
+          ]
     },
     "Hamirpur": {
         "data": [
-            "Barsar",
-            "Bhoranj",
-            "Bhota",
-            "Dhatwal",
-            "Galore",
             "Hamirpur",
-            "Jahu",
-            "Kangoo",
-            "Lambloo",
-            "Nadaun",
-            "Tauni Devi Bamson",
-            "Tira Sujanpur"
-        ]
+            "Maudaha",
+            "Rath",
+            "Sarila"
+          ]
     },
     "Hapur": {
         "data": [
+            "Dhaulana",
+            "Garhmukteshwar",
             "Hapur"
-        ]
+          ]
     },
     "Hardoi": {
         "data": [
-            "Hardoi"
-        ]
+            "Bilgram",
+            "Hardoi",
+            "Sandila",
+            "Sawayajpur",
+            "Shahabad"
+          ]
     },
     "Hathras": {
         "data": [
-            "Hathras"
-        ]
+            "Hathras",
+            "Sadabad",
+            "Sasni",
+            "Sikandra Rao"
+          ]
     },
     "Jalaun": {
         "data": [
-            "Jalaun"
-        ]
+            "Jalaun",
+            "Kalpi",
+            "Konch",
+            "Madhogarh",
+            "Orai"
+          ]
     },
     "Jaunpur": {
-        "data": [
-            "Jaunpur"
-        ]
+        "data":  [
+            "Badlapur",
+            "Jaunpur",
+            "Kerakat",
+            "Machhlishahr",
+            "Mariahu",
+            "Shahganj"
+          ]
     },
     "Jhansi": {
         "data": [
-            "Jhansi"
-        ]
+            "Garautha",
+            "Jhansi",
+            "Mauranipur",
+            "Moth",
+            "Tahrauli"
+          ]
     },
     "Kannauj": {
         "data": [
-            "Kannauj"
-        ]
+            "Chhibramau",
+            "Kannauj",
+            "Tirwa"
+          ]
     },
     "Kanpur Dehat": {
         "data": [
-            "Kanpur Dehat"
-        ]
+            "Akbarpur",
+            "Bhognipur",
+            "Derapur",
+            "Kanpur Dehat",
+            "Maitha",
+            "Rasulabad",
+            "Sikandra"
+          ]
     },
     "Kanpur Nagar": {
         "data": [
-            "Kanpur Nagar"
-        ]
+            "Bilhaur",
+            "Ghatampur",
+            "Kanpur",
+            "Kanpur Nagar",
+            "Narwal"
+          ]
     },
     "Kasganj": {
         "data": [
-            "Kasganj"
-        ]
+            "Kasganj",
+            "Patiyali",
+            "Sahawar"
+          ]
     },
     "Kaushambi": {
         "data": [
-            "Kaushambi"
-        ]
+            "Chail",
+            "Kaushambi",
+            "Manjhanpur",
+            "Sirathu"
+          ]
     },
     "Kheri": {
-        "data": [
-            "Kheri"
-        ]
+        "data":[
+            "Dhaurahara",
+            "Gola Gokaran Nath",
+            "Kheri",
+            "Lakhimpur",
+            "Mitauli",
+            "Mohammdi",
+            "Nighasan",
+            "Palia"
+          ]
     },
     "Kushinagar": {
         "data": [
-            "Kushinagar"
-        ]
+            "Hata",
+            "Kaptanganj",
+            "Kasya",
+            "Khadda",
+            "Kushinagar",
+            "Padrauna",
+            "Tamkuhi Raj"
+          ]
     },
     "Lalitpur": {
         "data": [
-            "Lalitpur"
-        ]
+            "Lalitpur",
+            "Mahroni",
+            "Mdawara",
+            "Pali",
+            "Talbehat"
+          ]
     },
     "Lucknow": {
         "data": [
-            "Lucknow"
-        ]
+            "Bakshi Ka Talab",
+            "Lucknow",
+            "Malihabad",
+            "Mohanlalganj",
+            "Sadar",
+            "Sarojani Nagar"
+          ]
     },
     "Maharajganj": {
         "data": [
-            "Maharajganj"
-        ]
+            "Maharajganj",
+            "Mahrajganj",
+            "Nautanwa",
+            "Nichlaul",
+            "Pharenda"
+          ]
     },
     "Mahoba": {
         "data": [
+            "Charkhari",
+            "Kulpahar",
             "Mahoba"
-        ]
+          ]
     },
     "Mainpuri": {
         "data": [
+            "Bhogaon",
+            "Ghiror",
+            "Karhal",
+            "Kishni",
+            "Kurawali",
             "Mainpuri"
-        ]
+          ]
     },
     "Mathura": {
         "data": [
-            "Mathura",
-            "Vrindavan",
-            "Govardhan"
-        ]
+            "Chhata",
+            "Govardhan",
+            "Mahavan",
+            "Mat",
+            "Mathura"
+          ]
     },
     "Mau": {
         "data": [
+            "Ghosi",
+            "Madhuban",
             "Mau",
-            "Kopaganj"
-        ]
+            "Maunath Bhanjan",
+            "Muhammadabad Gohna"
+          ]
     },
     "Meerut": {
         "data": [
-            "Meerut"
-        ]
+            "Mawana",
+            "Meerut",
+            "Sardhana"
+          ]
     },
     "Mirzapur": {
         "data": [
-            "Mirzapur",
-            "Vindhyachal"
-        ]
+            "Chunar",
+            "Lalganj",
+            "Marihan",
+            "Mirzapur"
+          ]
     },
     "Moradabad": {
         "data": [
-            "Moradabad"
-        ]
+            "Bilari",
+            "Kanth",
+            "Moradabad",
+            "Thakurdwara"
+          ]
     },
     "Muzaffarnagar": {
         "data": [
+            "Budhana",
+            "Jansath",
+            "Khatauli",
             "Muzaffarnagar"
-        ]
+          ]
     },
     "Pilibhit": {
         "data": [
-            "Pilibhit"
-        ]
+            "Amariya",
+            "Bisalpur",
+            "Kalinagar",
+            "Pilibhit",
+            "Puranpur"
+          ] 
     },
     "Pratapgarh": {
-        "data": [
+        "data":  [
+            "Kunda",
+            "Lalganj",
+            "Patti",
             "Pratapgarh",
-            "Bela Pratapgarh"
-        ]
+            "Raniganj"
+          ]
     },
     "Prayagraj": {
         "data": [
+            "Allahabad",
+            "Bara",
+            "Handia",
+            "Karchhana",
+            "Koraon",
+            "Meja",
+            "Phulpur",
             "Prayagraj",
-            "Phaphamau"
-        ]
+            "Soraon"
+          ]
     },
     "Raebareli": {
         "data": [
-            "Raebareli"
-        ]
+            "Dalmau",
+            "Lalganj",
+            "Maharajganj",
+            "Rae Bareli",
+            "Salon",
+            "Unchahar"
+          ]
     },
     "Rampur": {
         "data": [
-            "Rampur"
-        ]
+            "Bilaspur",
+            "Milak",
+            "Rampur",
+            "Shahabad",
+            "Suar",
+            "Tanda"
+          ]
     },
     "Saharanpur": {
         "data": [
+            "Behat",
+            "Deoband",
+            "Nakur",
+            "Rampur Maniharan",
             "Saharanpur"
-        ]
+          ]
     },
     "Sambhal": {
         "data": [
+            "Chandausi",
+            "Gunnaur",
             "Sambhal"
-        ]
+          ]
     },
     "Sant Kabir Nagar": {
         "data": [
+            "Ghanghata",
+            "Khalilabad",
+            "Mehdawal",
             "Sant Kabir Nagar"
-        ]
+          ]
     },
     "Shahjahanpur": {
         "data": [
-            "Shahjahanpur"
-        ]
+            "Jalalabad",
+            "Kalan",
+            "Powayan",
+            "Shahjahanpur",
+            "Tilhar"
+          ]
     },
     "Shamli": {
         "data": [
-            "Shamli"
-        ]
+            "Kairana",
+            "Shamli",
+            "Un"
+          ]
     },
-    "Shravasti": {
+    "Shrawasti": {
         "data": [
-            "Shravasti"
-        ]
+            "Bhinga",
+            "Ikauna",
+            "Jamunaha",
+            "Shrawasti"
+          ]
     },
     "Siddharthnagar": {
         "data": [
+            "Bansi",
+            "Domariyaganj",
+            "Itwa",
+            "Naugarh",
+            "Shohratgarh",
             "Siddharthnagar"
-        ]
+          ]
     },
     "Sitapur": {
         "data": [
+            "Biswan",
+            "Laharpur",
+            "Mahmudabad",
+            "Maholi",
+            "Misrikh",
+            "Sidhauli",
             "Sitapur"
-        ]
+          ]
     },
     "Sonbhadra": {
         "data": [
-            "Sonbhadra",
-            "Obra"
-        ]
+            "Dudhi",
+            "Ghorawal",
+            "Obra",
+            "Robertsganj",
+            "Sonbhadra"
+          ]
     },
     "Sultanpur": {
         "data": [
+            "Baldirai",
+            "Jaisinghpur",
+            "Kadipur",
+            "Lambhua",
             "Sultanpur"
-        ]
+          ]
     },
     "Unnao": {
         "data": [
+            "Bangarmau",
+            "Bighapur",
+            "Hasanganj",
+            "Purwa",
+            "Safipur",
             "Unnao"
-        ]
+          ]
     },
     "Varanasi": {
         "data": [
-            "Varanasi"
-        ]
+            "Pindra",
+            "Rajatalab",
+            "Varanasi",
+            "Varanasi Sadar"
+          ]
     },
     "Anantapur": {
         "data": [
@@ -5467,152 +5741,264 @@
     },
     "Bishnupur": {
         "data": [
-            "Bishnupur"
+            "Bishnupur",
+            "Moirang",
+            "Nambol"
         ]
     },
     "Chandel": {
         "data": [
-            "Chandel"
+            "Chakpikarong",
+            "Chandel",
+            "Khengjoy"
         ]
     },
     "Churachandpur": {
         "data": [
-            "Churachandpur"
+            "Churachandpur",
+            "Henglep",
+            "Kangvai",
+            "Mualnuam",
+            "Saikot",
+            "Samulamlan",
+            "Sangaikot",
+            "Singngat",
+            "Suangdoh",
+            "Tuibong"
         ]
     },
     "Imphal East": {
         "data": [
-            "Imphal East"
+            "Imphal East",
+            "Keirao Bitra",
+            "Porompat",
+            "Sawombung"
         ]
     },
     "Imphal West": {
         "data": [
-            "Imphal West"
+            "Imphal West",
+            "Lamphelpat",
+            "Lamsang",
+            "Patsoi",
+            "Wangoi"
         ]
     },
     "Jiribam": {
         "data": [
+            "Borobekra",
             "Jiribam"
         ]
     },
     "Kakching": {
         "data": [
-            "Kakching"
+            "Kakching",
+            "Waikhong"
         ]
     },
     "Kamjong": {
         "data": [
-            "Kamjong"
+            "Kamjong",
+            "Kasom Khullen",
+            "Phungyar",
+            "Sahamphung"
         ]
     },
     "Kangpokpi": {
         "data": [
-            "Kangpokpi"
+            "Bungte Chiru",
+            "Island",
+            "Kangchup Geljang",
+            "Kangpokpi",
+            "Lhungtin",
+            "Saikul",
+            "Saitu-Gamphazol",
+            "T Vaichong"
         ]
     },
     "Noney": {
         "data": [
-            "Noney"
+            "Haochong",
+            "Khoupum",
+            "Longmai",
+            "Noney",
+            "Nungba"
         ]
     },
     "Pherzawl": {
         "data": [
-            "Pherzawl"
+            "Pherzawl",
+            "Thanlon",
+            "Tipaimukh",
+            "Vangai Range"
         ]
     },
     "Senapati": {
         "data": [
-            "Senapati"
+            "Chilivai Phaibung",
+            "Paomata",
+            "Purul",
+            "Senapati",
+            "Song Song",
+            "Tadubi",
+            "Willong"
         ]
     },
     "Tamenglong": {
         "data": [
-            "Tamenglong"
+            "Tamenglong",
+            "Tamenglong North",
+            "Tamenglong West"
         ]
     },
     "Tengnoupal": {
         "data": [
+            "Machi",
+            "Moreh",
             "Tengnoupal"
         ]
     },
     "Thoubal": {
         "data": [
+            "Lilong",
             "Thoubal"
         ]
     },
     "Ukhrul": {
         "data": [
+            "Chingai",
+            "Jessami",
+            "LM",
             "Ukhrul"
         ]
     },
     "East Garo Hills": {
         "data": [
-            "East Garo Hills"
+            "Dambo Rongjeng",
+            "East Garo Hills",
+            "Samanda",
+            "Songsak"
         ]
     },
     "East Jaintia Hills": {
         "data": [
-            "East Jaintia Hills"
+            "East Jaintia Hills",
+            "Lumshnong",
+            "Saipung",
+            "Wapung"
         ]
     },
     "East Khasi Hills": {
         "data": [
-            "East Khasi Hills"
+            "East Khasi Hills",
+            "Khatarshnong Laitkroh",
+            "Mawkynrew",
+            "Mawlai",
+            "Mawpat",
+            "Mawphlang",
+            "Mawryngkneng",
+            "Mawsynram",
+            "Mylliem",
+            "Pynursla",
+            "Shella Bholaganj",
+            "Sohiong"
         ]
     },
     "Mairang (Eastern West Khasi Hills)": {
         "data": [
-            "Mairang (Eastern West Khasi Hills)"
+            "Eastern West Khasi Hills",
+            "Mairang",
+            "Mawthadraishan"
         ]
     },
     "North Garo Hills": {
         "data": [
-            "North Garo Hills"
+            "Adokgre",
+            "Bajengdoba",
+            "Kharkutta",
+            "North Garo Hills",
+            "Resubelpara"
         ]
     },
     "Ri Bhoi": {
         "data": [
-            "Ri Bhoi"
+            "Bhoirymbong",
+            "Jirang",
+            "Ri Bhoi",
+            "Umling",
+            "Umsning"
         ]
     },
     "South Garo Hills": {
         "data": [
+            "Baghmara",
+            "Chokpot",
+            "Gasuapara",
+            "Rongara",
+            "Siju",
             "South Garo Hills"
         ]
     },
     "South West Garo Hills": {
         "data": [
-            "South West Garo Hills"
+            "Betasing",
+            "Rerapara",
+            "South West Garo Hills",
+            "Zikzak"
         ]
     },
     "South West Khasi Hills": {
         "data": [
+            "Mawkyrwat",
+            "Ranikor",
             "South West Khasi Hills"
         ]
     },
     "West Garo Hills": {
         "data": [
+            "Batabari",
+            "Dadenggiri",
+            "Dalu",
+            "Demdema",
+            "Gambegre",
+            "Rongram",
+            "Selsella",
+            "Tikrikilla",
             "West Garo Hills"
         ]
     },
     "West Jaintia Hills": {
         "data": [
-            "West Jaintia Hills"
+            "West Jaintia Hills Amlarem",
+            "West Jaintia Hills Laskein",
+            "West Jaintia Hills Namdong",
+            "West Jaintia Hills Thadlaskein",
+            "West Jaintia Hills West Jaintia Hills"
         ]
     },
     "West Khasi Hills": {
         "data": [
+            "Mawshynrut",
+            "Nongstoin",
+            "Rambrai",
+            "Ri Muliang",
+            "Shallang",
             "West Khasi Hills"
         ]
     },
     "Aizawl": {
         "data": [
-            "Aizawl"
+            "Aibawk",
+            "Aizawl",
+            "Darlawn",
+            "Thingsulthliah",
+            "Tlangnuam"
         ]
     },
     "Champhai": {
         "data": [
-            "Champhai"
+            "Champhai",
+            "Khawbung"
         ]
     },
     "Hnahthial": {
@@ -5627,72 +6013,138 @@
     },
     "Kolasib": {
         "data": [
-            "Kolasib"
+            "Bilkhawthlir",
+            "Kolasib",
+            "N Thingdawl"
         ]
     },
     "Lawngtlai": {
         "data": [
-            "Lawngtlai"
+            "Bungtlang S",
+            "Chawngte",
+            "Lawngtlai",
+            "Sangau"
         ]
     },
     "Lunglei": {
         "data": [
-            "Lunglei"
+            "Bunghmun",
+            "Lunglei",
+            "Lungsen",
+            "Tlabung"
         ]
     },
     "Mamit": {
         "data": [
-            "Mamit"
+            "Kawrtethawveng",
+            "Mamit",
+            "Reiek",
+            "West Phaileng",
+            "Zawlnuam"
         ]
     },
     "Saiha": {
         "data": [
-            "Saiha"
+            "Siaha",
+            "Tipa"
         ]
     },
     "Saitual": {
         "data": [
+            "Ngopa",
+            "Phullen",
             "Saitual"
         ]
     },
     "Serchhip": {
         "data": [
+            "East Lungdar",
             "Serchhip"
         ]
     },
     "Chumukedima": {
         "data": [
-            "Chumukedima"
+            "Chumoukedima",
+            "Chumukedima",
+            "Dhansiripar",
+            "Medziphema"
         ]
     },
     "Dimapur": {
         "data": [
-            "Dimapur"
+            "Aquqhnaqua",
+            "Dimapur",
+            "Dimapur Sadar",
+            "Kuhoboto",
+            "Nihokhu"
         ]
     },
     "Kiphire": {
         "data": [
-            "Kiphire"
+            "Amahator",
+            "Khongsa",
+            "Kiphire",
+            "Kiphire Sadar",
+            "Kiusam",
+            "Longmatra",
+            "Pungro",
+            "Seyochung",
+            "Sitimi"
         ]
     },
     "Kohima": {
         "data": [
-            "Kohima"
+            "Botsa",
+            "Chiephobozou",
+            "Jakhama",
+            "Kezocha",
+            "Kohima",
+            "Kohima Sadar",
+            "Sechu-Zubza"
         ]
     },
     "Longleng": {
         "data": [
-            "Longleng"
+            "Longleng",
+            "Namsang",
+            "Sakshi",
+            "Tamlu",
+            "Yongnyah"
         ]
     },
     "Mokokchung": {
         "data": [
-            "Mokokchung"
+            "Alongkima",
+            "Changtongya",
+            "Chuchuyimlang",
+            "Kubolong",
+            "Longchem",
+            "Mangkolemba",
+            "Merangmen",
+            "Mokokchung",
+            "Ongpangkong",
+            "Ongpangkong (N)",
+            "Tsurangkong",
+            "Tuli"
         ]
     },
     "Mon": {
         "data": [
-            "Mon"
+            "Aboi",
+            "Angjangyang",
+            "Chen",
+            "Hunta",
+            "Longshen",
+            "Mon",
+            "Mon Sadar",
+            "Monyakshu",
+            "Mopong",
+            "Naginimora",
+            "Phomching",
+            "Shangnyu",
+            "Tizit",
+            "Tobu",
+            "Wakching"
         ]
     },
     "Niuland": {
@@ -5702,42 +6154,106 @@
     },
     "Noklak": {
         "data": [
-            "Noklak"
+            "Noklak Nokhu",
+            "Noklak Noklak",
+            "Noklak Panso",
+            "Noklak Thonoknyu"
         ]
     },
     "Peren": {
         "data": [
-            "Peren"
+            "Athibung",
+            "Jalukie",
+            "Kebai Khelma",
+            "Nsong",
+            "Pedi (Ngwalwa)",
+            "Peren",
+            "Tening"
         ]
     },
     "Phek": {
         "data": [
-            "Phek"
+            "Chetheba",
+            "Chizami",
+            "Chozuba",
+            "Khezhakeno",
+            "Khuza",
+            "Kikruma",
+            "Meluri",
+            "Pfutsero",
+            "Phek",
+            "Phek Sadar",
+            "Phokhungri",
+            "Phor",
+            "Razieba",
+            "Sakraba",
+            "Sekruzu",
+            "Weziho",
+            "Zuketsa"
         ]
     },
     "Shamator": {
         "data": [
-            "Shamator"
+            "Chessore",
+            "Mangko",
+            "Shamator",
+            "Sotokur",
+            "Tsurungto"
         ]
     },
     "Tseminyu": {
         "data": [
-            "Tseminyu"
+            "Chunlikha",
+            "Tseminyu",
+            "Tsogin"
         ]
     },
     "Tuensang": {
         "data": [
-            "Tuensang"
+            "Chare",
+            "Chingmei",
+            "Longkhim",
+            "Ngoungchung",
+            "Noksen",
+            "Sangsangnyu",
+            "Tuensang",
+            "Tuensang Sadar"
         ]
     },
     "Wokha": {
         "data": [
-            "Wokha"
+            "Aitepyong",
+            "Baghty",
+            "Bhandari",
+            "Changpang",
+            "Chukitong",
+            "Englan",
+            "Lotsu",
+            "Ralan",
+            "Sanis",
+            "Sungro",
+            "Wokha",
+            "Wokha Sadar",
+            "Wozhuro"
         ]
     },
     "Zunheboto": {
         "data": [
-            "Zunheboto"
+            "Aghunato",
+            "Akuhaito",
+            "Akuluto",
+            "Asuto",
+            "Atoizu",
+            "Ghathashi",
+            "Pughoboto",
+            "Saptiqa",
+            "Satakha",
+            "Satoi",
+            "Suruhuto",
+            "Tokiye",
+            "V.K.",
+            "Zunheboto",
+            "Zunheboto Sadar"
         ]
     },
     "Angul": {
@@ -6007,142 +6523,382 @@
     },
     "Ajmer": {
         "data": [
-            "Ajmer"
+            "Ajmer",
+            "Arain",
+            "Kishangarh",
+            "Nasirabad",
+            "Peesangan",
+            "Pushkar",
+            "Roopangarh"
         ]
     },
     "Alwar": {
         "data": [
-            "Alwar"
+            "Alwar",
+            "Govindgarh",
+            "Kathumar",
+            "Lachhmangarh",
+            "Malakhera",
+            "Naugaon",
+            "Pratapgarh",
+            "Rajgarh",
+            "Ramgarh",
+            "Reni",
+            "Tehla",
+            "Thanagazi"
         ]
     },
     "Anupgarh": {
         "data": [
-            "Anupgarh"
+            "Anupgarh",
+            "Gharsana",
+            "Raisinghnagar",
+            "Ravla",
+            "Vijainagar"
         ]
     },
     "Balotra": {
         "data": [
-            "Balotra"
+            "Balotra",
+            "Baytoo",
+            "Gida",
+            "Kalyanpur",
+            "Pachpadra",
+            "Patodi",
+            "Samdari",
+            "Sindhari",
+            "Siwana"
         ]
     },
     "Banswara": {
         "data": [
-            "Banswara"
+            "Abapura",
+            "Anandpuri",
+            "Artuna",
+            "Bagidora",
+            "Banswara",
+            "Chhoti Sarwan",
+            "Gangadtalai",
+            "Ganoda",
+            "Garhi",
+            "Ghatol",
+            "Kushalgarh",
+            "Sajjangarh"
         ]
     },
     "Baran": {
         "data": [
-            "Baran"
+            "Antah",
+            "Atru",
+            "Baran",
+            "Chhabra",
+            "Chhipabarod",
+            "Kishanganj",
+            "Mangrol",
+            "Shahbad"
         ]
     },
     "Barmer": {
         "data": [
-            "Barmer"
+            "Barmer",
+            "Barmer Gramin",
+            "Batadu",
+            "Chohtan",
+            "Dhanaau",
+            "Dhorimanna",
+            "Gadraroad",
+            "Gudha Malani",
+            "Nokhra",
+            "Ramsar",
+            "Sedwa",
+            "Sheo"
         ]
     },
     "Beawar": {
         "data": [
-            "Beawar"
+            "Badnor",
+            "Beawar",
+            "Jaitaran",
+            "Masuda",
+            "Raipur",
+            "Tatgarh",
+            "Vijaynagar"
         ]
     },
     "Bharatpur": {
         "data": [
-            "Bharatpur"
+            "Bayana",
+            "Bharatpur",
+            "Bhusawar",
+            "Nadbai",
+            "Rudawal",
+            "Rupbas",
+            "Uchhain",
+            "Weir"
         ]
     },
     "Bhilwara": {
         "data": [
-            "Bhilwara"
+            "Antali",
+            "Asind",
+            "Bhilwara",
+            "Bijoliya",
+            "Hameergarh",
+            "Hurda",
+            "Kareda",
+            "Mandal",
+            "Mandalgarh",
+            "Raipur",
+            "Sahara",
+            "Sawaipur"
         ]
     },
     "Bikaner": {
         "data": [
-            "Bikaner"
+            "Bajju",
+            "Bikaner",
+            "Chhatargarh",
+            "Handa",
+            "Jasrasar",
+            "Khajuwala",
+            "Kolayat",
+            "Lunkaransar",
+            "Nokha",
+            "Poogal",
+            "Sridungargarh"
         ]
     },
     "Bundi": {
         "data": [
-            "Bundi"
+            "Bundi",
+            "Hindoli",
+            "Indragarh",
+            "Keshoraipatan",
+            "Nainwa",
+            "Raithal",
+            "Talera"
         ]
     },
     "Chittorgarh": {
         "data": [
-            "Chittorgarh"
+            "Bari Sadri",
+            "Bassi",
+            "Begun",
+            "Bhadesar",
+            "Bhopalsagar",
+            "Chittaurgarh",
+            "Chittorgarh",
+            "Dungla",
+            "Gangrar",
+            "Kapasan",
+            "Nimbahera",
+            "Rashmi",
+            "Rawatbhata"
         ]
     },
     "Churu": {
         "data": [
-            "Churu"
+            "Bhanipura",
+            "Bidasar",
+            "Churu",
+            "Rajaldesar",
+            "Rajgarh",
+            "Ratangarh",
+            "Sardarshahar",
+            "Sidhmukh",
+            "Sujangarh",
+            "Taranagar"
         ]
     },
     "Dausa": {
         "data": [
-            "Dausa"
+            "Bandikui",
+            "Baswa",
+            "Behrawanda",
+            "Bejupada",
+            "Bhaandarej",
+            "Dausa",
+            "Kundal",
+            "Lalsot",
+            "Lawan",
+            "Mahwa",
+            "Mandawar",
+            "Nangal Rajawatan",
+            "Nirjharna",
+            "Paparda",
+            "Rahuwas",
+            "Ramgarh Pachwara",
+            "Sainthal",
+            "Sikrai"
         ]
     },
     "Deeg": {
         "data": [
-            "Deeg"
+            "Deeg",
+            "Januthar",
+            "Jurhara",
+            "Kaman",
+            "Kumher",
+            "Nagar",
+            "Pahari",
+            "Rarah",
+            "Sikri"
         ]
     },
     "Dholpur": {
         "data": [
-            "Dholpur"
+            "Bari",
+            "Basai Nawab",
+            "Baseri",
+            "Dhaulpur",
+            "Dholpur",
+            "Mania",
+            "Rajakhera",
+            "Sarmathura",
+            "Sepau"
         ]
     },
     "Didwana-Kuchaman": {
         "data": [
-            "Didwana-Kuchaman"
+            "Choti Khatu",
+            "Didwana",
+            "Didwana-Kuchaman",
+            "Kuchaman City",
+            "Ladnu",
+            "Makrana",
+            "Maulasar",
+            "Nawa",
+            "Parbatsar"
         ]
     },
     "Dudu": {
         "data": [
-            "Dudu"
+            "Dudu",
+            "Mauzamabad",
+            "Phagi"
         ]
     },
     "Dungarpur": {
         "data": [
-            "Dungarpur"
+            "Aspur",
+            "Bichiwara",
+            "Chikhali",
+            "Dowda",
+            "Dungarpur",
+            "Galiyakot",
+            "Gamdi Ahada",
+            "Jothari",
+            "Obri",
+            "Paldewal",
+            "Sabla",
+            "Sagwara",
+            "Simalwara"
         ]
     },
     "Gangapur City": {
         "data": [
-            "Gangapur City"
+            "Balghat",
+            "Bamanwas",
+            "Barnala",
+            "Gangapur",
+            "Gangapurcity",
+            "Nadoti",
+            "Talawara",
+            "Todabhim",
+            "Wazeerpur"
         ]
     },
     "Hanumangarh": {
         "data": [
-            "Hanumangarh"
+            "Bhadra",
+            "Hanumangarh",
+            "Nohar",
+            "Pallu",
+            "Pilibanga",
+            "Rawatsar",
+            "Sangaria",
+            "Tibi"
         ]
     },
     "Jaipur": {
         "data": [
-            "Jaipur"
+            "Amber",
+            "Jaipur",
+            "Kalwar",
+            "Sanganer"
         ]
     },
     "Jaipur Rural": {
         "data": [
-            "Jaipur Rural"
+            "Aandhi",
+            "Bassi",
+            "Chaksu",
+            "Chomu",
+            "Jaipur (Gramin)",
+            "Jalsu",
+            "Jamwa Ramgarh",
+            "Jobner",
+            "Kishangarh Renwal",
+            "Kotkhawda",
+            "Madhorajpura",
+            "Phulera (Hq.Sambhar)",
+            "Rampura Dabdi",
+            "Shahpura",
+            "Tunga"
         ]
     },
     "Jaisalmer": {
         "data": [
-            "Jaisalmer"
+            "Bhaniyana",
+            "Fatehgarh",
+            "Jaisalmer",
+            "Phalsund",
+            "Pokaran",
+            "Ramgarh",
+            "Sum"
         ]
     },
     "Jalore": {
         "data": [
-            "Jalore"
+            "Ahore",
+            "Bhadrajun",
+            "Bhinmal",
+            "Jalor",
+            "Jalore",
+            "Jaswantpura",
+            "Sayla"
         ]
     },
     "Jhalawar": {
         "data": [
-            "Jhalawar"
+            "Aklera",
+            "Asnawar",
+            "Bakani",
+            "Dug",
+            "Gangdhar",
+            "Jhalawar",
+            "Jhalrapatan",
+            "Khanpur",
+            "Manohar Thana",
+            "Pachpahar",
+            "Pirawa",
+            "Raipur",
+            "Sunel"
         ]
     },
     "Jhunjhunu": {
         "data": [
-            "Jhunjhunu"
+            "Bissau",
+            "Buhana",
+            "Chirawa",
+            "Gudhagorji",
+            "Jhunjhunu",
+            "Jhunjhunun",
+            "Malsisar",
+            "Mandawa",
+            "Nawalgarh",
+            "Pilani",
+            "Surajgarh"
         ]
     },
     "Jodhpur": {
@@ -6150,114 +6906,259 @@
             "Jodhpur"
         ]
     },
-    "Jodhpur Rural": {
+    "Jodhpur (Gramin)": {
         "data": [
-            "Jodhpur Rural"
+            "Balesar",
+            "Baori",
+            "Bhopalgarh",
+            "Bilara",
+            "Chamu",
+            "Jhanwar",
+            "Jodhpur (Gramin)",
+            "Kudi Bhagtasni",
+            "Luni",
+            "Osian",
+            "Pipar Shahar",
+            "Shekhala",
+            "Shergarh",
+            "Tinwari"
         ]
     },
     "Karauli": {
         "data": [
-            "Karauli"
-        ]
-    },
-    "Kishangarh": {
-        "data": [
-            "Kishangarh"
+            "Hindaun",
+            "Karauli",
+            "Mandrayal",
+            "Masalpur",
+            "Sapotra",
+            "Shrimahaveer Ji",
+            "Suroth"
         ]
     },
     "Kekri": {
         "data": [
-            "Kekri"
+            "Bhinay",
+            "Kekri",
+            "Sarwar",
+            "Sawar",
+            "Tantoli",
+            "Todaraisingh"
         ]
     },
     "Khairthal–Tijara": {
         "data": [
-            "Khairthal–Tijara"
+            "Harsauli",
+            "Khairthal",
+            "Khairthal-Tijara",
+            "Kishangarh Bas",
+            "Kotkasim",
+            "Mandawar",
+            "Tapukara",
+            "Tijara"
         ]
     },
     "Kota": {
         "data": [
-            "Kota"
+            "Chechat",
+            "Digod",
+            "Kanwas",
+            "Kota",
+            "Ladpura",
+            "Pipalda",
+            "Ramganj Mandi",
+            "Sangod"
         ]
     },
     "Kotputli-Behror": {
         "data": [
-            "Kotputli-Behror"
+            "Bansur",
+            "Behror",
+            "Kotputli",
+            "Kotputli-Behror",
+            "Mandhan",
+            "Narayanpur",
+            "Neemrana",
+            "Pavta",
+            "Viratnagar"
         ]
     },
     "Nagaur": {
         "data": [
-            "Nagaur"
+            "Degana",
+            "Deh",
+            "Jayal",
+            "Kheenvsar",
+            "Merta",
+            "Mundwa",
+            "Nagaur",
+            "Riyan Badi",
+            "Sanjhu"
         ]
     },
     "Neem ka Thana": {
         "data": [
-            "Neem ka Thana"
+            "Khetri",
+            "Neem Ka Thana",
+            "Neem-Ka-Thana",
+            "Patan",
+            "Sri Madhopur",
+            "Udaipurwati"
         ]
     },
     "Pali": {
         "data": [
-            "Pali"
+            "Bali",
+            "Desuri",
+            "Marwar Junction",
+            "Pali",
+            "Rani",
+            "Rohat",
+            "Sojat",
+            "Sumerpur"
         ]
     },
     "Phalodi": {
         "data": [
-            "Phalodi"
+            "Aau",
+            "Bap",
+            "Bapini",
+            "Dechu",
+            "Ghantiyali",
+            "Lohawat",
+            "Phalodi",
+            "Setrawa"
         ]
     },
     "Pratapgarh": {
         "data": [
-            "Pratapgarh"
+            "Arnod",
+            "Chhoti Sadri",
+            "Dalot",
+            "Dhariawad",
+            "Peepalkhoont",
+            "Pratapgarh",
+            "Suhagpura"
         ]
     },
     "Rajsamand": {
         "data": [
-            "Rajsamand"
+            "Amet",
+            "Bhim",
+            "Delwara",
+            "Deogarh",
+            "Garhbor",
+            "Khamnor",
+            "Kumbhalgarh",
+            "Kuwaria",
+            "Nathdwara",
+            "Railmagra",
+            "Rajsamand",
+            "Sardargarh"
         ]
     },
     "Salumbar": {
         "data": [
-            "Salumbar"
+            "Jhallara",
+            "Lasadiya",
+            "Salumbar",
+            "Sarada",
+            "Semari"
         ]
     },
     "Sanchore": {
         "data": [
+            "Bagora",
+            "Chitalwana",
+            "Raniwara",
             "Sanchore"
         ]
     },
     "Sawai Madhopur": {
         "data": [
+            "Bonli",
+            "Chauth Ka Barwara",
+            "Khandar",
+            "Malarna Doongar",
+            "Mitrapura",
             "Sawai Madhopur"
         ]
     },
     "Shahpura": {
         "data": [
+            "Banera",
+            "Jahazpur",
+            "Kachola",
+            "Kotri",
+            "Phooliya Kalan",
             "Shahpura"
         ]
     },
     "Sikar": {
         "data": [
-            "Sikar"
+            "Danta Ramgarh",
+            "Dhod",
+            "Fatehpur",
+            "Khendela",
+            "Lachhmangarh",
+            "Nechwa",
+            "Ramgarh Shekawati",
+            "Reengus",
+            "Sikar",
+            "Sikar Gramin"
         ]
     },
     "Sirohi": {
         "data": [
+            "Abu Road",
+            "Deldar",
+            "Pindwara",
+            "Reodar",
+            "Sheoganj",
             "Sirohi"
         ]
     },
-    "Sri Ganganagar": {
+    "Ganganagar": {
         "data": [
-            "Sri Ganganagar"
+            "Gajsinghpur",
+            "Ganganagar",
+            "Karanpur",
+            "Padampur",
+            "Sadulshahar",
+            "Suratgarh"
         ]
     },
     "Tonk": {
         "data": [
-            "Tonk"
+            "Deoli",
+            "Duni",
+            "Malpura",
+            "Nagarfort",
+            "Niwai",
+            "Peeplu",
+            "Tonk",
+            "Uniara"
         ]
     },
     "Udaipur": {
         "data": [
-            "Udaipur"
+            "Badgaon",
+            "Barapal",
+            "Bhindar",
+            "Ghasa",
+            "Girwa",
+            "Gogunda",
+            "Jhadol",
+            "Kanod",
+            "Kherwara",
+            "Kotra",
+            "Kurabad",
+            "Mavli",
+            "Nayagaon",
+            "Phalasia",
+            "Rishabhdeo",
+            "Sayra",
+            "Udaipur",
+            "Vallabhnagar"
         ]
     },
     "East Sikkim": {
@@ -6482,388 +7383,1449 @@
     },
     "Adilabad": {
         "data": [
-            "Adilabad"
+            "Adilabad",
+            "Adilabad Rural",
+            "Adilabad Urban",
+            "Bazarhatnoor",
+            "Bela",
+            "Bheempur",
+            "Boath",
+            "Gadiguda",
+            "Gudihatnoor",
+            "Ichoda",
+            "Inderavelly",
+            "Jainath",
+            "Mavala",
+            "Narnoor",
+            "Neradigonda",
+            "Sirikonda",
+            "Talamadugu",
+            "Tamsi",
+            "Utnoor"
         ]
     },
     "Bhadradri Kothagudem": {
         "data": [
-            "Bhadradri Kothagudem"
+            "Allapalli",
+            "Annapureddypalli",
+            "Aswapuram",
+            "Aswaraopeta",
+            "Bhadrachalam",
+            "Bhadradri Kothagudem",
+            "Burgampahad",
+            "Chandrugonda",
+            "Cherla",
+            "Chunchupalli",
+            "Dammapeta",
+            "Dummugudem",
+            "Gundala",
+            "Julurpadu",
+            "Karakagudem",
+            "Kothagudem",
+            "Laxmidevipalli",
+            "Manuguru",
+            "Mulkalapally",
+            "Palvoncha",
+            "Pinapaka",
+            "Sujathanagar",
+            "Tekulapalli",
+            "Yellandu"
         ]
+    },
+    "Hanumakonda":{
+        "data" : [
+            "Athmakur",
+            "Bheemadevarpalli",
+            "Damera",
+            "Dharmasagar",
+            "Elkathurthy",
+            "Hanamkonda",
+            "Hanumakonda",
+            "Hasanparthy",
+            "Inavole",
+            "Kamalapur",
+            "Khazipet",
+            "Nadikuda",
+            "Parkal",
+            "Shayampet",
+            "Velair"
+          ]
     },
     "Hyderabad": {
         "data": [
-            "Hyderabad"
-        ]
+            "Amberpet",
+            "Ameerpet",
+            "Asif Nagar",
+            "Bahadurpura",
+            "Bandlaguda",
+            "Charminar",
+            "Golconda",
+            "Himayatnagar",
+            "Hyderabad",
+            "Khairatabad",
+            "Marredpally",
+            "Musheerabad",
+            "Nampally",
+            "Saidabad",
+            "Secunderabad",
+            "Shaikpet",
+            "Tirumalgiri"
+          ]
     },
     "Jagtial": {
         "data": [
-            "Jagtial"
-        ]
+            "Beerpur",
+            "Buggaram",
+            "Dharmapuri",
+            "Gollapalli",
+            "Ibrahimpatnam",
+            "Jagitial",
+            "Jagitial Rural",
+            "Kathlapur",
+            "Kodimial",
+            "Korutla",
+            "Mallapur",
+            "Mallial",
+            "Medipalli",
+            "Metpalli",
+            "Pegadapalli",
+            "Raikal",
+            "Sarangapur",
+            "Velgatu"
+          ]
     },
     "Jangaon": {
         "data": [
-            "Jangaon"
-        ]
+            "Bachannapet",
+            "Chilpur",
+            "Devaruppula",
+            "Ghanpur (Station)",
+            "Jangoan",
+            "Kodakandla",
+            "Lingalaghanpur",
+            "Narmetta",
+            "Palakurthy",
+            "Ragunathpally",
+            "Tharigoppula",
+            "Zaffergadh"
+          ]
     },
     "Jayashankar Bhupalpally": {
-        "data": [
-            "Jayashankar Bhupalpally"
-        ]
+        "data":  [
+            "Bhupalpally",
+            "Chityal",
+            "Ghanpur (Mulug)",
+            "Jayashankar Bhupalapally",
+            "Kataram",
+            "Mahadevpur",
+            "Malharrao",
+            "Mogullapally",
+            "Mutharam Mahadevpur",
+            "Palimela",
+            "Regonda",
+            "Tekumatla"
+          ]
     },
     "Jogulamba Gadwal": {
         "data": [
-            "Jogulamba Gadwal"
-        ]
+            "Alampur",
+            "Dharoor",
+            "Gadwal",
+            "Ghattu",
+            "Ieeja",
+            "Itikyala",
+            "Jogulamba Gadwal",
+            "Kaloor Thimmandoddi",
+            "Maldakal",
+            "Manopad",
+            "Rajoli",
+            "Undavelly",
+            "Waddepally"
+          ]
     },
     "Kamareddy": {
         "data": [
-            "Kamareddy"
-        ]
+            "Banswada",
+            "Bhiknoor",
+            "Bibipet",
+            "Bichkunda",
+            "Birkur",
+            "Domakonda",
+            "Gandhari",
+            "Jukkal",
+            "Kamareddy",
+            "Lingampet",
+            "Machareddy",
+            "Madnoor",
+            "Nagireddypet",
+            "Nasurullabad",
+            "Nizamsagar",
+            "Pedda Kodapgal",
+            "Pitlam",
+            "Rajampet",
+            "Ramareddy",
+            "Sadashivanagar",
+            "Tadwai",
+            "Yellareddy"
+          ]
     },
     "Karimnagar": {
         "data": [
-            "Karimnagar"
-        ]
+            "Chigurumamidi",
+            "Choppadandi",
+            "Ellandakunta",
+            "Gangadhara",
+            "Ganneruvaram",
+            "Huzurabad",
+            "Jammikunta",
+            "Karimnagar",
+            "Karimnagar Rural",
+            "Kothapally",
+            "Manakondur",
+            "Ramadugu",
+            "Shankarapatnam",
+            "Thimmapur LMD",
+            "V.Saidapur",
+            "Veenavanka"
+          ]
     },
     "Khammam": {
         "data": [
-            "Khammam"
-        ]
+            "Bonakal",
+            "Chinthakani",
+            "Enkoor",
+            "Kalluru",
+            "Kamepalli",
+            "Khammam",
+            "Khammam (Rural)",
+            "Khammam Urban",
+            "Konijerla",
+            "Kusumanchi",
+            "Madhira",
+            "Mudigonda",
+            "Nelakondapalli",
+            "Penuballi",
+            "Raghunadhapalem",
+            "Sathupalli",
+            "Singareni",
+            "Thallada",
+            "Tirumalayapalem",
+            "Vemsoor",
+            "Wyra",
+            "Yerrupalem"
+          ]
     },
-    "Komaram Bheem": {
+    "Kumuram Bheem Asifabad": {
         "data": [
-            "Komaram Bheem"
-        ]
+            "Asifabad",
+            "Bejjur",
+            "Chintalamanepally",
+            "Dahegoan",
+            "Jainoor",
+            "Kagaznagar",
+            "Kerameri",
+            "Koutala",
+            "Kumuram Bheem Asifabad",
+            "Lingapur",
+            "Penchicalpet",
+            "Rebbena",
+            "Sirpur (T)",
+            "Sirpur U",
+            "Tiryani",
+            "Wankidi"
+          ]
     },
     "Mahabubabad": {
         "data": [
-            "Mahabubabad"
-        ]
+            "Bayyaram",
+            "Chinnagudur",
+            "Danthalapalle",
+            "Dornakal",
+            "Gangaram",
+            "Garla",
+            "Gudur",
+            "Kesamudram",
+            "Kothaguda",
+            "Kuravi",
+            "Mahabubabad",
+            "Maripeda",
+            "Narsimhulapet",
+            "Nellikudur",
+            "Peddavangara",
+            "Thorrur"
+          ]
     },
     "Mahbubnagar": {
         "data": [
-            "Mahbubnagar"
-        ]
+            "Addakal",
+            "Balanagar",
+            "Bhoothpur",
+            "Chinnachintakunta",
+            "Devarakadra",
+            "Gandeed",
+            "Hanwada",
+            "Jadcherla",
+            "Koilkonda",
+            "Mahabubnagar",
+            "Mahabubnagar Rural",
+            "Mahabubnagar Urban",
+            "Midjil",
+            "Mohammadabad",
+            "Moosapet",
+            "Nawabpet",
+            "Rajapur"
+          ]
     },
     "Mancherial": {
         "data": [
-            "Mancherial"
-        ]
+            "Bellampally",
+            "Bheemaram",
+            "Bheemini",
+            "Chennur",
+            "Dandepally",
+            "Hajipur",
+            "Jaipur",
+            "Jannaram",
+            "Kannepally",
+            "Kasipet",
+            "Kotapally",
+            "Luxettipet",
+            "Mancherial",
+            "Mandamarri",
+            "Naspur",
+            "Nennel",
+            "Tandur",
+            "Vemanpally"
+          ]
     },
     "Medak": {
         "data": [
-            "Medak"
-        ]
+            "Alladurg",
+            "Chegunta",
+            "Chilpched",
+            "Havelighanapur",
+            "Kowdipally",
+            "Kulcharam",
+            "Manoharabad",
+            "Masaipet",
+            "Medak",
+            "Narsapur",
+            "Narsingi",
+            "Nizampet",
+            "Papannapet",
+            "Ramayampet",
+            "Regode",
+            "Shankarampet (A)",
+            "Shankarampet (R)",
+            "Shivampet",
+            "Tekmal",
+            "Toopran",
+            "Yeldurthy"
+          ]
     },
     "Medchal Malkajgiri": {
         "data": [
-            "Medchal Malkajgiri"
-        ]
+            "Alwal",
+            "Bachupally",
+            "Balanagar",
+            "Gandimaisamma Dundigal",
+            "Ghatkesar",
+            "Kapra",
+            "Keesara",
+            "Kukatpally",
+            "Malkajgiri",
+            "Medchal",
+            "Medchal Malkajgiri",
+            "Medipally",
+            "Muduchinthalapally",
+            "Qutballapur",
+            "Shamirpet",
+            "Uppal"
+          ]
     },
     "Mulugu": {
         "data": [
-            "Mulugu"
-        ]
+            "Eturunagaram",
+            "Govindaraopet",
+            "Kannaigudem",
+            "Mangapet",
+            "Mulug",
+            "Mulugu",
+            "Tadvai",
+            "Venkatapur",
+            "Venkatapuram",
+            "Wajedu"
+          ]
     },
     "Nagarkurnool": {
         "data": [
-            "Nagarkurnool"
-        ]
+            "Achampet",
+            "Amrabad",
+            "Balmoor",
+            "Bijinapally",
+            "Charakonda",
+            "Kalwakurthy",
+            "Kodair",
+            "Kollapur",
+            "Lingal",
+            "Nagarkurnool",
+            "Padara",
+            "Peddakothapally",
+            "Pentlavelli",
+            "Tadoor",
+            "Telkapally",
+            "Thimmajipet",
+            "Uppununthala",
+            "Urkonda",
+            "Vangoor",
+            "Veldanda"
+          ]
     },
     "Nalgonda": {
         "data": [
-            "Nalgonda"
-        ]
+            "Adavidevulapalli",
+            "Anumula",
+            "Chandampeta",
+            "Chandur",
+            "Chinthapally",
+            "Chityal",
+            "Dameracherla",
+            "Devarakonda",
+            "Gundlapally",
+            "Gurrampode",
+            "Kanagal",
+            "Kattangur",
+            "Kethepally",
+            "Kondamallepally",
+            "Madugulapally",
+            "Marriguda",
+            "Miryalaguda",
+            "Munugode",
+            "Nakrekal",
+            "Nalgonda",
+            "Nampally",
+            "Narketpally",
+            "Neredugommu",
+            "Nidmanoor",
+            "Pedda Adesherlapally",
+            "Peddavoora",
+            "Shaligouraram",
+            "Thipparthy",
+            "Tirumalagiri Sagar",
+            "Tripuraram",
+            "Vemulapally"
+          ]
     },
     "Narayanpet": {
         "data": [
-            "Narayanpet"
-        ]
+            "Damargidda",
+            "Dhanwada",
+            "Kosgi",
+            "Krishna",
+            "Maddur",
+            "Maganoor",
+            "Makthal",
+            "Marikal",
+            "Narayanpet",
+            "Narwa",
+            "Utkoor"
+          ]
     },
     "Nirmal": {
         "data": [
-            "Nirmal"
-        ]
+            "Basar",
+            "Bhainsa",
+            "Dasturabad",
+            "Dilawarpur",
+            "Kaddam Peddur",
+            "Khanapur",
+            "Kubeer",
+            "Kuntala",
+            "Laxmanchanda",
+            "Lokeswaram",
+            "Mamada",
+            "Mudhole",
+            "Narsapur G",
+            "Nirmal",
+            "Nirmal Rural",
+            "Nirmal U",
+            "Pembi",
+            "Sarangapur",
+            "Soan",
+            "Tanoor"
+          ]
     },
     "Nizamabad": {
         "data": [
-            "Nizamabad"
-        ]
+            "Armoor",
+            "Balkonda",
+            "Bheemgal",
+            "Bodhan",
+            "Chandur",
+            "Dharpally",
+            "Dichpally",
+            "Indalwai",
+            "Jakranpally",
+            "Kammarpally",
+            "Kotagiri",
+            "Makloor",
+            "Mendora",
+            "Morthad",
+            "Mosara",
+            "Mugpal",
+            "Mupkal",
+            "Nandipet",
+            "Navipet",
+            "Nizamabad",
+            "Nizamabad North",
+            "Nizamabad Rural",
+            "Nizamabad South",
+            "Renjal",
+            "Rudrur",
+            "Sirikonda",
+            "Vailpoor",
+            "Varni",
+            "Yedapally"
+          ]
     },
     "Peddapalli": {
         "data": [
-            "Peddapalli"
-        ]
+            "Anthergaon",
+            "Dharmaram",
+            "Eligaid",
+            "Julapalli",
+            "Kamanpur",
+            "Manthani",
+            "Mutharam (Manthani)",
+            "Odela",
+            "Palakurthy",
+            "Peddapalli",
+            "Ramagiri",
+            "Ramagundam",
+            "Srirampur",
+            "Sulthanabad"
+          ]
     },
     "Rajanna Sircilla": {
         "data": [
-            "Rajanna Sircilla"
-        ]
+            "Boinpalli",
+            "Chandurthi",
+            "Gambhiraopet",
+            "Illanthakunta",
+            "Konaraopet",
+            "Mustabad",
+            "Rajanna Sircilla",
+            "Rudrangi",
+            "Sircilla",
+            "Thangallapalli",
+            "Veernapalli",
+            "Vemulawada",
+            "Vemulawada Rural",
+            "Yellareddipet"
+          ]
     },
     "Ranga Reddy": {
         "data": [
-            "Ranga Reddy"
-        ]
+            "Abdullapurmet",
+            "Amangal",
+            "Balapur",
+            "Chevella",
+            "Farooqnagar",
+            "Gandipet",
+            "Hayathnagar",
+            "Ibrahimpatnam",
+            "Jilled Chowdergudem",
+            "Kadthal",
+            "Kandukur",
+            "Keshampet",
+            "Kondurg",
+            "Kothur",
+            "Madgul",
+            "Maheshwaram",
+            "Manchal",
+            "Moinabad",
+            "Nandigama",
+            "Rajendranagar",
+            "Ranga Reddy",
+            "Saroornagar",
+            "Serilingampally",
+            "Shabad",
+            "Shamshabad",
+            "Shankarpalle",
+            "Thalakondapally",
+            "Yacharam"
+          ]
     },
     "Sangareddy": {
         "data": [
-            "Sangareddy"
-        ]
+            "Ameenpur",
+            "Andole",
+            "Chowtakur",
+            "Gummadidala",
+            "Hathnoora",
+            "Jharasangam",
+            "Jinnaram",
+            "Kalher",
+            "Kandi",
+            "Kangti",
+            "Kohir",
+            "Kondapur",
+            "Manoor",
+            "Mogudampally",
+            "Munipally",
+            "Nagalgidda",
+            "Narayankhed",
+            "Nyalkal",
+            "Patancheru",
+            "Pulkal",
+            "Raikode",
+            "Ramchandrapuram",
+            "Sadasivpet",
+            "Sangareddy",
+            "Sirgapoor",
+            "Vatpally",
+            "Zahirabad"
+          ]
     },
     "Siddipet": {
         "data": [
-            "Siddipet"
-        ]
+            "Akkannapet",
+            "Bejjanki",
+            "Cherial",
+            "Chinnakodur",
+            "Dhoolmitta",
+            "Doultabad",
+            "Dubbak",
+            "Gajwel",
+            "Husnabad",
+            "Jagdevpur",
+            "Koheda",
+            "Komuravelli",
+            "Kondapak",
+            "Maddur",
+            "Markook",
+            "Mirdoddi",
+            "Mulug",
+            "Nangnoor",
+            "Narayanaraopet",
+            "Raipole",
+            "Siddipet",
+            "Siddipet Rural",
+            "Siddipet Urban",
+            "Thoguta",
+            "Wargal"
+          ]
     },
     "Suryapet": {
         "data": [
-            "Suryapet"
-        ]
+            "Ananthagiri",
+            "Atmakur (S)",
+            "Chilkur",
+            "Chinthalapalem",
+            "Chivemla",
+            "Garidepally",
+            "Huzurnagar",
+            "Jajireddygudem",
+            "Kodad",
+            "Maddirala",
+            "Mattampally",
+            "Mellachervu",
+            "Mothey",
+            "Munagala",
+            "Nadigudem",
+            "Nagaram",
+            "Nereducherla",
+            "Nuthanakal",
+            "Palakeedu",
+            "Penpahad",
+            "Suryapet",
+            "Thirumalagiri",
+            "Thungaturthy"
+          ]
     },
     "Vikarabad": {
         "data": [
-            "Vikarabad"
-        ]
+            "Bantwaram",
+            "Basheerabad",
+            "Bomaraspeta",
+            "Chowdapur",
+            "Dharur",
+            "Doma",
+            "Doulathabad",
+            "Kodangal",
+            "Kotepally",
+            "Kulkacharla",
+            "Marpalle",
+            "Mominpet",
+            "Nawabpet",
+            "Pargi",
+            "Peddemul",
+            "Pudur",
+            "Tandur",
+            "Vikarabad",
+            "Yelal"
+          ]
     },
     "Wanaparthy": {
         "data": [
-            "Wanaparthy"
-        ]
+            "Amarchintha",
+            "Atmakur",
+            "Chinnambavi",
+            "Ghanpur",
+            "Gopalpeta",
+            "Kothakota",
+            "Madanapur",
+            "Pangal",
+            "Pebbair",
+            "Peddamandadi",
+            "Revally",
+            "Srirangapur",
+            "Wanaparthy",
+            "Weepangandla"
+          ]
     },
     "Warangal": {
         "data": [
-            "Warangal"
-        ]
-    },
-    "Hanamkonda": {
-        "data": [
-            "Hanamkonda"
-        ]
+            "Chennaraopet",
+            "Duggondi",
+            "Geesugonda",
+            "Khanapur",
+            "Khila Warangal",
+            "Nallabelli",
+            "Narsampet",
+            "Nekkonda",
+            "Parvathagiri",
+            "Rayaparthy",
+            "Sangem",
+            "Warangal",
+            "Wardhannapet"
+          ]
     },
     "Yadadri Bhuvanagiri": {
         "data": [
-            "Yadadri Bhuvanagiri"
-        ]
+            "Adda Guduru",
+            "Alair",
+            "Atmakur (M)",
+            "B Pochampally",
+            "Bhongir",
+            "Bibinagar",
+            "Bommalaramaram",
+            "Choutuppal",
+            "Gundala",
+            "Motakonduru",
+            "Mothkur",
+            "Narayanpur",
+            "Rajapeta",
+            "Ramannapet",
+            "Thurkapally",
+            "Valigonda",
+            "Yadadri Bhuvanagiri",
+            "Yadagirigutta"
+          ]
     },
     "Dhalai": {
         "data": [
-            "Dhalai"
-        ]
+            "Ambassa",
+            "Dhalai",
+            "Gonda Twisa",
+            "Kamalpur",
+            "Longtharai Valley"
+          ]
     },
     "Gomati": {
         "data": [
-            "Gomati"
+            "Amarpur",
+            "Gomati",
+            "Karbook",
+            "Udaipur"
         ]
     },
     "Khowai": {
         "data": [
-            "Khowai"
+            "Khowai",
+            "Teliamura"
         ]
     },
     "North Tripura": {
         "data": [
-            "North Tripura"
+            "Dharmanagar",
+            "Kanchanpur",
+            "North Tripura",
+            "Panisagar"
         ]
     },
     "Sepahijala": {
         "data": [
-            "Sepahijala"
-        ]
+            "Bishalgarh",
+            "Jampuijala",
+            "Sepahijala",
+            "Sonamura"
+          ]
     },
     "South Tripura": {
         "data": [
+            "Belonia",
+            "Sabroom",
+            "Santirbazar",
             "South Tripura"
-        ]
+          ]
     },
     "Unakoti": {
         "data": [
+            "Kailashahar",
+            "Kumarghat",
             "Unakoti"
-        ]
+          ]
     },
     "West Tripura": {
         "data": [
+            "Jirania",
+            "Mohanpur",
+            "Sadar",
             "West Tripura"
-        ]
+          ]
     },
     "Almora": {
         "data": [
-            "Almora"
-        ]
+            "Almora",
+            "Bagwalipokhar",
+            "Bhanoli",
+            "Bhikiasain",
+            "Chaukhutiya",
+            "Dhaulchhina",
+            "Dhyari",
+            "Dwarahat",
+            "Jainti",
+            "Jalali",
+            "Lamgada",
+            "Machhor",
+            "Ranikhet",
+            "Someshwar",
+            "Sult",
+            "Syalde"
+          ]
     },
     "Bageshwar": {
         "data": [
-            "Bageshwar"
-        ]
+            "Bageshwar",
+            "Dugnakuri",
+            "Garud",
+            "Kafligair",
+            "Kanda",
+            "Kapkot",
+            "Shama"
+          ]
     },
     "Chamoli": {
-        "data": [
-            "Chamoli"
-        ]
+        "data":  [
+            "Adibadri",
+            "Chamoli",
+            "Dewal",
+            "Gairsain",
+            "Ghaat",
+            "Jilasu",
+            "Joshimath",
+            "Karnaprayag",
+            "Nandprayag",
+            "Narayanbagar",
+            "Pokhari",
+            "Tharali"
+          ]
     },
     "Champawat": {
         "data": [
-            "Champawat"
-        ]
+            "Barakot",
+            "Champawat",
+            "Lohaghat",
+            "Manch",
+            "Pati",
+            "Poornagiri",
+            "Pulla Gumdesh"
+          ]
     },
     "Dehradun": {
         "data": [
-            "Dehradun"
-        ]
+            "Chakrata",
+            "Dehradun",
+            "Doiwala",
+            "Kalsi",
+            "Mussoorie",
+            "Rishikesh",
+            "Tyuni",
+            "Vikas Nagar"
+          ]
     },
     "Haridwar": {
         "data": [
-            "Haridwar"
-        ]
+            "Bhagwanpur",
+            "Hardwar",
+            "Haridwar",
+            "Laksar",
+            "Laldhang",
+            "Narsan",
+            "Roorkee"
+          ]
     },
     "Nainital": {
         "data": [
-            "Nainital"
-        ]
+            "Betalghat",
+            "Dhari",
+            "Haldwani",
+            "Kaladhungi",
+            "Kosya Kutauli",
+            "Lalkuan",
+            "Nainital",
+            "Okhalkanda",
+            "Ramgarh",
+            "Ramnagar"
+          ]
     },
-    "Pauri": {
+    "Pauri Garhwal": {
         "data": [
-            "Pauri"
-        ]
+            "Bironkhal",
+            "Chakisain",
+            "Chaubatta Khal",
+            "Dhoomakot",
+            "Jakhanikhal",
+            "Kotdwara",
+            "Lansdowne",
+            "Pauri",
+            "Pauri Garhwal",
+            "Rikhanikhal",
+            "Satpuli",
+            "Srinagar",
+            "Thailisain",
+            "Yamkeshwar"
+          ]
     },
     "Pithoragarh": {
         "data": [
-            "Pithoragarh"
-        ]
+            "Bangapani",
+            "Berinag",
+            "Devalthal",
+            "Dharchula",
+            "Didihat",
+            "Ganai Gangoli",
+            "Gangolihat",
+            "Kanalichhina",
+            "Munsiari",
+            "Pankhu",
+            "Pithoragarh",
+            "Tejam",
+            "Thal"
+          ]
     },
     "Rudraprayag": {
         "data": [
-            "Rudraprayag"
-        ]
+            "Basukedar",
+            "Jakholi",
+            "Rudra Prayag",
+            "Rudraprayag",
+            "Ukhimath"
+          ]
     },
-    "Tehri": {
+    "Tehri Garhwal": {
         "data": [
-            "Tehri"
-        ]
+            "Balganga",
+            "Devprayag",
+            "Dhanaulti",
+            "Gaja",
+            "Ghansali",
+            "Jakhani Dhar",
+            "Kandisaur",
+            "Kirtinagar",
+            "Madannegi",
+            "Nainbag",
+            "Narendra Nagar",
+            "Pawkidevi",
+            "Pratapnagar",
+            "Tehri",
+            "Tehri Garhwal"
+          ]
+          
     },
     "Udham Singh Nagar": {
         "data": [
-            "Udham Singh Nagar"
-        ]
+            "Bajpur",
+            "Gadarpur",
+            "Jaspur",
+            "Kashipur",
+            "Khatima",
+            "Kichha",
+            "Nanakmatta",
+            "Rudrapur",
+            "Sitarganj",
+            "Udam Singh Nagar"
+          ]          
     },
     "Uttarkashi": {
         "data": [
-            "Uttarkashi"
-        ]
+            "Barnigad",
+            "Bhatwari",
+            "Chinyali Saur",
+            "Dhauntari",
+            "Dunda",
+            "Joshiyara",
+            "Mori",
+            "Puraula",
+            "Rajgarhi",
+            "Sankari",
+            "Uttar Kashi"
+          ]
+          
     },
     "Alipurduar": {
         "data": [
-            "Alipurduar"
-        ]
+            "Alipurduar",
+            "Alipurduar - I",
+            "Alipurduar - II",
+            "Falakata",
+            "Kalchini",
+            "Kumargram",
+            "Madarihat"
+          ]
     },
     "Bankura": {
         "data": [
-            "Bankura"
-        ]
+            "Bankura",
+            "Bankura - I",
+            "Bankura - II",
+            "Barjora",
+            "Chhatna",
+            "Gangajalghati",
+            "Hirbandh",
+            "Indpur",
+            "Indus",
+            "Jaypur",
+            "Khatra",
+            "Kotulpur",
+            "Mejhia",
+            "Onda",
+            "Patrasayer",
+            "Raipur",
+            "Ranibandh",
+            "Saltora",
+            "Sarenga",
+            "Simlapal",
+            "Sonamukhi",
+            "Taldangra",
+            "Vishnupur"
+          ]          
     },
     "Birbhum": {
         "data": [
-            "Birbhum"
-        ]
+            "Birbhum",
+            "Bolpur Sriniketan",
+            "Dubrajpur",
+            "Illambazar",
+            "Khoyrasol",
+            "Labpur",
+            "Mayureswar - I",
+            "Mayureswar - II",
+            "Mohammad Bazar",
+            "Murarai - I",
+            "Murarai - II",
+            "Nalhati - I",
+            "Nalhati - II",
+            "Nanoor",
+            "Rajnagar",
+            "Rampurhat - I",
+            "Rampurhat - II",
+            "Sainthia",
+            "Suri - I",
+            "Suri - II"
+          ]          
     },
     "Cooch Behar": {
         "data": [
-            "Cooch Behar"
-        ]
+            "Cooch Behar",
+            "Cooch Behar - I",
+            "Cooch Behar - II",
+            "Dinhata - I",
+            "Dinhata - II",
+            "Haldibari",
+            "Mathabhanga - I",
+            "Mathabhanga II",
+            "Mekliganj",
+            "Sitai",
+            "Sitalkuchi",
+            "Tufanganj - I",
+            "Tufanganj - II"
+          ]          
     },
     "Dakshin Dinajpur": {
         "data": [
-            "Dakshin Dinajpur"
-        ]
+            "Balurghat",
+            "Bansihari",
+            "Dakshin Dinajpur",
+            "Gangarampur",
+            "Harirampur",
+            "Hilli",
+            "Kumarganj",
+            "Kushmundi",
+            "Tapan"
+          ]
     },
     "Darjeeling": {
         "data": [
-            "Darjeeling"
-        ]
+            "Darjeeling",
+            "Darjeeling Pulbazar",
+            "Jorebunglow Sukiapokhri",
+            "Kharibari",
+            "Kurseong",
+            "Matigara",
+            "Mirik",
+            "Naxalbari",
+            "Phansidewa",
+            "Rangli Rangliot"
+          ]          
     },
     "Hooghly": {
         "data": [
-            "Hooghly"
-        ]
+            "Arambag",
+            "Balagarh",
+            "Chanditala - I",
+            "Chanditala - II",
+            "Chinsurah - Magra",
+            "Dhaniakhali",
+            "Goghat - I",
+            "Goghat - II",
+            "Haripal",
+            "Hooghly",
+            "Jangipara",
+            "Khanakul - I",
+            "Khanakul - II",
+            "Pandua",
+            "Polba - Dadpur",
+            "Pursura",
+            "Serampur Uttarpara",
+            "Singur",
+            "Tarakeswar"
+          ]
     },
     "Howrah": {
         "data": [
-            "Howrah"
-        ]
+            "Amta - I",
+            "Amta - II",
+            "Bagnan - I",
+            "Bagnan - II",
+            "Bally Jagachha",
+            "Domjur",
+            "Howrah",
+            "Jagatballavpur",
+            "Panchla",
+            "Sankrail",
+            "Shyampur - I",
+            "Shyampur - II",
+            "Udaynarayanpur",
+            "Uluberia - I",
+            "Uluberia - II"
+          ]          
     },
     "Jalpaiguri": {
         "data": [
-            "Jalpaiguri"
-        ]
+            "Banarhat",
+            "Dhupguri",
+            "Jalpaiguri",
+            "Kranti",
+            "Mal",
+            "Matiali",
+            "Maynaguri",
+            "Nagrakata",
+            "Rajganj"
+          ]          
     },
     "Jhargram": {
         "data": [
-            "Jhargram"
-        ]
+            "Binpur - I",
+            "Binpur - II",
+            "Gopiballavpur - I",
+            "Gopiballavpur - II",
+            "Jamboni",
+            "Jhargram",
+            "Nayagram",
+            "Sankrail"
+          ]          
     },
     "Kalimpong": {
         "data": [
-            "Kalimpong"
-        ]
-    },
-    "Kolkata": {
-        "data": [
-            "Kolkata"
-        ]
+            "Gorubathan",
+            "Kalimpong",
+            "Kalimpong - I",
+            "Lava",
+            "Lavaold",
+            "Pedong"
+          ]          
     },
     "Malda": {
-        "data": [
-            "Malda"
-        ]
+        "data":[
+            "Bamangola",
+            "Chanchal - I",
+            "Chanchal - II",
+            "English Bazar",
+            "Gazole",
+            "Habibpur",
+            "Harischandrapur - I",
+            "Harischandrapur - II",
+            "Kaliachak - I",
+            "Kaliachak - II",
+            "Kaliachak - III",
+            "Malda",
+            "Maldah (Old)",
+            "Manikchak",
+            "Ratua - I",
+            "Ratua - II"
+          ]          
     },
     "Murshidabad": {
         "data": [
-            "Murshidabad"
-        ]
+            "Beldanga - I",
+            "Beldanga - II",
+            "Berhampore",
+            "Bhagawangola - I",
+            "Bhagawangola - II",
+            "Bharatpur - I",
+            "Bharatpur - II",
+            "Burwan",
+            "Domkal",
+            "Farakka",
+            "Hariharpara",
+            "Jalangi",
+            "Kandi",
+            "Khargram",
+            "Lalgola",
+            "Murshidabad",
+            "Murshidabad Jiaganj",
+            "Nabagram",
+            "Nawda",
+            "Raghunathganj - I",
+            "Raghunathganj - II",
+            "Raninagar - I",
+            "Raninagar - II",
+            "Sagardighi",
+            "Samserganj",
+            "Suti - I",
+            "Suti - II"
+          ]          
     },
     "Nadia": {
         "data": [
-            "Nadia"
-        ]
+            "Chakdah",
+            "Chapra",
+            "Hanskhali",
+            "Haringhata",
+            "Kaliganj",
+            "Kalyani",
+            "Karimpur - I",
+            "Karimpur - II",
+            "Krishnaganj",
+            "Krishnagar - I",
+            "Krishnagar - II",
+            "Nabadwip",
+            "Nadia",
+            "Nakashipara",
+            "Ranaghat - I",
+            "Ranaghat - II",
+            "Santipur",
+            "Tehatta - I",
+            "Tehatta - II"
+          ]
     },
     "North 24 Parganas": {
         "data": [
-            "North 24 Parganas"
-        ]
+            "Amdanga",
+            "Baduria",
+            "Bagda",
+            "Barasat - I",
+            "Barasat - II",
+            "Barrackpur - I",
+            "Barrackpur - II",
+            "Basirhat - I",
+            "Basirhat - II",
+            "Bongaon",
+            "Deganga",
+            "Gaighata",
+            "Habra - I",
+            "Habra - II",
+            "Haroa",
+            "Hasnabad",
+            "Hingalganj",
+            "Minakhan",
+            "North 24 Parganas",
+            "Rajarhat",
+            "Sandeshkhali - I",
+            "Sandeshkhali - II",
+            "Swarupnagar"
+          ]          
     },
     "Paschim Bardhaman": {
         "data": [
-            "Paschim Bardhaman"
-        ]
+            "Andal",
+            "Barabani",
+            "Durgapur Faridpur",
+            "Jamuria",
+            "Kanksa",
+            "Pandabeswar",
+            "Paschim Bardhaman",
+            "Raniganj",
+            "Salanpur"
+          ]
     },
     "Paschim Medinipur": {
         "data": [
-            "Paschim Medinipur"
-        ]
+            "Chandrakona - I",
+            "Chandrakona - II",
+            "Dantan - I",
+            "Dantan - II",
+            "Daspur - I",
+            "Daspur - II",
+            "Debra",
+            "Garbeta - I",
+            "Garbeta - II",
+            "Garbeta - III",
+            "Ghatal",
+            "Keshiary",
+            "Keshpur",
+            "Kharagpur - I",
+            "Kharagpur - II",
+            "Midnapore",
+            "Mohanpur",
+            "Narayangarh",
+            "Paschim Medinipur",
+            "Pingla",
+            "Sabang",
+            "Salbani"
+          ]                    
     },
     "Purba Bardhaman": {
         "data": [
-            "Purba Bardhaman"
-        ]
+            "Ausgram - I",
+            "Ausgram - II",
+            "Bhatar",
+            "Burdwan - I",
+            "Burdwan - II",
+            "Galsi - I",
+            "Galsi - II",
+            "Jamalpur",
+            "Kalna - I",
+            "Kalna - II",
+            "Katwa - I",
+            "Katwa - II",
+            "Ketugram - I",
+            "Ketugram - II",
+            "Khandaghosh",
+            "Mangolkote",
+            "Manteswar",
+            "Memari - I",
+            "Memari - II",
+            "Purba Bardhaman",
+            "Purbasthali - I",
+            "Purbasthali - II",
+            "Raina - I",
+            "Raina - II"
+          ]          
     },
     "Purba Medinipur": {
         "data": [
-            "Purba Medinipur"
-        ]
+            "Bhagawanpur - I",
+            "Bhagawanpur - II",
+            "Chandipur",
+            "Contai - I",
+            "Contai - III",
+            "Deshopran",
+            "Egra - I",
+            "Egra - II",
+            "Haldia",
+            "Khejuri - I",
+            "Khejuri - II",
+            "Kolaghat",
+            "Mahisadal",
+            "Moyna",
+            "Nanda Kumar",
+            "Nandigram - I",
+            "Nandigram - II",
+            "Panskura",
+            "Potashpur - I",
+            "Potashpur - II",
+            "Purba Medinipur",
+            "Ramnagar - I",
+            "Ramnagar - II",
+            "Sahid Matangini",
+            "Sutahata",
+            "Tamluk"
+          ]          
     },
     "Purulia": {
         "data": [
-            "Purulia"
-        ]
+            "Arsha",
+            "Bagmundi",
+            "Balarampur",
+            "Barabazar",
+            "Bundwan",
+            "Hura",
+            "Jaipur",
+            "Jhalda - I",
+            "Jhalda - II",
+            "Kashipur",
+            "Manbazar - I",
+            "Manbazar - II",
+            "Neturia",
+            "Para",
+            "Puncha",
+            "Purulia",
+            "Purulia - I",
+            "Purulia - II",
+            "Raghunathpur - I",
+            "Raghunathpur - II",
+            "Santuri"
+          ]           
     },
     "South 24 Parganas": {
         "data": [
-            "South 24 Parganas"
-        ]
+            "Baruipur",
+            "Basanti",
+            "Bhangar - I",
+            "Bhangar - II",
+            "Bishnupur - I",
+            "Bishnupur - II",
+            "Budge Budge - I",
+            "Budge Budge - II",
+            "Canning - I",
+            "Canning - II",
+            "Diamond Harbour - I",
+            "Diamond Harbour - II",
+            "Falta",
+            "Gosaba",
+            "Jaynagar - I",
+            "Jaynagar - II",
+            "Kakdwip",
+            "Kulpi",
+            "Kultali",
+            "Magrahat - I",
+            "Magrahat - II",
+            "Mandirbazar",
+            "Mathurapur - I",
+            "Mathurapur - II",
+            "Namkhana",
+            "Patharpratima",
+            "Sagar",
+            "Sanarpur",
+            "South 24 Parganas",
+            "Thakurpukur Mahestola"
+          ]          
     },
     "Uttar Dinajpur": {
         "data": [
+            "Chopra",
+            "Goalpokher - I",
+            "Goalpokher - II",
+            "Hemtabad",
+            "Islampur",
+            "Itahar",
+            "Kaliaganj",
+            "Karandighi",
             "Uttar Dinajpur"
-        ]
+          ]          
     },
     "Nicobars": {
         "data": [

@@ -572,7 +572,7 @@
   "Nagaland": {
     "name": "Nagaland",
     "data": [
-      "Chumukedima ",
+      "Chumukedima",
       "Dimapur",
       "Kiphire",
       "Kohima",
@@ -685,9 +685,8 @@
       "Jhalawar",
       "Jhunjhunu",
       "Jodhpur",
-      "Jodhpur Rural",
+      "Jodhpur (Gramin)",
       "Karauli",
-      "Kishangarh",
       "Kekri",
       "Khairthal–Tijara",
       "Kota",
@@ -696,6 +695,7 @@
       "Neem ka Thana",
       "Pali",
       "Phalodi",
+      "Pratapgarh",
       "Rajsamand",
       "Salumbar",
       "Sanchore",
@@ -703,7 +703,7 @@
       "Shahpura",
       "Sikar",
       "Sirohi",
-      "Sri Ganganagar",
+      "Ganganagar",
       "Tonk",
       "Udaipur"
     ]
@@ -767,6 +767,7 @@
     "data": [
       "Adilabad",
       "Bhadradri Kothagudem",
+      "Hanumakonda",
       "Hyderabad",
       "Jagtial",
       "Jangaon",
@@ -775,7 +776,7 @@
       "Kamareddy",
       "Karimnagar",
       "Khammam",
-      "Komaram Bheem",
+      "Kumuram Bheem Asifabad",
       "Mahabubabad",
       "Mahbubnagar",
       "Mancherial",
@@ -796,7 +797,6 @@
       "Vikarabad",
       "Wanaparthy",
       "Warangal",
-      "Hanamkonda",
       "Yadadri Bhuvanagiri"
     ]
   },
@@ -885,7 +885,7 @@
       "Sant Kabir Nagar",
       "Shahjahanpur",
       "Shamli ",
-      "Shravasti",
+      "Shrawasti",
       "Siddharthnagar",
       "Sitapur",
       "Sonbhadra",
@@ -931,10 +931,10 @@
       "Dehradun",
       "Haridwar",
       "Nainital",
-      "Pauri",
+      "Pauri Garhwal",
       "Pithoragarh",
       "Rudraprayag",
-      "Tehri",
+      "Tehri Garhwal",
       "Udham Singh Nagar",
       "Uttarkashi"
     ]
@@ -953,7 +953,6 @@
       "Jalpaiguri",
       "Jhargram",
       "Kalimpong",
-      "Kolkata",
       "Malda",
       "Murshidabad",
       "Nadia",
